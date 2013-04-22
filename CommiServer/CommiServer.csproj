@@ -1,0 +1,79 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{315B22C5-22B5-48D7-99E1-F316B5B4BF6E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Granity.commiServer</RootNamespace>
+    <AssemblyName>Granity.commiServer</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Estar.Business.DataManager, Version=1.0.3867.18866, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\refrenceDLL\Estar.Business.DataManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Estar.Common.Tools, Version=1.0.3813.19073, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\refrenceDLL\Estar.Common.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DeviceBase.cs" />
+    <Compile Include="DeviceDoor.cs" />
+    <Compile Include="DeviceEatery.cs" />
+    <Compile Include="DeviceMonitorMgr.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceTool.cs" />
+    <Compile Include="SynDeviceParam.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CardOneCommi\CardOneCommi.csproj">
+      <Project>{DDEA5491-04C9-4230-9734-563D685C05CF}</Project>
+      <Name>CardOneCommi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ComLib\ComLib.csproj">
+      <Project>{38FF81C0-C883-4741-B025-D9FC33893301}</Project>
+      <Name>ComLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Communications\Communications.csproj">
+      <Project>{60672B75-1556-4DB3-A943-D784B0158FF0}</Project>
+      <Name>Communications</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\winTools\winTools.csproj">
+      <Project>{EFA1E86B-E54F-484B-A212-D18EB54294C3}</Project>
+      <Name>winTools</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

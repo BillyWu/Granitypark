@@ -1,0 +1,153 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{58F9C947-BE30-4377-8013-1B9FE49ACB60}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>winFileSrv</RootNamespace>
+    <AssemblyName>winFileSrv</AssemblyName>
+    <ApplicationIcon>winFileSrv.ico</ApplicationIcon>
+    <ManifestCertificateThumbprint>AF7D730088C2C998DA2A12EAFED53AD7DA2922E4</ManifestCertificateThumbprint>
+    <ManifestKeyFile>winFileSrv_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>false</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetZone>LocalIntranet</TargetZone>
+    <PublishUrl>E:\publish\winApp\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <CreateWebPageOnPublish>false</CreateWebPageOnPublish>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Estar.Business.DataManager, Version=1.0.3867.18866, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\refrenceDLL\Estar.Business.DataManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Estar.Common.Tools, Version=1.0.3813.19073, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\refrenceDLL\Estar.Common.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="Estar.DataAccess.DataAccessInterface, Version=1.0.3867.18865, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\refrenceDLL\Estar.DataAccess.DataAccessInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="Estar.DataAccess.OdpNetDataAccess, Version=1.0.3867.18865, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\refrenceDLL\Estar.DataAccess.OdpNetDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Estar.DataAccess.OleDbDataAccess, Version=1.0.3867.18865, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\refrenceDLL\Estar.DataAccess.OleDbDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Estar.DataAccess.SqlClientDataAccess, Version=1.0.3880.24478, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\refrenceDLL\Estar.DataAccess.SqlClientDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ServiceFile.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ServiceFile.Designer.cs">
+      <DependentUpon>ServiceFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InstallerSrv.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InstallerSrv.Designer.cs">
+      <DependentUpon>InstallerSrv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CardOneCommi\CardOneCommi.csproj">
+      <Project>{DDEA5491-04C9-4230-9734-563D685C05CF}</Project>
+      <Name>CardOneCommi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ComLib\ComLib.csproj">
+      <Project>{38FF81C0-C883-4741-B025-D9FC33893301}</Project>
+      <Name>ComLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommiServer\CommiServer.csproj">
+      <Project>{315B22C5-22B5-48D7-99E1-F316B5B4BF6E}</Project>
+      <Name>CommiServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Communications\Communications.csproj">
+      <Project>{60672B75-1556-4DB3-A943-D784B0158FF0}</Project>
+      <Name>Communications</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\winTools\winTools.csproj">
+      <Project>{EFA1E86B-E54F-484B-A212-D18EB54294C3}</Project>
+      <Name>winTools</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ServiceFile.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ServiceFile.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <BaseApplicationManifest Include="Properties\app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="winFileSrv.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

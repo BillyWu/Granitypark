@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/Granitypark/!svn/ver/1/Communications
+END
+CommiServer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Granitypark/!svn/ver/1/Communications/CommiServer.cs
+END
+ResponseEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Granitypark/!svn/ver/1/Communications/ResponseEventArgs.cs
+END
+myThread.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/Granitypark/!svn/ver/1/Communications/myThread.cs
+END
+CommiManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Granitypark/!svn/ver/1/Communications/CommiManager.cs
+END
+Communications.csproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Granitypark/!svn/ver/1/Communications/Communications.csproj.user
+END
+Protocol.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/Granitypark/!svn/ver/1/Communications/Protocol.cs
+END
+ServerBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Granitypark/!svn/ver/1/Communications/ServerBase.cs
+END
+Communications.csproj.pdsync
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Granitypark/!svn/ver/1/Communications/Communications.csproj.pdsync
+END
+SvrFileTrans.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Granitypark/!svn/ver/1/Communications/SvrFileTrans.cs
+END
+ThreadManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Granitypark/!svn/ver/1/Communications/ThreadManager.cs
+END
+Communications.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Granitypark/!svn/ver/1/Communications/Communications.csproj
+END
+CommiParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Granitypark/!svn/ver/1/Communications/CommiParam.cs
+END
+Communications.csproj.pdsyncu
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Granitypark/!svn/ver/1/Communications/Communications.csproj.pdsyncu
+END
+CommandBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Granitypark/!svn/ver/1/Communications/CommandBase.cs
+END

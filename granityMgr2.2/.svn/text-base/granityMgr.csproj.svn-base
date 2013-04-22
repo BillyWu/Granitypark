@@ -1,0 +1,1604 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ACCC722A-C6EC-411B-A30C-3C5026D6CD4A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Granity.granityMgr</RootNamespace>
+    <AssemblyName>Granity.granityMgr</AssemblyName>
+    <ApplicationIcon>mgr.ico</ApplicationIcon>
+    <ManifestCertificateThumbprint>A677C89DC9DE23B3168ED5B7E33382419A626988</ManifestCertificateThumbprint>
+    <ManifestKeyFile>granityMgr_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>false</GenerateManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>http://localhost/Granity.granityMgr/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.PRJ_CLIENTLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\refrenceDLL\AxInterop.PRJ_CLIENTLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v9.1.Core, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.CodeRush.Common, Version=9.1.3.0, Culture=neutral, PublicKeyToken=35c9f04b7764aa3d" />
+    <Reference Include="DevExpress.CodeRush.Core, Version=9.1.3.0, Culture=neutral, PublicKeyToken=35c9f04b7764aa3d" />
+    <Reference Include="DevExpress.CodeRush.StructuralParser, Version=9.1.3.0, Culture=neutral, PublicKeyToken=35c9f04b7764aa3d" />
+    <Reference Include="DevExpress.CodeRush.UserControls, Version=9.1.3.0, Culture=neutral, PublicKeyToken=35c9f04b7764aa3d" />
+    <Reference Include="DevExpress.Data.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.DXCore.Controls.Utils.v6.3, Version=9.1.3.0, Culture=neutral, PublicKeyToken=35c9f04b7764aa3d" />
+    <Reference Include="DevExpress.DXCore.Controls.XtraBars.v6.3, Version=9.1.3.0, Culture=neutral, PublicKeyToken=35c9f04b7764aa3d" />
+    <Reference Include="DevExpress.DXCore.Controls.XtraEditors.v6.3, Version=9.1.3.0, Culture=neutral, PublicKeyToken=35c9f04b7764aa3d" />
+    <Reference Include="DevExpress.DXCore.Controls.XtraTreeList.v6.3, Version=9.1.3.0, Culture=neutral, PublicKeyToken=35c9f04b7764aa3d" />
+    <Reference Include="DevExpress.OfficeSkins.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Tutorials.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v9.1.Core, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v9.1.Win, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v9.1.Design, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v9.1.Design, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v9.1.Core, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v9.1.Design, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v9.1.Design, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v9.1.Core, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v9.1.Reporting, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v9.1.Design, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Estar.Business.DataManager, Version=1.0.3867.18866, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\refrenceDLL\Estar.Business.DataManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Estar.Common.Tools, Version=1.0.3813.19073, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\refrenceDLL\Estar.Common.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="Estar.DataAccess.DataAccessInterface, Version=1.0.3867.18865, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\refrenceDLL\Estar.DataAccess.DataAccessInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="Estar.DataAccess.OdpNetDataAccess, Version=1.0.3867.18865, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\refrenceDLL\Estar.DataAccess.OdpNetDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Estar.DataAccess.OleDbDataAccess, Version=1.0.3867.18865, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\refrenceDLL\Estar.DataAccess.OleDbDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Estar.DataAccess.SqlClientDataAccess, Version=1.0.3880.24478, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\refrenceDLL\Estar.DataAccess.SqlClientDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationBlocks.ExceptionManagement, Version=1.0.1557.38303, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\refrenceDLL\Microsoft.ApplicationBlocks.ExceptionManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=9.2.0.401, Culture=neutral, PublicKeyToken=89b483f429c47342">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\refrenceDLL\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UDPclient, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\refrenceDLL\UDPclient.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CardMgr\FrmCardCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardMgr\FrmCardCheck.designer.cs">
+      <DependentUpon>FrmCardCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardMgr\FrmCardDelayRpt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardMgr\FrmCardDelayRpt.Designer.cs">
+      <DependentUpon>FrmCardDelayRpt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardMgr\FrmCardLostRpt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardMgr\FrmCardLostRpt.Designer.cs">
+      <DependentUpon>FrmCardLostRpt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardMgr\FrmCardMakeRpt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardMgr\FrmCardMakeRpt.Designer.cs">
+      <DependentUpon>FrmCardMakeRpt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardMgr\FrmCardMakeS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardMgr\FrmCardMakeS.designer.cs">
+      <DependentUpon>FrmCardMakeS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardMgr\FrmCardManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardMgr\FrmCardManager.designer.cs">
+      <DependentUpon>FrmCardManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardMgr\FrmCardPayRep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardMgr\FrmCardPayRep.Designer.cs">
+      <DependentUpon>FrmCardPayRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardMgr\FrmCardQuitRtp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardMgr\FrmCardQuitRtp.Designer.cs">
+      <DependentUpon>FrmCardQuitRtp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardMgr\FrmCardUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardMgr\FrmCardUpdate.Designer.cs">
+      <DependentUpon>FrmCardUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardMgr\FrmDevSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardMgr\FrmDevSet.Designer.cs">
+      <DependentUpon>FrmDevSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckWork\FrmClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckWork\FrmClass.Designer.cs">
+      <DependentUpon>FrmClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckWork\FrmDeptClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckWork\FrmDeptClass.Designer.cs">
+      <DependentUpon>FrmDeptClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckWork\FrmDeptRest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckWork\FrmDeptRest.designer.cs">
+      <DependentUpon>FrmDeptRest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckWork\FrmDeptScheduleRpt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckWork\FrmDeptScheduleRpt.designer.cs">
+      <DependentUpon>FrmDeptScheduleRpt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckWork\FrmEmployeeRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckWork\FrmEmployeeRegister.Designer.cs">
+      <DependentUpon>FrmEmployeeRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckWork\FrmHitCardRpt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckWork\FrmHitCardRpt.designer.cs">
+      <DependentUpon>FrmHitCardRpt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckWork\FrmHolidaySet .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckWork\FrmHolidaySet .designer.cs">
+      <DependentUpon>FrmHolidaySet .cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckWork\FrmMakeClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckWork\FrmMakeClass.Designer.cs">
+      <DependentUpon>FrmMakeClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckWork\FrmWorkStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckWork\FrmWorkStat.Designer.cs">
+      <DependentUpon>FrmWorkStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckWork\Report\DataSetCheckOnWorkList.cs">
+      <DependentUpon>DataSetCheckOnWorkList.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CheckWork\Report\DataSetCheckOnWorkList.Designer.cs">
+      <DependentUpon>DataSetCheckOnWorkList.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CheckWork\Report\FrmCheckWorkList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckWork\Report\FrmCheckWorkList.Designer.cs">
+      <DependentUpon>FrmCheckWorkList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckWork\Report\ReportCheckWorklist.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CheckWork\Report\ReportCheckWorklist.Designer.cs">
+      <DependentUpon>ReportCheckWorklist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="commStation.cs" />
+    <Compile Include="DoorMgr\BaseDicinfo\FrmDoorCardInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoorMgr\BaseDicinfo\FrmDoorCardInfo.Designer.cs">
+      <DependentUpon>FrmDoorCardInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoorMgr\BaseDicinfo\FrmDoorCardList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoorMgr\BaseDicinfo\FrmDoorCardList.Designer.cs">
+      <DependentUpon>FrmDoorCardList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoorMgr\BaseDicinfo\FrmDoorControlBaseinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoorMgr\BaseDicinfo\FrmDoorControlBaseinfo.Designer.cs">
+      <DependentUpon>FrmDoorControlBaseinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoorMgr\BaseDicinfo\FrmDorUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoorMgr\BaseDicinfo\FrmDorUsers.Designer.cs">
+      <DependentUpon>FrmDorUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoorMgr\BaseDicinfo\FrmEffectiveTimeAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoorMgr\BaseDicinfo\FrmEffectiveTimeAdd.Designer.cs">
+      <DependentUpon>FrmEffectiveTimeAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoorMgr\BaseDicinfo\FrmEffectiveTimeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoorMgr\BaseDicinfo\FrmEffectiveTimeList.Designer.cs">
+      <DependentUpon>FrmEffectiveTimeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoorMgr\BaseDicinfo\FrmRight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoorMgr\BaseDicinfo\FrmRight.Designer.cs">
+      <DependentUpon>FrmRight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoorMgr\BaseFrom\BarLookAndFeelItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DoorMgr\BaseFrom\CustomDesignForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoorMgr\BaseFrom\MainFeaturesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DoorMgr\BaseFrom\ModuleControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DoorMgr\BaseFrom\PreviewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DoorMgr\FrmDoorMonitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoorMgr\FrmDoorMonitor.designer.cs">
+      <DependentUpon>FrmDoorMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoorMgr\FunShare.cs" />
+    <Compile Include="DoorMgr\Report\DataSetOpenDoorRecord.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetOpenDoorRecord.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DoorMgr\Report\FrmOpenDoorRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoorMgr\Report\FrmOpenDoorRecord.Designer.cs">
+      <DependentUpon>FrmOpenDoorRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoorMgr\Report\ReportOpenRecord.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DoorMgr\Report\ReportOpenRecord.Designer.cs">
+      <DependentUpon>ReportOpenRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoorMgr\Report\UcOpenDoorRecord.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DoorMgr\Report\UcOpenDoorRecord.Designer.cs">
+      <DependentUpon>UcOpenDoorRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoorMgr\Report\viwReports.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DoorMgr\Report\viwReports.designer.cs">
+      <DependentUpon>viwReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eatery\FrmAddMoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eatery\FrmAddMoney.Designer.cs">
+      <DependentUpon>FrmAddMoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eatery\FrmAddReduceMoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eatery\FrmAddReduceMoney.Designer.cs">
+      <DependentUpon>FrmAddReduceMoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eatery\FrmCashRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eatery\FrmCashRegister.Designer.cs">
+      <DependentUpon>FrmCashRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eatery\FrmCashRegisterII.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eatery\FrmCashRegisterII.Designer.cs">
+      <DependentUpon>FrmCashRegisterII.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eatery\FrmEateryMonitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eatery\FrmEateryMonitor.Designer.cs">
+      <DependentUpon>FrmEateryMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eatery\Reprot\DataSetCashSum.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetCashSum.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Eatery\Reprot\DataSetConsumeSum.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetConsumeSum.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Eatery\Reprot\FrmCashSum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eatery\Reprot\FrmCashSum.Designer.cs">
+      <DependentUpon>FrmCashSum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eatery\FrmConsumeRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eatery\FrmConsumeRecord.Designer.cs">
+      <DependentUpon>FrmConsumeRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eatery\FrmRestaurant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eatery\FrmRestaurant.designer.cs">
+      <DependentUpon>FrmRestaurant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eatery\Reprot\DataSetConsumeMac.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetConsumeMac.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Eatery\Reprot\FrmConsumeSum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eatery\Reprot\FrmConsumeSum.Designer.cs">
+      <DependentUpon>FrmConsumeSum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eatery\Reprot\FrmCosumeMac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eatery\Reprot\FrmCosumeMac.Designer.cs">
+      <DependentUpon>FrmCosumeMac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eatery\Reprot\ReportCashSum.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Eatery\Reprot\ReportCashSum.Designer.cs">
+      <DependentUpon>ReportCashSum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eatery\Reprot\ReportConsumeMacSum.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Eatery\Reprot\ReportConsumeMacSum.Designer.cs">
+      <DependentUpon>ReportConsumeMacSum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eatery\Reprot\ReportConsumeSum.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Eatery\Reprot\ReportConsumeSum.Designer.cs">
+      <DependentUpon>ReportConsumeSum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDBDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDBDatabase.Designer.cs">
+      <DependentUpon>FrmDBDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDepart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDepart.Designer.cs">
+      <DependentUpon>FrmDepart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSysUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSysUsers.Designer.cs">
+      <DependentUpon>FrmSysUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTest.Designer.cs">
+      <DependentUpon>FrmTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUpdatePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUpdatePassword.Designer.cs">
+      <DependentUpon>FrmUpdatePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="installerDB.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="installerDB.Designer.cs">
+      <DependentUpon>installerDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\Avtvis.cs" />
+    <Compile Include="ParkMgr\FormCardJC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FormCardJC.designer.cs">
+      <DependentUpon>FormCardJC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FormCardNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FormCardNumber.designer.cs">
+      <DependentUpon>FormCardNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FormIntoStopCart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FormIntoStopCart.designer.cs">
+      <DependentUpon>FormIntoStopCart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FormManeySearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FormManeySearch.designer.cs">
+      <DependentUpon>FormManeySearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FormNoCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FormNoCard.designer.cs">
+      <DependentUpon>FormNoCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FormUpDownWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FormUpDownWork.designer.cs">
+      <DependentUpon>FormUpDownWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmCarNo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmCarNo.Designer.cs">
+      <DependentUpon>FrmCarNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmCarOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmCarOut.Designer.cs">
+      <DependentUpon>FrmCarOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmCarParkInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmCarParkInfo.Designer.cs">
+      <DependentUpon>FrmCarParkInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmCarStallSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmCarStallSet.designer.cs">
+      <DependentUpon>FrmCarStallSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmCommPara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmCommPara.designer.cs">
+      <DependentUpon>FrmCommPara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmDepositAll_del.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmDepositAll_del.designer.cs">
+      <DependentUpon>FrmDepositAll_del.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmDisplay.designer.cs">
+      <DependentUpon>FrmDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmDownTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmDownTime.designer.cs">
+      <DependentUpon>FrmDownTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmFee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmFee.designer.cs">
+      <DependentUpon>FrmFee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmFeePara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmFeePara.designer.cs">
+      <DependentUpon>FrmFeePara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmInParkPic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmInParkPic.designer.cs">
+      <DependentUpon>FrmInParkPic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmInQueryManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmInQueryManage.designer.cs">
+      <DependentUpon>FrmInQueryManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmOper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmOper.designer.cs">
+      <DependentUpon>FrmOper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmOutQueryManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmOutQueryManage.designer.cs">
+      <DependentUpon>FrmOutQueryManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmOut_InParkPic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmOut_InParkPic.designer.cs">
+      <DependentUpon>FrmOut_InParkPic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmOverClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmOverClass.Designer.cs">
+      <DependentUpon>FrmOverClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmParkDeposit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmParkDeposit.designer.cs">
+      <DependentUpon>FrmParkDeposit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmParkStallSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmParkStallSet.designer.cs">
+      <DependentUpon>FrmParkStallSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmParkWatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmParkWatch.designer.cs">
+      <DependentUpon>FrmParkWatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmQueryManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmQueryManage.designer.cs">
+      <DependentUpon>FrmQueryManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmQueryState.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmQueryState.designer.cs">
+      <DependentUpon>FrmQueryState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmReadParam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmReadParam.Designer.cs">
+      <DependentUpon>FrmReadParam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmReadRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmReadRecord.designer.cs">
+      <DependentUpon>FrmReadRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmRemotControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmRemotControl.designer.cs">
+      <DependentUpon>FrmRemotControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmRemotGate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmRemotGate.designer.cs">
+      <DependentUpon>FrmRemotGate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmRight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmRight.Designer.cs">
+      <DependentUpon>FrmRight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmSetSyetem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmSetSyetem.designer.cs">
+      <DependentUpon>FrmSetSyetem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmStationWatchingII.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmStationWatchingII.Designer.cs">
+      <DependentUpon>FrmStationWatchingII.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmTable.designer.cs">
+      <DependentUpon>FrmTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmTempTotalMoeny.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmTempTotalMoeny.Designer.cs">
+      <DependentUpon>FrmTempTotalMoeny.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\FrmValCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\FrmValCard.designer.cs">
+      <DependentUpon>FrmValCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\LoadDll.cs" />
+    <Compile Include="ParkMgr\Report\CarOutTotal.cs">
+      <DependentUpon>CarOutTotal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\Report\CarOutTotal.Designer.cs">
+      <DependentUpon>CarOutTotal.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ParkMgr\Report\DataSetIntVehicleNumberTotal.cs">
+      <DependentUpon>DataSetIntVehicleNumberTotal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\Report\DataSetIntVehicleNumberTotal.Designer.cs">
+      <DependentUpon>DataSetIntVehicleNumberTotal.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ParkMgr\Report\FrmCarOutTotal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\Report\FrmCarOutTotal.Designer.cs">
+      <DependentUpon>FrmCarOutTotal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\Report\FrmIntVehicleNumberTotal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\Report\FrmIntVehicleNumberTotal.Designer.cs">
+      <DependentUpon>FrmIntVehicleNumberTotal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\Report\FrmOperatorTotal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\Report\FrmOperatorTotal.Designer.cs">
+      <DependentUpon>FrmOperatorTotal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\Report\FrmOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\Report\FrmOut.Designer.cs">
+      <DependentUpon>FrmOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\Report\FrmParkTotal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\Report\FrmParkTotal.Designer.cs">
+      <DependentUpon>FrmParkTotal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\Report\OperatorTotal.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OperatorTotal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\Report\ParkTotal.cs">
+      <DependentUpon>ParkTotal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\Report\ParkTotal.Designer.cs">
+      <DependentUpon>ParkTotal.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ParkMgr\Report\PrintInfo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\Report\PrintInfo.Designer.cs">
+      <DependentUpon>PrintInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\Report\ReportCarOutTotal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\Report\ReportCarOutTotal.Designer.cs">
+      <DependentUpon>ReportCarOutTotal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\Report\ReportIntVehicleNumberTotal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\Report\ReportIntVehicleNumberTotal.Designer.cs">
+      <DependentUpon>ReportIntVehicleNumberTotal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\Report\ReportOperatorTotal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\Report\ReportOperatorTotal.Designer.cs">
+      <DependentUpon>ReportOperatorTotal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\Report\ReportParkTotal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ParkMgr\Report\ReportParkTotal.Designer.cs">
+      <DependentUpon>ReportParkTotal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkMgr\VideoPlugin\VideoMiniMV.cs" />
+    <Compile Include="ParkMgr\VideoPlugin\VideoTimVC.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CardMgr\FrmCardCheck.resx">
+      <DependentUpon>FrmCardCheck.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardMgr\FrmCardDelayRpt.resx">
+      <DependentUpon>FrmCardDelayRpt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardMgr\FrmCardLostRpt.resx">
+      <DependentUpon>FrmCardLostRpt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardMgr\FrmCardMakeRpt.resx">
+      <DependentUpon>FrmCardMakeRpt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardMgr\FrmCardMakeS.resx">
+      <DependentUpon>FrmCardMakeS.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardMgr\FrmCardManager.resx">
+      <DependentUpon>FrmCardManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardMgr\FrmCardPayRep.resx">
+      <DependentUpon>FrmCardPayRep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardMgr\FrmCardQuitRtp.resx">
+      <DependentUpon>FrmCardQuitRtp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardMgr\FrmCardUpdate.resx">
+      <DependentUpon>FrmCardUpdate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardMgr\FrmDevSet.resx">
+      <DependentUpon>FrmDevSet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckWork\FrmClass.resx">
+      <DependentUpon>FrmClass.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckWork\FrmDeptClass.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmDeptClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckWork\FrmDeptRest.resx">
+      <DependentUpon>FrmDeptRest.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckWork\FrmDeptScheduleRpt.resx">
+      <DependentUpon>FrmDeptScheduleRpt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckWork\FrmEmployeeRegister.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmEmployeeRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckWork\FrmHitCardRpt.resx">
+      <DependentUpon>FrmHitCardRpt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckWork\FrmHolidaySet .resx">
+      <DependentUpon>FrmHolidaySet .cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckWork\FrmMakeClass.resx">
+      <DependentUpon>FrmMakeClass.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckWork\FrmWorkStat.resx">
+      <DependentUpon>FrmWorkStat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckWork\Report\FrmCheckWorkList.resx">
+      <DependentUpon>FrmCheckWorkList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckWork\Report\ReportCheckWorklist.resx">
+      <DependentUpon>ReportCheckWorklist.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoorMgr\BaseDicinfo\FrmDoorCardInfo.resx">
+      <DependentUpon>FrmDoorCardInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoorMgr\BaseDicinfo\FrmDoorCardList.resx">
+      <DependentUpon>FrmDoorCardList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoorMgr\BaseDicinfo\FrmDoorControlBaseinfo.resx">
+      <DependentUpon>FrmDoorControlBaseinfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoorMgr\BaseDicinfo\FrmDorUsers.resx">
+      <DependentUpon>FrmDorUsers.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoorMgr\BaseDicinfo\FrmEffectiveTimeAdd.resx">
+      <DependentUpon>FrmEffectiveTimeAdd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoorMgr\BaseDicinfo\FrmEffectiveTimeList.resx">
+      <DependentUpon>FrmEffectiveTimeList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoorMgr\BaseDicinfo\FrmRight.resx">
+      <DependentUpon>FrmRight.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoorMgr\BaseFrom\CustomDesignForm.resx">
+      <DependentUpon>CustomDesignForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoorMgr\BaseFrom\MainFeaturesControl.resx">
+      <DependentUpon>MainFeaturesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoorMgr\BaseFrom\ModuleControl.resx">
+      <DependentUpon>ModuleControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoorMgr\BaseFrom\PreviewControl.resx">
+      <DependentUpon>PreviewControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoorMgr\FrmDoorMonitor.resx">
+      <DependentUpon>FrmDoorMonitor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoorMgr\Report\FrmOpenDoorRecord.resx">
+      <DependentUpon>FrmOpenDoorRecord.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoorMgr\Report\ReportOpenRecord.resx">
+      <DependentUpon>ReportOpenRecord.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoorMgr\Report\UcOpenDoorRecord.resx">
+      <DependentUpon>UcOpenDoorRecord.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoorMgr\Report\viwReports.resx">
+      <DependentUpon>viwReports.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eatery\FrmAddMoney.resx">
+      <DependentUpon>FrmAddMoney.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eatery\FrmAddReduceMoney.resx">
+      <DependentUpon>FrmAddReduceMoney.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eatery\FrmCashRegister.resx">
+      <DependentUpon>FrmCashRegister.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eatery\FrmCashRegisterII.resx">
+      <DependentUpon>FrmCashRegisterII.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eatery\FrmEateryMonitor.resx">
+      <DependentUpon>FrmEateryMonitor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eatery\Reprot\FrmCashSum.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmCashSum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eatery\FrmConsumeRecord.resx">
+      <DependentUpon>FrmConsumeRecord.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eatery\FrmRestaurant.resx">
+      <DependentUpon>FrmRestaurant.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eatery\Reprot\FrmConsumeSum.resx">
+      <DependentUpon>FrmConsumeSum.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eatery\Reprot\FrmCosumeMac.resx">
+      <DependentUpon>FrmCosumeMac.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eatery\Reprot\ReportCashSum.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReportCashSum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eatery\Reprot\ReportConsumeMacSum.resx">
+      <DependentUpon>ReportConsumeMacSum.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eatery\Reprot\ReportConsumeSum.resx">
+      <DependentUpon>ReportConsumeSum.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDBDatabase.resx">
+      <DependentUpon>FrmDBDatabase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDepart.resx">
+      <DependentUpon>FrmDepart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSysUsers.resx">
+      <DependentUpon>FrmSysUsers.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTest.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUpdatePassword.resx">
+      <DependentUpon>FrmUpdatePassword.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FormCardJC.resx">
+      <DependentUpon>FormCardJC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FormCardNumber.resx">
+      <DependentUpon>FormCardNumber.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FormIntoStopCart.resx">
+      <DependentUpon>FormIntoStopCart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FormManeySearch.resx">
+      <DependentUpon>FormManeySearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FormNoCard.resx">
+      <DependentUpon>FormNoCard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FormUpDownWork.resx">
+      <DependentUpon>FormUpDownWork.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmCarNo.resx">
+      <DependentUpon>FrmCarNo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmCarOut.resx">
+      <DependentUpon>FrmCarOut.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmCarParkInfo.resx">
+      <DependentUpon>FrmCarParkInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmCarStallSet.resx">
+      <DependentUpon>FrmCarStallSet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmCommPara.resx">
+      <DependentUpon>FrmCommPara.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmDepositAll_del.resx">
+      <DependentUpon>FrmDepositAll_del.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmDisplay.resx">
+      <DependentUpon>FrmDisplay.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmDownTime.resx">
+      <DependentUpon>FrmDownTime.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmFee.resx">
+      <DependentUpon>FrmFee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmFeePara.resx">
+      <DependentUpon>FrmFeePara.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmInParkPic.resx">
+      <DependentUpon>FrmInParkPic.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmInQueryManage.resx">
+      <DependentUpon>FrmInQueryManage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmOper.resx">
+      <DependentUpon>FrmOper.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmOutQueryManage.resx">
+      <DependentUpon>FrmOutQueryManage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmOut_InParkPic.resx">
+      <DependentUpon>FrmOut_InParkPic.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmOverClass.resx">
+      <DependentUpon>FrmOverClass.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmParkDeposit.resx">
+      <DependentUpon>FrmParkDeposit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmParkStallSet.resx">
+      <DependentUpon>FrmParkStallSet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmParkWatch.resx">
+      <DependentUpon>FrmParkWatch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmQueryManage.resx">
+      <DependentUpon>FrmQueryManage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmQueryState.resx">
+      <DependentUpon>FrmQueryState.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmReadParam.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmReadParam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmReadRecord.resx">
+      <DependentUpon>FrmReadRecord.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmRemotControl.resx">
+      <DependentUpon>FrmRemotControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmRemotGate.resx">
+      <DependentUpon>FrmRemotGate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmRight.resx">
+      <DependentUpon>FrmRight.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmSetSyetem.resx">
+      <DependentUpon>FrmSetSyetem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmStationWatchingII.resx">
+      <DependentUpon>FrmStationWatchingII.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmTable.resx">
+      <DependentUpon>FrmTable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmTempTotalMoeny.resx">
+      <DependentUpon>FrmTempTotalMoeny.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\FrmValCard.resx">
+      <DependentUpon>FrmValCard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\Report\FrmCarOutTotal.resx">
+      <DependentUpon>FrmCarOutTotal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\Report\FrmIntVehicleNumberTotal.resx">
+      <DependentUpon>FrmIntVehicleNumberTotal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\Report\FrmOperatorTotal.resx">
+      <DependentUpon>FrmOperatorTotal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\Report\FrmOut.resx">
+      <DependentUpon>FrmOut.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\Report\FrmParkTotal.resx">
+      <DependentUpon>FrmParkTotal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\Report\PrintInfo.resx">
+      <DependentUpon>PrintInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\Report\ReportCarOutTotal.resx">
+      <DependentUpon>ReportCarOutTotal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\Report\ReportIntVehicleNumberTotal.resx">
+      <DependentUpon>ReportIntVehicleNumberTotal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\Report\ReportOperatorTotal.resx">
+      <DependentUpon>ReportOperatorTotal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkMgr\Report\ReportParkTotal.resx">
+      <DependentUpon>ReportParkTotal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserManager\FrmEmployees.resx">
+      <DependentUpon>FrmEmployees.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserManager\FrmSysRoles.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmSysRoles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserManager\FrmUpdatePass.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmUpdatePass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserManager\FrmUserManager.resx">
+      <DependentUpon>FrmUserManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="util\FrmCardParam.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmCardParam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="util\FrmDownParam.resx">
+      <DependentUpon>FrmDownParam.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="util\frmProcessBar.resx">
+      <DependentUpon>frmProcessBar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="CheckWork\Report\DataSetCheckOnWorkList.xsc">
+      <DependentUpon>DataSetCheckOnWorkList.xsd</DependentUpon>
+    </None>
+    <None Include="CheckWork\Report\DataSetCheckOnWorkList.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetCheckOnWorkList.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CheckWork\Report\DataSetCheckOnWorkList.xss">
+      <DependentUpon>DataSetCheckOnWorkList.xsd</DependentUpon>
+    </None>
+    <None Include="DoorMgr\Report\DataSetOpenDoorRecord.xsc">
+      <DependentUpon>DataSetOpenDoorRecord.xsd</DependentUpon>
+    </None>
+    <None Include="DoorMgr\Report\DataSetOpenDoorRecord.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetOpenDoorRecord.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DoorMgr\Report\DataSetOpenDoorRecord.xss">
+      <DependentUpon>DataSetOpenDoorRecord.xsd</DependentUpon>
+    </None>
+    <None Include="Eatery\Reprot\DataSetCashSum.xsc">
+      <DependentUpon>DataSetCashSum.xsd</DependentUpon>
+    </None>
+    <None Include="Eatery\Reprot\DataSetCashSum.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetCashSum.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Eatery\Reprot\DataSetCashSum.xss">
+      <DependentUpon>DataSetCashSum.xsd</DependentUpon>
+    </None>
+    <None Include="Eatery\Reprot\DataSetConsumeMac.xsc">
+      <DependentUpon>DataSetConsumeMac.xsd</DependentUpon>
+    </None>
+    <None Include="Eatery\Reprot\DataSetConsumeMac.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetConsumeMac.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Eatery\Reprot\DataSetConsumeMac.xss">
+      <DependentUpon>DataSetConsumeMac.xsd</DependentUpon>
+    </None>
+    <None Include="Eatery\Reprot\DataSetConsumeSum.xsc">
+      <DependentUpon>DataSetConsumeSum.xsd</DependentUpon>
+    </None>
+    <None Include="Eatery\Reprot\DataSetConsumeSum.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetConsumeSum.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Eatery\Reprot\DataSetConsumeSum.xss">
+      <DependentUpon>DataSetConsumeSum.xsd</DependentUpon>
+    </None>
+    <BaseApplicationManifest Include="Properties\app.manifest" />
+    <None Include="ParkMgr\Report\.svn\all-wcprops" />
+    <None Include="ParkMgr\Report\.svn\entries" />
+    <None Include="ParkMgr\Report\.svn\text-base\CarOutTotal.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\CarOutTotal.Designer.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\CarOutTotal.xsc.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\CarOutTotal.xsd.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\CarOutTotal.xss.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\DataSetIntVehicleNumberTotal.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\DataSetIntVehicleNumberTotal.Designer.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\DataSetIntVehicleNumberTotal.xsc.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\DataSetIntVehicleNumberTotal.xsd.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\DataSetIntVehicleNumberTotal.xss.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\FrmCarOutTotal.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\FrmCarOutTotal.Designer.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\FrmCarOutTotal.resx.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\FrmIntVehicleNumberTotal.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\FrmIntVehicleNumberTotal.Designer.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\FrmIntVehicleNumberTotal.resx.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\FrmOperatorTotal.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\FrmOperatorTotal.Designer.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\FrmOperatorTotal.resx.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\FrmOut.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\FrmOut.Designer.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\FrmOut.resx.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\FrmParkTotal.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\FrmParkTotal.Designer.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\FrmParkTotal.resx.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\OperatorTotal.Designer.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\OperatorTotal.xsc.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\OperatorTotal.xsd.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\OperatorTotal.xss.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\ParkTotal.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\ParkTotal.Designer.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\ParkTotal.xsc.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\ParkTotal.xsd.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\ParkTotal.xss.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\PrintInfo.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\PrintInfo.Designer.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\PrintInfo.resx.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\ReportCarOutTotal.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\ReportCarOutTotal.Designer.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\ReportCarOutTotal.resx.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\ReportIntVehicleNumberTotal.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\ReportIntVehicleNumberTotal.Designer.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\ReportIntVehicleNumberTotal.resx.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\ReportOperatorTotal.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\ReportOperatorTotal.Designer.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\ReportOperatorTotal.resx.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\ReportParkTotal.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\ReportParkTotal.Designer.cs.svn-base" />
+    <None Include="ParkMgr\Report\.svn\text-base\ReportParkTotal.resx.svn-base" />
+    <None Include="ParkMgr\Report\CarOutTotal.xsc">
+      <DependentUpon>CarOutTotal.xsd</DependentUpon>
+    </None>
+    <None Include="ParkMgr\Report\CarOutTotal.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarOutTotal.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ParkMgr\Report\CarOutTotal.xss">
+      <DependentUpon>CarOutTotal.xsd</DependentUpon>
+    </None>
+    <None Include="ParkMgr\Report\DataSetIntVehicleNumberTotal.xsc">
+      <DependentUpon>DataSetIntVehicleNumberTotal.xsd</DependentUpon>
+    </None>
+    <None Include="ParkMgr\Report\DataSetIntVehicleNumberTotal.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetIntVehicleNumberTotal.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ParkMgr\Report\DataSetIntVehicleNumberTotal.xss">
+      <DependentUpon>DataSetIntVehicleNumberTotal.xsd</DependentUpon>
+    </None>
+    <None Include="ParkMgr\Report\OperatorTotal.xsc">
+      <DependentUpon>OperatorTotal.xsd</DependentUpon>
+    </None>
+    <None Include="ParkMgr\Report\OperatorTotal.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OperatorTotal.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ParkMgr\Report\OperatorTotal.xss">
+      <DependentUpon>OperatorTotal.xsd</DependentUpon>
+    </None>
+    <None Include="ParkMgr\Report\ParkTotal.xsc">
+      <DependentUpon>ParkTotal.xsd</DependentUpon>
+    </None>
+    <None Include="ParkMgr\Report\ParkTotal.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ParkTotal.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ParkMgr\Report\ParkTotal.xss">
+      <DependentUpon>ParkTotal.xsd</DependentUpon>
+    </None>
+    <None Include="ParkMgr\VideoPlugin\.svn\all-wcprops" />
+    <None Include="ParkMgr\VideoPlugin\.svn\entries" />
+    <None Include="ParkMgr\VideoPlugin\.svn\text-base\VideoMiniMV.cs.svn-base" />
+    <None Include="ParkMgr\VideoPlugin\.svn\text-base\VideoTimVC.cs.svn-base" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UserManager\ExcelHander.cs" />
+    <Compile Include="UserManager\FrmEmployees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserManager\FrmEmployees.Designer.cs">
+      <DependentUpon>FrmEmployees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserManager\FrmSysRoles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserManager\FrmSysRoles.Designer.cs">
+      <DependentUpon>FrmSysRoles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserManager\FrmUpdatePass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserManager\FrmUpdatePass.Designer.cs">
+      <DependentUpon>FrmUpdatePass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserManager\FrmUserManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserManager\FrmUserManager.Designer.cs">
+      <DependentUpon>FrmUserManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="util\FormFactory.cs" />
+    <Compile Include="util\FrmCardParam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="util\FrmCardParam.Designer.cs">
+      <DependentUpon>FrmCardParam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="util\FrmDownParam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="util\FrmDownParam.Designer.cs">
+      <DependentUpon>FrmDownParam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="util\frmProcessBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="util\frmProcessBar.designer.cs">
+      <DependentUpon>frmProcessBar.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\mgr.ico" />
+    <Content Include="mgr.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Business\UserRight\UserRight.csproj">
+      <Project>{4AFA4375-3DA5-4008-8760-CD90027CDBEC}</Project>
+      <Name>UserRight</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CardOneCommi\CardOneCommi.csproj">
+      <Project>{DDEA5491-04C9-4230-9734-563D685C05CF}</Project>
+      <Name>CardOneCommi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ComLib\ComLib.csproj">
+      <Project>{38FF81C0-C883-4741-B025-D9FC33893301}</Project>
+      <Name>ComLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommiServer\CommiServer.csproj">
+      <Project>{315B22C5-22B5-48D7-99E1-F316B5B4BF6E}</Project>
+      <Name>CommiServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Communications\Communications.csproj">
+      <Project>{60672B75-1556-4DB3-A943-D784B0158FF0}</Project>
+      <Name>Communications</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\winTools\winTools.csproj">
+      <Project>{EFA1E86B-E54F-484B-A212-D18EB54294C3}</Project>
+      <Name>winTools</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ParkMgr\Report\.svn\prop-base\" />
+    <Folder Include="ParkMgr\Report\.svn\props\" />
+    <Folder Include="ParkMgr\Report\.svn\tmp\prop-base\" />
+    <Folder Include="ParkMgr\Report\.svn\tmp\props\" />
+    <Folder Include="ParkMgr\Report\.svn\tmp\text-base\" />
+    <Folder Include="ParkMgr\VideoPlugin\.svn\prop-base\" />
+    <Folder Include="ParkMgr\VideoPlugin\.svn\props\" />
+    <Folder Include="ParkMgr\VideoPlugin\.svn\tmp\prop-base\" />
+    <Folder Include="ParkMgr\VideoPlugin\.svn\tmp\props\" />
+    <Folder Include="ParkMgr\VideoPlugin\.svn\tmp\text-base\" />
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

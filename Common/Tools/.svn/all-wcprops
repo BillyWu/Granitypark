@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/Granitypark/!svn/ver/1/Common/Tools
+END
+AssemblyInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Granitypark/!svn/ver/1/Common/Tools/AssemblyInfo.cs
+END
+Tools.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/Granitypark/!svn/ver/1/Common/Tools/Tools.csproj
+END
+BuildParamList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Granitypark/!svn/ver/1/Common/Tools/BuildParamList.cs
+END
+NameParamCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Granitypark/!svn/ver/1/Common/Tools/NameParamCollection.cs
+END
+Tools.csproj.pdsyncu
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Granitypark/!svn/ver/1/Common/Tools/Tools.csproj.pdsyncu
+END
+ParseDBType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Granitypark/!svn/ver/1/Common/Tools/ParseDBType.cs
+END
+WorkUnit.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Granitypark/!svn/ver/1/Common/Tools/WorkUnit.cs
+END
+InteropBits.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Granitypark/!svn/ver/1/Common/Tools/InteropBits.cs
+END
+NameObjectList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Granitypark/!svn/ver/1/Common/Tools/NameObjectList.cs
+END
+DBCommand.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/Granitypark/!svn/ver/1/Common/Tools/DBCommand.cs
+END
+Tools.csproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Granitypark/!svn/ver/1/Common/Tools/Tools.csproj.user
+END
+BitsDownFile.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Granitypark/!svn/ver/1/Common/Tools/BitsDownFile.cs
+END
+DataAccRes.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/Granitypark/!svn/ver/1/Common/Tools/DataAccRes.cs
+END
+Tools.csproj.pdsync
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Granitypark/!svn/ver/1/Common/Tools/Tools.csproj.pdsync
+END
