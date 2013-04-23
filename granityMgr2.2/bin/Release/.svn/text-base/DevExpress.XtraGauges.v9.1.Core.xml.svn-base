@@ -1,0 +1,3934 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DevExpress.XtraGauges.v9.1.Core</name>
+    </assembly>
+    <members>
+        <member name="T:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive">
+
+            <summary>
+                <para>Represents the base class for visual elements of gauges.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.#ctor(System.String)">
+            <summary>
+                <para>Initializes a new instance of the BaseLeafPrimitive class.
+</para>
+            </summary>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.#ctor">
+            <summary>
+                <para>Initializes a new instance of the BaseLeafPrimitive class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1,System.String)">
+            <summary>
+                <para>Initializes a new instance of the BaseLeafPrimitive class.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1)">
+            <summary>
+                <para>Initializes a new instance of the BaseLeafPrimitive class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.Angle">
+            <summary>
+                <para>Gets or sets the angle, measured in degrees, at which the current object is displayed.
+</para>
+            </summary>
+            <value>The angle at which the current object is displayed, measured in degrees.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.BeginTransform">
+            <summary>
+                <para>Prevents the transformation of the BaseLeafPrimitive object from being performed until the <b>EndTransform</b> method is called.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.BoundElementName">
+            <summary>
+                <para>This property supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <value>A string value.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.CalcHitInfo(System.Drawing.Point)">
+            <summary>
+                <para>Retrieves information on the object's inner element, located under the specified point.
+</para>
+            </summary>
+            <param name="pt">
+		A point to be tested.
+
+            </param>
+            <returns>A BasePrimitiveHitInfo object that identifies the object's inner element located under the specified point.
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.CancelTransform">
+            <summary>
+                <para>Unlocks the object after the <b>BeginTransform</b> method has been called, without performing transformation.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.Enabled">
+            <summary>
+                <para>Gets or sets whether the object is enabled.
+</para>
+            </summary>
+            <value><b>true</b> if the object is enabled; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.EndTransform">
+            <summary>
+                <para>Unlocks the BaseLeafPrimitive object after the <b>BeginUpdate</b> method call and performs object transformation.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.HitTestEnabled">
+            <summary>
+                <para>Gets or sets whether the hit-testing feature is enabled for the current object.
+</para>
+            </summary>
+            <value><b>true</b> if the hit-testing feature is enabled for the current object; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.IsTransformLocked">
+            <summary>
+                <para>Gets whether the object has been locked by the <see cref="M:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.BeginTransform"/> method.
+</para>
+            </summary>
+            <value><b>true</b> if the object has been locked by the <see cref="M:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.BeginTransform"/> method; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.IsXtraSerializing">
+            <summary>
+                <para>This property supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <value>A Boolean value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.Location">
+            <summary>
+                <para>Gets or sets the object's location.
+</para>
+            </summary>
+            <value>A point that specifies the object's location, in relative points.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.ParentCollectionName">
+            <summary>
+                <para>This property supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <value>A string value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.ParentName">
+            <summary>
+                <para>This property supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <value>A string value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.Renderable">
+            <summary>
+                <para>Gets or sets whether the object can be rendered on a graphics surface.
+</para>
+            </summary>
+            <value><b>true</b> if the object can be rendered on a graphics surface; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.ResetTransform">
+            <summary>
+                <para>Resets the object's location, rotation angle and scale factor.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.ScaleFactor">
+            <summary>
+                <para>Gets or sets the object's scale along the X and Y axes.
+</para>
+            </summary>
+            <value>A Factor2D structure that specifies the object's scale factors along the X and Y axes.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.Shader">
+            <summary>
+                <para>Gets or sets an object that allows the color of the object to be modified.
+</para>
+            </summary>
+            <value>A BaseColorShader object that represents the shader object.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.Shapes">
+            <summary>
+                <para>Gets the collection of inner elements of the current object.
+</para>
+            </summary>
+            <value>A BaseShapeCollection of inner elements.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.Transform">
+            <summary>
+                <para>Gets or sets the transformation matrix.
+</para>
+            </summary>
+            <value>A <see cref="T:System.Drawing.Drawing2D.Matrix"/> object that specifies the transformation matrix.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.TypeNameEx">
+            <summary>
+                <para>This property supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <value>A string value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Primitive.BaseLeafPrimitive.ZOrder">
+            <summary>
+                <para>Gets or sets the Z-Order of the object.
+</para>
+            </summary>
+            <value>An integer value that specifies the Z-Order. Objects with higher Z-Orders are overlapped by objects with lower Z-Orders.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraGauges.Core.Model.DigitalEffectLayer">
+
+            <summary>
+                <para>Represents the base class for effect layers within digital gauges.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.DigitalEffectLayer.#ctor(System.String)">
+            <summary>
+                <para>Initializes a new instance of the DigitalEffectLayer class.
+</para>
+            </summary>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.DigitalEffectLayer.#ctor">
+            <summary>
+                <para>Initializes a new instance of the DigitalEffectLayer class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.DigitalEffectLayer.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1,System.String)">
+            <summary>
+                <para>Initializes a new instance of the DigitalEffectLayer class.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.DigitalEffectLayer.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1)">
+            <summary>
+                <para>Initializes a new instance of the DigitalEffectLayer class.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.DigitalEffectLayer.Assign(DevExpress.XtraGauges.Core.Model.DigitalEffectLayer)">
+            <summary>
+                <para>Copies settings of the specified object to the current object.
+</para>
+            </summary>
+            <param name="source">
+		A DigitalEffectLayer object whose settings are copied to the current object.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.DigitalEffectLayer.BeginUpdate">
+            <summary>
+                <para>Prevents the DigitalEffectLayer object from being updated until the <b>EndUpdate</b> or <b>CancelUpdate</b> method is called.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.DigitalEffectLayer.BottomRight">
+            <summary>
+                <para>Gets or sets the position of the layer's right-bottom corner.
+</para>
+            </summary>
+            <value>The position of the layer's right-bottom corner, in relative coordinates.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.DigitalEffectLayer.CancelUpdate">
+            <summary>
+                <para>Unlocks the DigitalEffectLayer object after the <b>BeginUpdate</b> method call without an update. 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.DigitalEffectLayer.EndUpdate">
+            <summary>
+                <para>Unlocks the DigitalEffectLayer object after the <b>BeginUpdate</b> method call and causes an immediate update.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.DigitalEffectLayer.IsDifferFrom(DevExpress.XtraGauges.Core.Model.DigitalEffectLayer)">
+            <summary>
+                <para>Returns whether the current object has different settings than the specified one.
+</para>
+            </summary>
+            <param name="source">
+		An object to be compared with the current object.
+
+            </param>
+            <returns><b>true</b> if the current object has different settings than the specified one; otherwise, <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.DigitalEffectLayer.Shape">
+            <summary>
+                <para>Specifies the shape of the current object according to the current painting style specified by the <b>ShapeType</b> property.
+</para>
+            </summary>
+            <value>A BaseShape object that represents the current shape.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.DigitalEffectLayer.ShapeType">
+            <summary>
+                <para>Gets or sets the object's painting style.
+</para>
+            </summary>
+            <value>A  DigitalEffectShapeType value that represents the object's painting style.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.DigitalEffectLayer.TopLeft">
+            <summary>
+                <para>Gets or sets the position of the layer's left-top corner.
+</para>
+            </summary>
+            <value>The position of the layer's left-top corner, in relative coordinates.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraGauges.Core.Model.DigitalBackgroundLayer">
+
+            <summary>
+                <para>Represents the base class for background layers within digital gauges.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.DigitalBackgroundLayer.#ctor(System.String)">
+            <summary>
+                <para>Initializes a new instance of the DigitalBackgroundLayer class.
+</para>
+            </summary>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.DigitalBackgroundLayer.#ctor">
+            <summary>
+                <para>Initializes a new instance of the DigitalBackgroundLayer class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.DigitalBackgroundLayer.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1,System.String)">
+            <summary>
+                <para>Initializes a new instance of the DigitalBackgroundLayer class.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.DigitalBackgroundLayer.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1)">
+            <summary>
+                <para>Initializes a new instance of the DigitalBackgroundLayer class.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.DigitalBackgroundLayer.Assign(DevExpress.XtraGauges.Core.Model.DigitalBackgroundLayer)">
+            <summary>
+                <para>Copies settings of the specified object to the current object.
+</para>
+            </summary>
+            <param name="source">
+		A DigitalBackgroundLayer object whose settings are copied to the current object.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.DigitalBackgroundLayer.BeginUpdate">
+            <summary>
+                <para>Prevents the DigitalBackgroundLayer object from being updated until the <b>EndUpdate</b> or <b>CancelUpdate</b> method is called.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.DigitalBackgroundLayer.BottomRight">
+            <summary>
+                <para>Gets or sets the position of the layer's right-bottom corner.
+</para>
+            </summary>
+            <value>The position of the layer's right-bottom corner, in relative coordinates.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.DigitalBackgroundLayer.CancelUpdate">
+            <summary>
+                <para>Unlocks the DigitalBackgroundLayer object after the <b>BeginUpdate</b> method call without an update. 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.DigitalBackgroundLayer.EndUpdate">
+            <summary>
+                <para>Unlocks the DigitalBackgroundLayer object after the <b>BeginUpdate</b> method call and causes an immediate update.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.DigitalBackgroundLayer.IsDifferFrom(DevExpress.XtraGauges.Core.Model.DigitalBackgroundLayer)">
+            <summary>
+                <para>Returns whether the current object has different settings than the specified one.
+</para>
+            </summary>
+            <param name="source">
+		An object to be compared with the current object.
+
+            </param>
+            <returns><b>true</b> if the current object has different settings than the specified one; otherwise, <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.DigitalBackgroundLayer.Shape">
+            <summary>
+                <para>Specifies the shape of the current object according to the current painting style specified by the <b>ShapeType</b> property.
+</para>
+            </summary>
+            <value>A BaseShape object that represents the current shape.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.DigitalBackgroundLayer.ShapeFar">
+            <summary>
+                <para>Gets the shape used to paint the level bar's most distant edge.
+</para>
+            </summary>
+            <value>A BaseShape object.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.DigitalBackgroundLayer.ShapeNear">
+            <summary>
+                <para>Gets the shape used to paint the level bar's nearest edge.
+</para>
+            </summary>
+            <value>A BaseShape object.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.DigitalBackgroundLayer.ShapeType">
+            <summary>
+                <para>Gets or sets the object's painting style.
+</para>
+            </summary>
+            <value>A DigitalBackgroundShapeSetType  value that represents the object's painting style.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.DigitalBackgroundLayer.TopLeft">
+            <summary>
+                <para>Gets or sets the position of the layer's left-top corner.
+</para>
+            </summary>
+            <value>The position of the layer's left-top corner, in relative coordinates.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraGauges.Core.Model.StateIndicator">
+
+            <summary>
+                <para>Represents the base class for state indicators within gauges of all types.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.StateIndicator.#ctor(System.String)">
+            <summary>
+                <para>Initializes a new instance of the StateIndicator class.
+</para>
+            </summary>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.StateIndicator.#ctor">
+            <summary>
+                <para>Initializes a new instance of the StateIndicator class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.StateIndicator.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1,System.String)">
+            <summary>
+                <para>Initializes a new instance of the StateIndicator class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.StateIndicator.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1)">
+            <summary>
+                <para>Initializes a new instance of the StateIndicator class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.StateIndicator.AddEnum(System.Enum)">
+            <summary>
+                <para>Creates states from the elements of the specified enumerator and adds them to the <see cref="P:DevExpress.XtraGauges.Core.Model.StateIndicator.States"/> collection.
+</para>
+            </summary>
+            <param name="states">
+		An enumerator value that identifies states to be added to the <see cref="P:DevExpress.XtraGauges.Core.Model.StateIndicator.States"/> collection.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.StateIndicator.Assign(DevExpress.XtraGauges.Core.Model.StateIndicator)">
+            <summary>
+                <para>Copies settings of the specified object to the current object.
+</para>
+            </summary>
+            <param name="source">
+		A StateIndicator object whose settings are copied to the current object.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.StateIndicator.BeginUpdate">
+            <summary>
+                <para>Prevents the StateIndicator object from being updated until the <b>EndUpdate</b> or <b>CancelUpdate</b> method is called.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.StateIndicator.CancelUpdate">
+            <summary>
+                <para>Unlocks the StateIndicator object after the <b>BeginUpdate</b> method call without an update. 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.StateIndicator.Center">
+            <summary>
+                <para>Gets or sets the position of the state indicator's center within the parent gauge.
+</para>
+            </summary>
+            <value>A PointF2D structure that represents the position of the state indicator's center within the parent gauge, in relative coordinates.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.StateIndicator.EndUpdate">
+            <summary>
+                <para>Unlocks the StateIndicator object after the <b>BeginUpdate</b> method call and causes an immediate update.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.StateIndicator.IsDifferFrom(DevExpress.XtraGauges.Core.Model.StateIndicator)">
+            <summary>
+                <para>Returns whether the current object has different settings than the specified one.
+</para>
+            </summary>
+            <param name="source">
+		An object to be compared with the current object.
+
+            </param>
+            <returns><b>true</b> if the current object has different settings than the specified one; otherwise, <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.StateIndicator.SetStateByName(System.String)">
+            <summary>
+                <para>Activates a specific state by its name.
+</para>
+            </summary>
+            <param name="name">
+		A string that specifies the name of the state to activate.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.StateIndicator.Size">
+            <summary>
+                <para>Gets or sets the size of the state indicator.
+</para>
+            </summary>
+            <value>A SizeF structure that represents the size of the state indicator, in relative coordinates.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.StateIndicator.State">
+            <summary>
+                <para>Gets the state indicator's current state.
+</para>
+            </summary>
+            <value>An IIndicatorState object that represents the current state.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.StateIndicator.StateIndex">
+            <summary>
+                <para>Gets or sets the index of the current state in the collection of states.
+</para>
+            </summary>
+            <value>An integer value that specifies the index of the current state in the collection of states.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.StateIndicator.States">
+            <summary>
+                <para>Contains states for the state indicator.
+</para>
+            </summary>
+            <value>An IndicatorStateCollection that contains states for the state indicator.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraGauges.Core.Model.ArcScaleBackgroundLayer">
+
+            <summary>
+                <para>Represents the base class for background layers within circular gauges.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleBackgroundLayer.#ctor(System.String)">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleBackgroundLayer class.
+</para>
+            </summary>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleBackgroundLayer.#ctor">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleBackgroundLayer class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleBackgroundLayer.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1,System.String)">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleBackgroundLayer class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleBackgroundLayer.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1)">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleBackgroundLayer class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleBackgroundLayer.ArcScale">
+            <summary>
+                <para>Gets or sets the scale object to which the current ArcScaleBackgroundLayer object is linked.
+</para>
+            </summary>
+            <value>An IArcScale object that represents the scale to which the current object is linked.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleBackgroundLayer.Assign(DevExpress.XtraGauges.Core.Model.ArcScaleBackgroundLayer)">
+            <summary>
+                <para>Copies settings of the specified object to the current object.
+</para>
+            </summary>
+            <param name="source">
+		A ArcScaleBackgroundLayer object whose settings are copied to the current object.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleBackgroundLayer.BeginUpdate">
+            <summary>
+                <para>Prevents the ArcScaleBackgroundLayer object from being updated until the <b>EndUpdate</b> or <b>CancelUpdate</b> method is called.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleBackgroundLayer.CancelUpdate">
+            <summary>
+                <para>Unlocks the ArcScaleBackgroundLayer object after the <b>BeginUpdate</b> method call without an update. 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleBackgroundLayer.EndUpdate">
+            <summary>
+                <para>Unlocks the ArcScaleBackgroundLayer object after the <b>BeginUpdate</b> method call and causes an immediate update.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleBackgroundLayer.IsDifferFrom(DevExpress.XtraGauges.Core.Model.ArcScaleBackgroundLayer)">
+            <summary>
+                <para>Returns whether the current object has different settings than the specified one.
+</para>
+            </summary>
+            <param name="source">
+		An object to be compared with the current object.
+
+            </param>
+            <returns><b>true</b> if the current object has different settings than the specified one; otherwise, <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleBackgroundLayer.Scale">
+            <summary>
+                <para>Gets the scale object to which the current ArcScaleBackgroundLayer object is linked.
+</para>
+            </summary>
+            <value>An IScale object that represents the scale to which the current object is linked.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleBackgroundLayer.ScaleCenterPos">
+            <summary>
+                <para>Gets or sets the position of the scale's center relative to the layer's left-top corner.
+</para>
+            </summary>
+            <value>A PointF2D structure that specifies the position of the scale's center relative to the layer's left-top corner, in fractions.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleBackgroundLayer.Shape">
+            <summary>
+                <para>Specifies the shape of the current object according to the current painting style specified by the <b>ShapeType</b> property.
+</para>
+            </summary>
+            <value>A BaseShape object that represents the current shape.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleBackgroundLayer.ShapeType">
+            <summary>
+                <para>Gets or sets the object's painting style.
+</para>
+            </summary>
+            <value>A BackgroundLayerShapeType value that represents the object's painting style.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleBackgroundLayer.Size">
+            <summary>
+                <para>Gets or sets the size of the layer.
+</para>
+            </summary>
+            <value>A SizeF structure that represents the size of the layer, in relative coordinates.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraGauges.Core.Model.ArcScaleNeedle">
+
+            <summary>
+                <para>Represents the base class for needles within circular gauges.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleNeedle.#ctor(System.String)">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleNeedle class.
+</para>
+            </summary>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleNeedle.#ctor">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleNeedle class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleNeedle.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1,System.String)">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleNeedle class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleNeedle.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1)">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleNeedle class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleNeedle.ArcScale">
+            <summary>
+                <para>Gets or sets the scale object to which the current ArcScaleNeedle object is linked.
+</para>
+            </summary>
+            <value>An IArcScale object that represents the scale to which the current object is linked.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleNeedle.Assign(DevExpress.XtraGauges.Core.Model.ArcScaleNeedle)">
+            <summary>
+                <para>Copies settings of the specified object to the current object.
+</para>
+            </summary>
+            <param name="source">
+		A ArcScaleNeedle object whose settings are copied to the current object.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleNeedle.BeginUpdate">
+            <summary>
+                <para>Prevents the ArcScaleNeedle object from being updated until the <b>EndUpdate</b> or <b>CancelUpdate</b> method is called.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleNeedle.CancelUpdate">
+            <summary>
+                <para>Unlocks the ArcScaleNeedle object after the <b>BeginUpdate</b> method call without an update. 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleNeedle.EndOffset">
+            <summary>
+                <para>Gets or sets the offset of the needle's end point from the scale arc.
+</para>
+            </summary>
+            <value>The offset of the needle's end point from the scale arc, in relative coordinates.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleNeedle.EndUpdate">
+            <summary>
+                <para>Unlocks the ArcScaleNeedle object after the <b>BeginUpdate</b> method call and causes an immediate update.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleNeedle.IsDifferFrom(DevExpress.XtraGauges.Core.Model.ArcScaleNeedle)">
+            <summary>
+                <para>Returns whether the current object has different settings than the specified one.
+</para>
+            </summary>
+            <param name="source">
+		An object to be compared with the current object.
+
+            </param>
+            <returns><b>true</b> if the current object has different settings than the specified one; otherwise, <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleNeedle.Scale">
+            <summary>
+                <para>Gets the scale object to which the current ArcScaleNeedle object is linked.
+</para>
+            </summary>
+            <value>An IScale object that represents the scale to which the current object is linked.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleNeedle.Shape">
+            <summary>
+                <para>Specifies the shape of the current object according to the current painting style specified by the <b>ShapeType</b> property.
+</para>
+            </summary>
+            <value>A BaseShape object that represents the current shape.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleNeedle.ShapeType">
+            <summary>
+                <para>Gets or sets the object's painting style.
+</para>
+            </summary>
+            <value>A NeedleShapeType value that represents the object's painting style.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleNeedle.StartOffset">
+            <summary>
+                <para>Gets or sets the offset of the needle's starting point from the scale center.
+</para>
+            </summary>
+            <value>The offset of the needle's starting point from the scale center, in relative coordinates.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraGauges.Core.Model.ArcScaleMarker">
+
+            <summary>
+                <para>Represents the base class for markers within circular gauges.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleMarker.#ctor(System.String)">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleMarker class.
+</para>
+            </summary>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleMarker.#ctor">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleMarker class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleMarker.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1)">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleMarker class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleMarker.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1,System.String)">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleMarker class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleMarker.ArcScale">
+            <summary>
+                <para>Gets or sets the scale object to which the current ArcScaleMarker object is linked.
+</para>
+            </summary>
+            <value>An IArcScale object that represents the scale to which the current object is linked.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleMarker.Assign(DevExpress.XtraGauges.Core.Model.ArcScaleMarker)">
+            <summary>
+                <para>Copies settings of the specified object to the current object.
+</para>
+            </summary>
+            <param name="source">
+		A ArcScaleMarker object whose settings are copied to the current object.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleMarker.BeginUpdate">
+            <summary>
+                <para>Prevents the ArcScaleMarker object from being updated until the <b>EndUpdate</b> or <b>CancelUpdate</b> method is called.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleMarker.CancelUpdate">
+            <summary>
+                <para>Unlocks the ArcScaleMarker object after the <b>BeginUpdate</b> method call without an update. 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleMarker.EndUpdate">
+            <summary>
+                <para>Unlocks the ArcScaleMarker object after the <b>BeginUpdate</b> method call and causes an immediate update.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleMarker.IsDifferFrom(DevExpress.XtraGauges.Core.Model.ArcScaleMarker)">
+            <summary>
+                <para>Returns whether the current object has different settings than the specified one.
+</para>
+            </summary>
+            <param name="source">
+		An object to be compared with the current object.
+
+            </param>
+            <returns><b>true</b> if the current object has different settings than the specified one; otherwise, <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleMarker.Scale">
+            <summary>
+                <para>Gets the scale object to which the current ArcScaleMarker object is linked.
+</para>
+            </summary>
+            <value>An IScale object that represents the scale to which the current object is linked.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleMarker.Shape">
+            <summary>
+                <para>Specifies the shape of the current object according to the current painting style specified by the <b>ShapeType</b> property.
+</para>
+            </summary>
+            <value>A BaseShape object that represents the current shape.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleMarker.ShapeOffset">
+            <summary>
+                <para>Gets or sets the offset of the marker's center from the scale arc.
+</para>
+            </summary>
+            <value>The offset of the marker's center from the scale arc, in relative coordinates.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleMarker.ShapeScale">
+            <summary>
+                <para>Gets or sets the marker's scale along the X and Y axes.
+</para>
+            </summary>
+            <value>A Factor2D structure that specifies the marker's scale factors along the X and Y axes.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleMarker.ShapeType">
+            <summary>
+                <para>Gets or sets the object's painting style.
+</para>
+            </summary>
+            <value>A MarkerPointerShapeType  value that represents the object's painting style.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraGauges.Core.Model.ArcScaleEffectLayer">
+
+            <summary>
+                <para>Represents the base class for effect layers within circular gauges.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleEffectLayer.#ctor(System.String)">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleEffectLayer class.
+</para>
+            </summary>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleEffectLayer.#ctor">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleEffectLayer class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleEffectLayer.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1,System.String)">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleEffectLayer class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleEffectLayer.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1)">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleEffectLayer class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleEffectLayer.ArcScale">
+            <summary>
+                <para>Gets or sets the scale object to which the current ArcScaleEffectLayer object is linked.
+</para>
+            </summary>
+            <value>An IArcScale object that represents the scale to which the current object is linked.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleEffectLayer.Assign(DevExpress.XtraGauges.Core.Model.ArcScaleEffectLayer)">
+            <summary>
+                <para>Copies settings of the specified object to the current object.
+</para>
+            </summary>
+            <param name="source">
+		A ArcScaleEffectLayer object whose settings are copied to the current object.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleEffectLayer.BeginUpdate">
+            <summary>
+                <para>Prevents the ArcScaleEffectLayer object from being updated until the <b>EndUpdate</b> or <b>CancelUpdate</b> method is called.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleEffectLayer.CancelUpdate">
+            <summary>
+                <para>Unlocks the ArcScaleEffectLayer object after the <b>BeginUpdate</b> method call without an update. 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleEffectLayer.EndUpdate">
+            <summary>
+                <para>Unlocks the ArcScaleEffectLayer object after the <b>BeginUpdate</b> method call and causes an immediate update.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleEffectLayer.IsDifferFrom(DevExpress.XtraGauges.Core.Model.ArcScaleEffectLayer)">
+            <summary>
+                <para>Returns whether the current object has different settings than the specified one.
+</para>
+            </summary>
+            <param name="source">
+		An object to be compared with the current object.
+
+            </param>
+            <returns><b>true</b> if the current object has different settings than the specified one; otherwise, <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleEffectLayer.Scale">
+            <summary>
+                <para>Gets the scale object to which the current ArcScaleEffectLayer object is linked.
+</para>
+            </summary>
+            <value>An IScale object that represents the scale to which the current object is linked.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleEffectLayer.ScaleCenterPos">
+            <summary>
+                <para>Gets or sets the position of the scale's center relative to the layer's left-top corner.
+</para>
+            </summary>
+            <value>A PointF2D structure that specifies the position of the scale's center, relative to the layer's left-top corner, in fractions.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleEffectLayer.Shape">
+            <summary>
+                <para>Specifies the shape of the current object according to the current painting style specified by the <b>ShapeType</b> property.
+</para>
+            </summary>
+            <value>A BaseShape object that represents the current shape.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleEffectLayer.ShapeType">
+            <summary>
+                <para>Gets or sets the object's painting style.
+</para>
+            </summary>
+            <value>An EffectLayerShapeType value that represents the object's painting style.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleEffectLayer.Size">
+            <summary>
+                <para>Gets or sets the size of the layer.
+</para>
+            </summary>
+            <value>A SizeF structure that represents the size of the layer, in relative coordinates.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraGauges.Core.Model.LinearScaleBackgroundLayer">
+
+            <summary>
+                <para>Represents the base class for background layers within linear gauges.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleBackgroundLayer.#ctor(System.String)">
+            <summary>
+                <para>Initializes a new instance of the LinearScaleBackgroundLayer class.
+</para>
+            </summary>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleBackgroundLayer.#ctor">
+            <summary>
+                <para>Initializes a new instance of the LinearScaleBackgroundLayer class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleBackgroundLayer.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1,System.String)">
+            <summary>
+                <para>Initializes a new instance of the LinearScaleBackgroundLayer class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleBackgroundLayer.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1)">
+            <summary>
+                <para>Initializes a new instance of the LinearScaleBackgroundLayer class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleBackgroundLayer.Assign(DevExpress.XtraGauges.Core.Model.LinearScaleBackgroundLayer)">
+            <summary>
+                <para>Copies settings of the specified object to the current object.
+</para>
+            </summary>
+            <param name="source">
+		A LinearScaleBackgroundLayer object whose settings are copied to the current object.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleBackgroundLayer.BeginUpdate">
+            <summary>
+                <para>Prevents the LinearScaleBackgroundLayer object from being updated until the <b>EndUpdate</b> or <b>CancelUpdate</b> method is called.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleBackgroundLayer.CancelUpdate">
+            <summary>
+                <para>Unlocks the LinearScaleBackgroundLayer object after the <b>BeginUpdate</b> method call without an update. 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleBackgroundLayer.EndUpdate">
+            <summary>
+                <para>Unlocks the LinearScaleBackgroundLayer object after the <b>BeginUpdate</b> method call and causes an immediate update.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleBackgroundLayer.IsDifferFrom(DevExpress.XtraGauges.Core.Model.LinearScaleBackgroundLayer)">
+            <summary>
+                <para>Returns whether the current object has different settings than the specified one.
+</para>
+            </summary>
+            <param name="source">
+		An object to be compared with the current object.
+
+            </param>
+            <returns><b>true</b> if the current object has different settings than the specified one; otherwise, <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleBackgroundLayer.LinearScale">
+            <summary>
+                <para>Gets or sets the scale object to which the current LinearScaleBackgroundLayer object is linked.
+</para>
+            </summary>
+            <value>An ILinearScale object that represents the scale to which the current object is linked.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleBackgroundLayer.Scale">
+            <summary>
+                <para>Gets the scale object to which the current LinearScaleBackgroundLayer object is linked.
+</para>
+            </summary>
+            <value>An IScale object that represents the scale to which the current object is linked.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleBackgroundLayer.ScaleEndPos">
+            <summary>
+                <para>Positions the current layer relative to the scale's ending point.
+</para>
+            </summary>
+            <value>A PointF2D structure that specifies the position of the scale's ending point relative to the layer's left-top corner, in fractions.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleBackgroundLayer.ScaleStartPos">
+            <summary>
+                <para>Positions the current layer relative to the scale's starting point.
+</para>
+            </summary>
+            <value>A PointF2D structure that specifies the position of the scale's starting point relative to the layer's left-top corner, in fractions.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleBackgroundLayer.Shape">
+            <summary>
+                <para>Specifies the shape of the current object according to the current painting style specified by the <b>ShapeType</b> property.
+</para>
+            </summary>
+            <value>A BaseShape object that represents the current shape.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleBackgroundLayer.ShapeType">
+            <summary>
+                <para>Gets or sets the object's painting style.
+</para>
+            </summary>
+            <value>A BackgroundLayerShapeType  value that represents the object's painting style.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraGauges.Core.Model.LinearScaleEffectLayer">
+
+            <summary>
+                <para>Represents the base class for effect layers within linear gauges.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleEffectLayer.#ctor(System.String)">
+            <summary>
+                <para>Initializes a new instance of the LinearScaleEffectLayer class.
+</para>
+            </summary>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleEffectLayer.#ctor">
+            <summary>
+                <para>Initializes a new instance of the LinearScaleEffectLayer class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleEffectLayer.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1,System.String)">
+            <summary>
+                <para>Initializes a new instance of the LinearScaleEffectLayer class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleEffectLayer.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1)">
+            <summary>
+                <para>Initializes a new instance of the LinearScaleEffectLayer class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleEffectLayer.Assign(DevExpress.XtraGauges.Core.Model.LinearScaleEffectLayer)">
+            <summary>
+                <para>Copies settings of the specified object to the current object.
+</para>
+            </summary>
+            <param name="source">
+		A LinearScaleEffectLayer object whose settings are copied to the current object.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleEffectLayer.BeginUpdate">
+            <summary>
+                <para>Prevents the LinearScaleEffectLayer object from being updated until the <b>EndUpdate</b> or <b>CancelUpdate</b> method is called.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleEffectLayer.CancelUpdate">
+            <summary>
+                <para>Unlocks the LinearScaleEffectLayer object after the <b>BeginUpdate</b> method call without an update. 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleEffectLayer.EndUpdate">
+            <summary>
+                <para>Unlocks the LinearScaleEffectLayer object after the <b>BeginUpdate</b> method call and causes an immediate update.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleEffectLayer.IsDifferFrom(DevExpress.XtraGauges.Core.Model.LinearScaleEffectLayer)">
+            <summary>
+                <para>Returns whether the current object has different settings than the specified one.
+</para>
+            </summary>
+            <param name="source">
+		An object to be compared with the current object.
+
+            </param>
+            <returns><b>true</b> if the current object has different settings than the specified one; otherwise, <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleEffectLayer.LinearScale">
+            <summary>
+                <para>Gets or sets the scale object to which the current LinearScaleEffectLayer object is linked.
+</para>
+            </summary>
+            <value>An ILinearScale object that represents the scale to which the current object is linked.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleEffectLayer.Scale">
+            <summary>
+                <para>Gets the scale object to which the current LinearScaleEffectLayer object is linked.
+</para>
+            </summary>
+            <value>An IScale object that represents the scale to which the current object is linked.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleEffectLayer.ScaleEndPos">
+            <summary>
+                <para>Positions the current layer relative to the scale's ending point.
+</para>
+            </summary>
+            <value>A PointF2D structure that specifies the position of the scale's ending point relative to the layer's left-top corner, in fractions.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleEffectLayer.ScaleStartPos">
+            <summary>
+                <para>Positions the current layer relative to the scale's starting point.
+</para>
+            </summary>
+            <value>A PointF2D structure that specifies the position of the scale's starting point relative to the layer's left-top corner, in fractions.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleEffectLayer.Shape">
+            <summary>
+                <para>Specifies the shape of the current object according to the current painting style specified by the <b>ShapeType</b> property.
+</para>
+            </summary>
+            <value>A BaseShape object that represents the current shape.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleEffectLayer.ShapeType">
+            <summary>
+                <para>Gets or sets the object's painting style.
+</para>
+            </summary>
+            <value>An  EffectLayerShapeType value that represents the object's painting style.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraGauges.Core.Model.LinearScaleRangeBar">
+
+            <summary>
+                <para>Represents the base class for range bars within linear gauges.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleRangeBar.#ctor(System.String)">
+            <summary>
+                <para>Initializes a new instance of the LinearScaleRangeBar class.
+</para>
+            </summary>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleRangeBar.#ctor">
+            <summary>
+                <para>Initializes a new instance of the LinearScaleRangeBar class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleRangeBar.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1,System.String)">
+            <summary>
+                <para>Initializes a new instance of the LinearScaleRangeBar class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleRangeBar.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1)">
+            <summary>
+                <para>Initializes a new instance of the LinearScaleRangeBar class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleRangeBar.AnchorValue">
+            <summary>
+                <para>Gets or sets the start value of the range.
+</para>
+            </summary>
+            <value>The start value of the range.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleRangeBar.Appearance">
+            <summary>
+                <para>Contains appearance settings used to paint the range bar.
+</para>
+            </summary>
+            <value>A BaseShapeAppearance object that provides corresponding appearance settings.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleRangeBar.Assign(DevExpress.XtraGauges.Core.Model.LinearScaleRangeBar)">
+            <summary>
+                <para>Copies settings of the specified object to the current object.
+</para>
+            </summary>
+            <param name="source">
+		A LinearScaleRangeBar object whose settings are copied to the current object.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleRangeBar.BeginUpdate">
+            <summary>
+                <para>Prevents the LinearScaleRangeBar object from being updated until the <b>EndUpdate</b> or <b>CancelUpdate</b> method is called.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleRangeBar.CancelUpdate">
+            <summary>
+                <para>Unlocks the LinearScaleRangeBar object after the <b>BeginUpdate</b> method call without an update. 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleRangeBar.EndOffset">
+            <summary>
+                <para>Gets or sets the offset of the range bar's right edge from the scale axis.
+</para>
+            </summary>
+            <value>The offset of the range bar's right edge from the scale axis, in relative coordinates.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleRangeBar.EndUpdate">
+            <summary>
+                <para>Unlocks the LinearScaleRangeBar object after the <b>BeginUpdate</b> method call and causes an immediate update.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleRangeBar.IsDifferFrom(DevExpress.XtraGauges.Core.Model.LinearScaleRangeBar)">
+            <summary>
+                <para>Returns whether the current object has different settings than the specified one.
+</para>
+            </summary>
+            <param name="source">
+		An object to be compared with the current object.
+
+            </param>
+            <returns><b>true</b> if the current object has different settings than the specified one; otherwise, <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleRangeBar.LinearScale">
+            <summary>
+                <para>Gets or sets the scale object to which the current LinearScaleRangeBar object is linked.
+</para>
+            </summary>
+            <value>An ILinearScale object that represents the scale to which the current object is linked.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleRangeBar.LockValue(System.Single)">
+            <summary>
+                <para>Sets a custom end value for the range bar.
+</para>
+            </summary>
+            <param name="value">
+		A custom end value for the range bar.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleRangeBar.Scale">
+            <summary>
+                <para>Gets the scale object to which the current LinearScaleRangeBar object is linked.
+</para>
+            </summary>
+            <value>An IScale object that represents the scale to which the current object is linked.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleRangeBar.StartOffset">
+            <summary>
+                <para>Gets or sets the offset of the range bar's left edge from the scale axis.
+</para>
+            </summary>
+            <value>The offset of the range bar's left edge from the scale axis, in relative coordinates.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleRangeBar.UnlockValue">
+            <summary>
+                <para>Clears a custom end value that has been set via the <see cref="M:DevExpress.XtraGauges.Core.Model.LinearScaleRangeBar.LockValue"/> method.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.XtraGauges.Core.Model.LinearScaleMarker">
+
+            <summary>
+                <para>Represents the base class for markers within linear gauges.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleMarker.#ctor(System.String)">
+            <summary>
+                <para>Initializes a new instance of the LinearScaleMarker class.
+</para>
+            </summary>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleMarker.#ctor">
+            <summary>
+                <para>Initializes a new instance of the LinearScaleMarker class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleMarker.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1)">
+            <summary>
+                <para>Initializes a new instance of the LinearScaleMarker class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleMarker.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1,System.String)">
+            <summary>
+                <para>Initializes a new instance of the LinearScaleMarker class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleMarker.Assign(DevExpress.XtraGauges.Core.Model.LinearScaleMarker)">
+            <summary>
+                <para>Copies settings of the specified object to the current object.
+</para>
+            </summary>
+            <param name="source">
+		A LinearScaleMarker object whose settings are copied to the current object.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleMarker.BeginUpdate">
+            <summary>
+                <para>Prevents the LinearScaleMarker object from being updated until the <b>EndUpdate</b> or <b>CancelUpdate</b> method is called.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleMarker.CancelUpdate">
+            <summary>
+                <para>Unlocks the LinearScaleMarker object after the <b>BeginUpdate</b> method call without an update. 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleMarker.EndUpdate">
+            <summary>
+                <para>Unlocks the LinearScaleMarker object after the <b>BeginUpdate</b> method call and causes an immediate update.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleMarker.IsDifferFrom(DevExpress.XtraGauges.Core.Model.LinearScaleMarker)">
+            <summary>
+                <para>Returns whether the current object has different settings than the specified one.
+</para>
+            </summary>
+            <param name="source">
+		An object to be compared with the current object.
+
+            </param>
+            <returns><b>true</b> if the current object has different settings than the specified one; otherwise, <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleMarker.LinearScale">
+            <summary>
+                <para>Gets or sets the scale object to which the current LinearScaleMarker object is linked.
+</para>
+            </summary>
+            <value>An ILinearScale object that represents the scale to which the current object is linked.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleMarker.Scale">
+            <summary>
+                <para>Gets the scale object to which the current LinearScaleMarker object is linked.
+</para>
+            </summary>
+            <value>An IScale object that represents the scale to which the current object is linked.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleMarker.Shape">
+            <summary>
+                <para>Specifies the shape of the current object according to the current painting style specified by the <b>ShapeType</b> property.
+</para>
+            </summary>
+            <value>A BaseShape object that represents the current shape.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleMarker.ShapeOffset">
+            <summary>
+                <para>Gets or sets the offset of the marker's center from the scale axis.
+</para>
+            </summary>
+            <value>The offset of the marker's center from the scale axis, in relative coordinates.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleMarker.ShapeScale">
+            <summary>
+                <para>A Factor2D structure that specifies the marker's scale factors along the X and Y axes.
+</para>
+            </summary>
+            <value>A Factor2D structure that specifies the marker's scale factors along the X and Y axes.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleMarker.ShapeType">
+            <summary>
+                <para>Gets or sets the object's painting style.
+</para>
+            </summary>
+            <value>A MarkerPointerShapeType  value that represents the object's painting style.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraGauges.Core.Model.LinearScaleLevel">
+
+            <summary>
+                <para>Represents the base class for level bars within linear gauges.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleLevel.#ctor(System.String)">
+            <summary>
+                <para>Initializes a new instance of the LinearScaleLevel class.
+</para>
+            </summary>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleLevel.#ctor">
+            <summary>
+                <para>Initializes a new instance of the LinearScaleLevel class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleLevel.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1,System.String)">
+            <summary>
+                <para>Initializes a new instance of the LinearScaleLevel class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleLevel.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1)">
+            <summary>
+                <para>Initializes a new instance of the LinearScaleLevel class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleLevel.Assign(DevExpress.XtraGauges.Core.Model.LinearScaleLevel)">
+            <summary>
+                <para>Copies settings of the specified object to the current object.
+</para>
+            </summary>
+            <param name="source">
+		A LinearScaleLevel object whose settings are copied to the current object.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleLevel.BarEmptyShape">
+            <summary>
+                <para>Gets the shape used to paint the level bar's empty section.
+</para>
+            </summary>
+            <value>A BaseShape object.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleLevel.BarEndShape">
+            <summary>
+                <para>Gets the shape used to paint the level bar's ending section.
+</para>
+            </summary>
+            <value>A BaseShape object.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleLevel.BarPackedShape">
+            <summary>
+                <para>Gets the shape object used to paint the level bar's packed section.
+</para>
+            </summary>
+            <value>A BaseShape object.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleLevel.BarStartShape">
+            <summary>
+                <para>Gets the shape of the level bar's starting section.
+</para>
+            </summary>
+            <value>A BaseShape object.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleLevel.BeginUpdate">
+            <summary>
+                <para>Prevents the LinearScaleLevel object from being updated until the <b>EndUpdate</b> or <b>CancelUpdate</b> method is called.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleLevel.CancelUpdate">
+            <summary>
+                <para>Unlocks the LinearScaleLevel object after the <b>BeginUpdate</b> method call without an update. 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleLevel.EndUpdate">
+            <summary>
+                <para>Unlocks the LinearScaleLevel object after the <b>BeginUpdate</b> method call and causes an immediate update.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScaleLevel.IsDifferFrom(DevExpress.XtraGauges.Core.Model.LinearScaleLevel)">
+            <summary>
+                <para>Returns whether the current object has different settings than the specified one.
+</para>
+            </summary>
+            <param name="source">
+		An object to be compared with the current object.
+
+            </param>
+            <returns><b>true</b> if the current object has different settings than the specified one; otherwise, <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleLevel.LinearScale">
+            <summary>
+                <para>Gets or sets the scale object to which the current LinearScaleLevel object is linked.
+</para>
+            </summary>
+            <value>An ILinearScale object that represents the scale to which the current object is linked.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleLevel.Scale">
+            <summary>
+                <para>Gets the scale object to which the current LinearScaleLevel object is linked.
+</para>
+            </summary>
+            <value>An IScale object that represents the scale to which the current object is linked.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScaleLevel.ShapeType">
+            <summary>
+                <para>Gets or sets the object's painting style.
+</para>
+            </summary>
+            <value>A LevelShapeSetType  value that represents the object's painting style.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraGauges.Core.Model.ArcScale">
+
+            <summary>
+                <para>Represents the base class for scales within circular gauges.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScale.#ctor(System.String)">
+            <summary>
+                <para>Initializes a new instance of the ArcScale class.
+</para>
+            </summary>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScale.#ctor">
+            <summary>
+                <para>Initializes a new instance of the ArcScale class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScale.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1,System.String)">
+            <summary>
+                <para>Initializes a new instance of the ArcScale class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScale.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1)">
+            <summary>
+                <para>Initializes a new instance of the ArcScale class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.Appearance">
+            <summary>
+                <para>Provides access to appearance settings of the scale.
+</para>
+            </summary>
+            <value>A BaseScaleAppearance object that provides corresponding appearance settings.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScale.Assign(DevExpress.XtraGauges.Core.Model.ArcScale)">
+            <summary>
+                <para>Copies settings of the specified object to the current object.
+</para>
+            </summary>
+            <param name="source">
+		An <see cref="T:DevExpress.XtraGauges.Core.Model.ArcScale"/> object whose settings are copied to the current object.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.AutoRescaling">
+            <summary>
+                <para>Gets or sets whether the scale's range of values is automatically expanded when the scale's current Value reaches either the <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.MinValue"/> or <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.MaxValue"/>.
+</para>
+            </summary>
+            <value><b>true</b> if the auto-expanding of the scale's minimum and maximum values is enabled; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScale.BeginUpdate">
+            <summary>
+                <para>Prevents the ArcScale object from being updated until the <b>EndUpdate</b> or <b>CancelUpdate</b> method is called.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScale.CancelUpdate">
+            <summary>
+                <para>Unlocks the ArcScale object after the <b>BeginUpdate</b> method call without an update. 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.Center">
+            <summary>
+                <para>Gets or sets the center of the scale arc.
+</para>
+            </summary>
+            <value>A point that represents the center of the scale arc, in relative coordinates.
+
+</value>
+
+
+        </member>
+        <member name="E:DevExpress.XtraGauges.Core.Model.ArcScale.CustomRescaling">
+            <summary>
+                <para>Allows you to implement a custom algorithm for adjusting the <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.MinValue"/> and <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.MaxValue"/> properties when the <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.AutoRescaling"/> property is set to <b>true</b>.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.XtraGauges.Core.Model.ArcScale.CustomTickmarkText">
+            <summary>
+                <para>Allows you to dynamically customize the text of tickmarks.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.EndAngle">
+            <summary>
+                <para>Gets or sets the angle at which the scale ends.
+</para>
+            </summary>
+            <value>The angle at which the scale ends, in degrees.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScale.EndUpdate">
+            <summary>
+                <para>Unlocks the ArcScale object after the <b>BeginUpdate</b> method call and causes an immediate update.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.XtraGauges.Core.Model.ArcScale.GeometryChanged">
+            <summary>
+                <para>Fires after any of the following properties has changed: <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.Center"/>, <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.RadiusX"/>, <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.RadiusY"/>, <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.StartAngle"/> or <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.EndAngle"/>. 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScale.IsDifferFrom(DevExpress.XtraGauges.Core.Model.ArcScale)">
+            <summary>
+                <para>Returns whether the current object has different settings than the specified one.
+</para>
+            </summary>
+            <param name="source">
+		An object to be compared with the current object.
+
+            </param>
+            <returns><b>true</b> if the current object has different settings than the specified one; otherwise, <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.IsDiscrete">
+            <summary>
+                <para>This property is reserved for future use.
+</para>
+            </summary>
+            <value>A Boolean value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.IsEmpty">
+            <summary>
+                <para>Gets whether the current object is identical to the some predefined empty ArcScale object.
+</para>
+            </summary>
+            <value><b>true</b> if the current object is identical to the some predefined empty ArcScale object.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.IsLogarithmic">
+            <summary>
+                <para>This property is reserved for future use.
+</para>
+            </summary>
+            <value>A Boolean value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.Labels">
+            <summary>
+                <para>Provides access to the collection of text labels displayed on the same layer as the current scale.
+
+</para>
+            </summary>
+            <value>A LabelCollection collection that contains text labels.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.MajorTickCount">
+            <summary>
+                <para>Gets or sets the number of major tick marks on the scale.
+</para>
+            </summary>
+            <value>An integer value that represents the number of major tick marks.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.MajorTickmark">
+            <summary>
+                <para>Provides access to major tick marks' display options.
+</para>
+            </summary>
+            <value>An object implementing the <see cref="T:DevExpress.XtraGauges.Core.Model.IMajorTickmark"/> interface that provides settings controlling the display of major tick marks.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.MaxValue">
+            <summary>
+                <para>Gets or sets the ending value of the scale.
+</para>
+            </summary>
+            <value>The scale's ending value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.MinorTickCount">
+            <summary>
+                <para>Gets or sets the number of minor tick marks on the scale between adjacent major tick marks.
+</para>
+            </summary>
+            <value>An integer value that represents the number of minor tick marks between adjacent major tick marks.
+
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.MinorTickmark">
+            <summary>
+                <para>Provides access to minor tick marks' display options.
+</para>
+            </summary>
+            <value>An object implementing the <see cref="T:DevExpress.XtraGauges.Core.Model.IMinorTickmark"/> interface that provides settings controlling the display of minor tick marks.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.MinValue">
+            <summary>
+                <para>Gets or sets the starting value of the scale.
+</para>
+            </summary>
+            <value>The scale's starting value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.NeedleVector">
+            <summary>
+                <para>Identifies the current direction of a vector pointing to the current value.
+</para>
+            </summary>
+            <value>A PointF structure specifying the vector pointing to the current value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.Percent">
+            <summary>
+                <para>Gets the percent of the current value, in relation to the scale's minimum and maximum values.
+</para>
+            </summary>
+            <value>The percent of the current value in relation to the scale's minimum and maximum values.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScale.PercentToPoint(System.Single)">
+            <summary>
+                <para>Converts the specified percent value to the corresponding point along the scale.
+</para>
+            </summary>
+            <param name="percent">
+		The percent value to be converted to a point along the scale. The percent value of 0 corresponds to the point on the scale at the angle specified by the <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.StartAngle"/>. The percent value of 100 corresponds to the point on the scale at the angle specified by the <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.EndAngle"/>.
+
+            </param>
+            <returns>A point along the scale between the <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.StartAngle"/> and <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.EndAngle"/>, in relative coordinates.
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScale.PercentToValue(System.Single)">
+            <summary>
+                <para>Converts the specified percent to a value.
+</para>
+            </summary>
+            <param name="percent">
+		The percent to be converted to a value.
+
+            </param>
+            <returns>The value corresponding to the specified percent.
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScale.PointToPercent(System.Drawing.PointF)">
+            <summary>
+                <para>Converts a point to a percent value.
+</para>
+            </summary>
+            <param name="point">
+		A point, in relative coordinates.
+
+            </param>
+            <returns>The percent value of the specified point. If the point belongs to the radius specified by the <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.StartAngle"/>, the percent value of 0 is returned. If the point belongs to the radius specified by the <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.EndAngle"/>, the percent value of 100 is returned.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.RadiusX">
+            <summary>
+                <para>Gets or sets the X radius of the scale arc.
+</para>
+            </summary>
+            <value>The X radius of the scale arc, in relative coordinates.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.RadiusY">
+            <summary>
+                <para>Gets or sets the Y radius of the scale arc.
+</para>
+            </summary>
+            <value>The Y radius of the scale arc, in relative coordinates.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.Ranges">
+            <summary>
+                <para>Provides access to the collection of custom ranges with which you can mark specific value ranges along the scale.
+
+</para>
+            </summary>
+            <value>A <b>RangeCollection</b> object that represents a collection of ranges.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.RescalingBestValues">
+            <summary>
+                <para>Enables an algorithm for smart adjustment of the <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.MinValue"/> and <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.MaxValue"/> properties when the <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.AutoRescaling"/> property is set to <b>true</b>.
+</para>
+            </summary>
+            <value><b>true</b> if the algorithm for the smart adjustment of the <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.MinValue"/> and <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.MaxValue"/> properties is enabled; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.RescalingThresholdMax">
+            <summary>
+                <para>Specifies the threshold, in percents,  where the automatic correction of the <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.MaxValue"/> takes place. This property is in effect if the <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.AutoRescaling"/> property is set to <b>true</b>.
+</para>
+            </summary>
+            <value>The threshold, in percents, where the automatic correction of the <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.MaxValue"/> takes place.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.RescalingThresholdMin">
+            <summary>
+                <para>Specifies the threshold, in percents, where the automatic correction of the <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.MinValue"/> takes place. This property is in effect if the <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.AutoRescaling"/> property is set to <b>true</b>.
+</para>
+            </summary>
+            <value>The threshold, in percents, where the automatic correction of the <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.MinValue"/> takes place.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.ScaleLength">
+            <summary>
+                <para>Gets the length of the scale.
+</para>
+            </summary>
+            <value>The scale's length.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.StartAngle">
+            <summary>
+                <para>Gets or sets the angle at which the scale starts.
+</para>
+            </summary>
+            <value>The angle at which the scale starts, in degrees.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.TickCount">
+            <summary>
+                <para>Gets the total number of major and minor tick marks on the scale.
+</para>
+            </summary>
+            <value>An integer value that specifies the total number of major and minor tick marks on the scale.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScale.Value">
+            <summary>
+                <para>Gets or sets the scale's current value, between the <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.MinValue"/> and <see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.MaxValue"/>.
+</para>
+            </summary>
+            <value>The scale's current value.
+</value>
+
+
+        </member>
+        <member name="E:DevExpress.XtraGauges.Core.Model.ArcScale.ValueChanged">
+            <summary>
+                <para>Fires after the scale's current value (<see cref="P:DevExpress.XtraGauges.Core.Model.ArcScale.Value"/>) has been changed.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScale.ValueToPercent(System.Single)">
+            <summary>
+                <para>Returns the percent of the specified value in relation to the scale's minimum and maximum values.
+</para>
+            </summary>
+            <param name="value">
+		The value whose percent is to be returned.
+
+            </param>
+            <returns>The percent of the specified value in relation to the scale's minimum and maximum values.
+</returns>
+
+
+        </member>
+        <member name="T:DevExpress.XtraGauges.Core.Model.LinearScale">
+
+            <summary>
+                <para>Represents the base class for scales in linear gauges.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScale.#ctor">
+            <summary>
+                <para>Initializes a new instance of the LinearScale class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScale.#ctor(System.String)">
+            <summary>
+                <para>Initializes a new instance of the LinearScale class.
+</para>
+            </summary>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScale.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1,System.String)">
+            <summary>
+                <para>Initializes a new instance of the LinearScale class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScale.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1)">
+            <summary>
+                <para>Initializes a new instance of the LinearScale class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScale.Appearance">
+            <summary>
+                <para>Provides access to appearance settings of the scale.
+</para>
+            </summary>
+            <value>A BaseScaleAppearance object that provides corresponding appearance settings.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScale.Assign(DevExpress.XtraGauges.Core.Model.LinearScale)">
+            <summary>
+                <para>Copies settings of the specified object to the current object.
+
+</para>
+            </summary>
+            <param name="source">
+		A <see cref="T:DevExpress.XtraGauges.Core.Model.LinearScale"/> object whose settings are copied to the current object.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScale.AutoRescaling">
+            <summary>
+                <para>Gets or sets whether the scale's range of values is automatically expanded when the scale's current Value reaches either the <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.MinValue"/> or <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.MaxValue"/>.
+</para>
+            </summary>
+            <value><b>true</b> if the auto-expanding of the scale's minimum and maximum values is enabled; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScale.BeginUpdate">
+            <summary>
+                <para>Prevents the LinearScale object from being updated until the <b>EndUpdate</b> or <b>CancelUpdate</b> method is called.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScale.CancelUpdate">
+            <summary>
+                <para>Unlocks the LinearScale object after the <b>BeginUpdate</b> method call without an update. 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.XtraGauges.Core.Model.LinearScale.CustomRescaling">
+            <summary>
+                <para>Allows you to implement a custom algorithm for adjusting the <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.MinValue"/> and <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.MaxValue"/> properties when the <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.AutoRescaling"/> property is set to <b>true</b>.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.XtraGauges.Core.Model.LinearScale.CustomTickmarkText">
+            <summary>
+                <para>Allows you to dynamically customize the text of tickmarks.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScale.EndPoint">
+            <summary>
+                <para>Gets or sets the ending point of the scale.
+</para>
+            </summary>
+            <value>An integer value that specifies the ending point of the scale, in relative coordinates.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScale.EndUpdate">
+            <summary>
+                <para>Unlocks the LinearScale object after the <b>BeginUpdate</b> method call and causes an immediate update.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.XtraGauges.Core.Model.LinearScale.GeometryChanged">
+            <summary>
+                <para>Fires after any of the following properties has changed: <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.StartPoint"/> or <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.EndPoint"/>. 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScale.IsDifferFrom(DevExpress.XtraGauges.Core.Model.LinearScale)">
+            <summary>
+                <para>Returns whether the current object has different settings than the specified one.
+</para>
+            </summary>
+            <param name="source">
+		An object to be compared with the current object.
+
+            </param>
+            <returns><b>true</b> if the current object has different settings than the specified one; otherwise, <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScale.IsDiscrete">
+            <summary>
+                <para>This property is reserved for future use.
+</para>
+            </summary>
+            <value>A Boolean value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScale.IsEmpty">
+            <summary>
+                <para>Gets whether the current object is identical to the some predefined empty LinearScale object.
+</para>
+            </summary>
+            <value><b>true</b> if the current object is identical to the some predefined empty LinearScale object.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScale.IsLogarithmic">
+            <summary>
+                <para>This property is reserved for future use.
+</para>
+            </summary>
+            <value>A Boolean value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScale.Labels">
+            <summary>
+                <para>Provides access to the collection of text labels displayed on the same layer as the current scale.
+
+</para>
+            </summary>
+            <value>A LabelCollection collection that contains text labels.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScale.MajorTickCount">
+            <summary>
+                <para>Gets or sets the number of major tick marks on the scale.
+</para>
+            </summary>
+            <value>An integer value that represents the number of major tick marks.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScale.MajorTickmark">
+            <summary>
+                <para>Provides access to major tick marks' display options.
+</para>
+            </summary>
+            <value>An object implementing the <see cref="T:DevExpress.XtraGauges.Core.Model.IMajorTickmark"/> interface that provides settings controlling the display of major tick marks.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScale.MaxValue">
+            <summary>
+                <para>Gets or sets the scale's maximum value.
+</para>
+            </summary>
+            <value>The scale's maximum value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScale.MinorTickCount">
+            <summary>
+                <para>Gets or sets the number of minor tick marks on the scale between adjacent major tick marks.
+</para>
+            </summary>
+            <value>An integer value that represents the number of minor tick marks between adjacent major tick marks.
+
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScale.MinorTickmark">
+            <summary>
+                <para>Provides access to minor tick marks' display options.
+</para>
+            </summary>
+            <value>An object implementing the <see cref="T:DevExpress.XtraGauges.Core.Model.IMinorTickmark"/> interface that provides settings controlling the display of minor tick marks.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScale.MinValue">
+            <summary>
+                <para>Gets or sets the scale's miniumum value.
+</para>
+            </summary>
+            <value>The scale's minimum value.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScale.Percent">
+            <summary>
+                <para>Gets the percent of the current value, in relation to the scale's minimum and maximum values.
+</para>
+            </summary>
+            <value>The percent of the current value in relation to the scale's minimum and maximum values.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScale.PercentToPoint(System.Single)">
+            <summary>
+                <para>Converts the specified percent value to the corresponding point along the scale, between the <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.StartPoint"/> and <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.EndPoint"/>.
+</para>
+            </summary>
+            <param name="percent">
+		The percent value to be converted to a point along the scale.
+
+            </param>
+            <returns>A point along the scale between the <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.StartPoint"/> and <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.EndPoint"/>, in relative coordinates.
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScale.PercentToValue(System.Single)">
+            <summary>
+                <para>Converts the specified percent to a value.
+</para>
+            </summary>
+            <param name="percent">
+		The percent to be converted to a value.
+
+            </param>
+            <returns>The value corresponding to the specified percent.
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScale.PointToPercent(System.Drawing.PointF)">
+            <summary>
+                <para>Converts the specified point along the scale to the corresponding percent value in relation to the <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.StartPoint"/> and <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.EndPoint"/>.
+
+</para>
+            </summary>
+            <param name="point">
+		A point along the scale between the <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.StartPoint"/> and <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.EndPoint"/>, in relative coordinates.
+
+            </param>
+            <returns>The percent value of the specified point in relation to the <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.StartPoint"/> and <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.EndPoint"/>.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScale.Ranges">
+            <summary>
+                <para>Provides access to the collection of custom ranges with which you can mark specific value ranges along the scale.
+
+</para>
+            </summary>
+            <value>A <b>RangeCollection</b> object that represents a collection of ranges.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScale.RescalingBestValues">
+            <summary>
+                <para>Enables an algorithm for smart adjustment of the <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.MinValue"/> and <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.MaxValue"/> properties when the <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.AutoRescaling"/> property is set to <b>true</b>.
+</para>
+            </summary>
+            <value><b>true</b> if the algorithm for the smart adjustment of the <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.MinValue"/> and <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.MaxValue"/> properties is enabled; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScale.RescalingThresholdMax">
+            <summary>
+                <para>Specifies the threshold, in percents,  where the automatic correction of the <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.MaxValue"/> takes place. This property is in effect if the <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.AutoRescaling"/> property is set to <b>true</b>.
+</para>
+            </summary>
+            <value>The threshold, in percents, where the automatic correction of the <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.MaxValue"/> takes place.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScale.RescalingThresholdMin">
+            <summary>
+                <para>Specifies the threshold, in percents,  where the automatic correction of the <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.MinValue"/> takes place. This property is in effect if the <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.AutoRescaling"/> property is set to <b>true</b>.
+</para>
+            </summary>
+            <value>The threshold, in percents, where the automatic correction of the <see cref="P:DevExpress.XtraGauges.Core.Model.LinearScale.MinValue"/> takes place.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScale.ScaleLength">
+            <summary>
+                <para>Gets the length of the scale, determined by its minimum and maximum value.
+</para>
+            </summary>
+            <value>The length of the scale.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScale.StartPoint">
+            <summary>
+                <para>Gets or sets the starting point of the scale.
+</para>
+            </summary>
+            <value>An integer value that specifies the starting point of the scale, in relative coordinates.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScale.TickCount">
+            <summary>
+                <para>Gets the total number of major and minor tick marks on the scale.
+</para>
+            </summary>
+            <value>An integer value that specifies the total number of major and minor tick marks on the scale.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.LinearScale.Value">
+            <summary>
+                <para>Gets or sets the scale's current value.
+</para>
+            </summary>
+            <value>The scale's current value.
+</value>
+
+
+        </member>
+        <member name="E:DevExpress.XtraGauges.Core.Model.LinearScale.ValueChanged">
+            <summary>
+                <para>Fires after the scale's current value has been changed.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.LinearScale.ValueToPercent(System.Single)">
+            <summary>
+                <para>Returns the percent of the specified value in relation to the scale's minimum and maximum values.
+</para>
+            </summary>
+            <param name="value">
+		The value whose percent is to be returned.
+
+            </param>
+            <returns>The percent of the specified value in relation to the scale's minimum and maximum values.
+</returns>
+
+
+        </member>
+        <member name="T:DevExpress.XtraGauges.Core.Model.BaseGauge">
+
+            <summary>
+                <para>Represents the base class for gauges.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.BaseGauge.#ctor(DevExpress.XtraGauges.Base.IGaugeContainer)">
+            <summary>
+                <para>Initializes a new instance of the BaseGauge class with the specified container.
+</para>
+            </summary>
+            <param name="container">
+		A container that will own the created gauge.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.BaseGauge.#ctor">
+            <summary>
+                <para>Initializes a new instance of the BaseGauge class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.BaseGauge.BeginUpdate">
+            <summary>
+                <para>Prevents the BaseGauge object from being updated, until the <b>EndUpdate</b> or <b>CancelUpdate</b> method is called.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.BaseGauge.Bounds">
+            <summary>
+                <para>Gets or sets the gauge's bounds.
+</para>
+            </summary>
+            <value>A Rectangle that specifies the gauge's bounds.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.BaseGauge.CancelUpdate">
+            <summary>
+                <para>Unlocks the object after it has been locked by a call to the <b>BeginUpdate</b> method, without causing an immediate update.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="E:DevExpress.XtraGauges.Core.Model.BaseGauge.Changed">
+            <summary>
+                <para>Fires when the object's properties are changed.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.BaseGauge.EndUpdate">
+            <summary>
+                <para>Unlocks the current object after a call has been made to the <b>BeginUpdate</b> method, and causes an immediate update.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.BaseGauge.IsDisposing">
+            <summary>
+                <para>Gets whether the object is being disposed of.
+</para>
+            </summary>
+            <value><b>true</b> if the object is being disposed of; otherwise, <b>false</b>
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.BaseGauge.MinimumSize">
+            <summary>
+                <para>Gets the gauge's minimum size.
+</para>
+            </summary>
+            <value>The gauge's minimum size.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.BaseGauge.Model">
+            <summary>
+                <para>This member supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <value>@nbsp;
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.BaseGauge.Name">
+            <summary>
+                <para>Gets or sets the gauge's name.
+</para>
+            </summary>
+            <value>A string that specifies the gauge's name.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.BaseGauge.ParentCollectionName">
+            <summary>
+                <para>This member supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <value>@nbsp;
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.BaseGauge.ParentName">
+            <summary>
+                <para>This member supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <value>@nbsp;
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.BaseGauge.ProportionalStretch">
+            <summary>
+                <para>Gets or sets whether the gauge is proportionally zoomed when resizing.
+
+</para>
+            </summary>
+            <value><b>true</b> if the gauge is proportionally zoomed when resizing; otherwise, <b>false</b>
+
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.BaseGauge.TypeNameEx">
+            <summary>
+                <para>Gets the type name of the current object.
+</para>
+            </summary>
+            <value>A string that specifies the type name of the current object.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraGauges.Core.Model.DigitalGaugeDisplayMode">
+
+            <summary>
+                <para>Contains values that specify how text is digital gauges is rendered.
+</para>
+            </summary>
+
+        </member>
+        <member name="F:DevExpress.XtraGauges.Core.Model.DigitalGaugeDisplayMode.FourteenSegment">
+            <summary>
+                <para>Symbols are represented using the 14-segment style.
+
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraGauges.Core.Model.DigitalGaugeDisplayMode.Matrix5x8">
+            <summary>
+                <para>Symbols are represented using the 5x8 matrix.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraGauges.Core.Model.DigitalGaugeDisplayMode.Matrix8x14">
+            <summary>
+                <para>Symbols are represented using the 8x14 matrix.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="F:DevExpress.XtraGauges.Core.Model.DigitalGaugeDisplayMode.SevenSegment">
+            <summary>
+                <para>Symbols are represented using the 7-segment style.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="T:DevExpress.XtraGauges.Core.Model.Label">
+
+            <summary>
+                <para>Represents the base class for labels in gauges.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.Label.#ctor">
+            <summary>
+                <para>Initializes a new instance of the Label class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.Label.#ctor(System.String)">
+            <summary>
+                <para>Initializes a new Label object with the specified name.
+</para>
+            </summary>
+            <param name="name">
+		A string that specifies the label's name. This value is assigned to the <b>Name</b> property.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.Label.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1,System.String)">
+            <summary>
+                <para>Initializes a new instance of the Label class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.Label.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1)">
+            <summary>
+                <para>Initializes a new instance of the Label class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.Label.AllowHTMLString">
+            <summary>
+                <para>Gets or sets whether HTML tags can be used to format the <see cref="P:DevExpress.XtraGauges.Core.Model.Label.Text"/>.
+</para>
+            </summary>
+            <value><b>true</b> if HTML formatting is supported for the label's text; otherwise, <b>false</b>.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.Label.AppearanceBackground">
+            <summary>
+                <para>Contains appearance settings used to paint the label's background.
+</para>
+            </summary>
+            <value>A BaseShapeAppearance object that provides corresponding appearance settings.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.Label.AppearanceText">
+            <summary>
+                <para>Contains appearance settings used to paint the label's text.
+</para>
+            </summary>
+            <value>A BaseTextAppearance object that provides corresponding appearance settings.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.Label.Assign(DevExpress.XtraGauges.Core.Model.Label)">
+            <summary>
+                <para>Copies settings from the specified object to the current object.
+</para>
+            </summary>
+            <param name="source">
+		A Label object whose settings are copied to the current object.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.Label.Assign(DevExpress.XtraGauges.Core.Model.ILabel)">
+            <summary>
+                <para>Copies settings from the specified object to the current object.
+</para>
+            </summary>
+            <param name="source">
+		An <b>ILabel</b> object whose settings are copied to the current object.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.Label.BeginUpdate">
+            <summary>
+                <para>Prevents the Label object from being updated until the <b>EndUpdate</b> or <b>CancelUpdate</b> method is called.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.Label.CancelUpdate">
+            <summary>
+                <para>Unlocks the Label object after the <b>BeginUpdate</b> method call without an update. 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.Label.EndUpdate">
+            <summary>
+                <para>Unlocks the Label object after the <b>BeginUpdate</b> method call and causes an immediate update.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.Label.FormatString">
+            <summary>
+                <para>Gets or sets the format string for the display text.
+</para>
+            </summary>
+            <value>A format string.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.Label.IsDifferFrom(DevExpress.XtraGauges.Core.Model.ILabel)">
+            <summary>
+                <para>Returns whether the current object has different settings than the specified one.
+</para>
+            </summary>
+            <param name="source">
+		An object to be compared with the current object.
+
+            </param>
+            <returns><b>true</b> if the current object has different settings than the specified one; otherwise, <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.Label.IsDifferFrom(DevExpress.XtraGauges.Core.Model.Label)">
+            <summary>
+                <para>Returns whether the current object has different settings than the specified one.
+</para>
+            </summary>
+            <param name="source">
+		An object to be compared with the current object.
+
+            </param>
+            <returns><b>true</b> if the current object has different settings than the specified one; otherwise, <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.Label.Name">
+            <summary>
+                <para>Gets or sets the label's name.
+</para>
+            </summary>
+            <value>A string that specifies the label's name.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.Label.Position">
+            <summary>
+                <para>Gets or sets the position of the label's center within the parent gauge.
+</para>
+            </summary>
+            <value>A PointF2D structure that represents the position of the label's center within the parent gauge, in relative coordinates.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.Label.Size">
+            <summary>
+                <para>Gets or sets the label's size.
+</para>
+            </summary>
+            <value>A SizeF structure that represents the label's size, in relative coordinates.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.Label.Text">
+            <summary>
+                <para>Gets or sets the label's text.
+</para>
+            </summary>
+            <value>A string that specifies the label's text.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.Label.TextOrientation">
+            <summary>
+                <para>Gets or sets the orientation of the label's text.
+</para>
+            </summary>
+            <value>A <b>LabelOrientation</b> value that specifies the orientation of the label's text.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.Label.TextShape">
+            <summary>
+                <para>Gets the label's shape. This method supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <value>A TextShape object.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraGauges.Core.Model.ArcScaleSpindleCap">
+
+            <summary>
+                <para>Represents the base class for spindle caps within circular gauges.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleSpindleCap.#ctor(System.String)">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleSpindleCap class.
+</para>
+            </summary>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleSpindleCap.#ctor">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleSpindleCap class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleSpindleCap.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1,System.String)">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleSpindleCap class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleSpindleCap.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1)">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleSpindleCap class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleSpindleCap.ArcScale">
+            <summary>
+                <para>Gets or sets the scale object to which the current ArcScaleSpindleCap object is linked.
+</para>
+            </summary>
+            <value>An IArcScale object that represents the scale to which the current object is linked.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleSpindleCap.Assign(DevExpress.XtraGauges.Core.Model.ArcScaleSpindleCap)">
+            <summary>
+                <para>Copies settings of the specified object to the current object.
+</para>
+            </summary>
+            <param name="source">
+		A ArcScaleSpindleCap object whose settings are copied to the current object.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleSpindleCap.BeginUpdate">
+            <summary>
+                <para>Prevents the ArcScaleSpindleCap object from being updated until the <b>EndUpdate</b> or <b>CancelUpdate</b> method is called.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleSpindleCap.CancelUpdate">
+            <summary>
+                <para>Unlocks the ArcScaleSpindleCap object after the <b>BeginUpdate</b> method call without an update. 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleSpindleCap.EndUpdate">
+            <summary>
+                <para>Unlocks the ArcScaleSpindleCap object after the <b>BeginUpdate</b> method call and causes an immediate update.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleSpindleCap.IsDifferFrom(DevExpress.XtraGauges.Core.Model.ArcScaleSpindleCap)">
+            <summary>
+                <para>Returns whether the current object has different settings than the specified one.
+</para>
+            </summary>
+            <param name="source">
+		An object to be compared with the current object.
+
+            </param>
+            <returns><b>true</b> if the current object has different settings than the specified one; otherwise, <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleSpindleCap.Scale">
+            <summary>
+                <para>Gets the scale object to which the current ArcScaleSpindleCap object is linked.
+</para>
+            </summary>
+            <value>An IScale object that represents the scale to which the current object is linked.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleSpindleCap.Shape">
+            <summary>
+                <para>Specifies the shape of the current object according to the current painting style specified by the <b>ShapeType</b> property.
+</para>
+            </summary>
+            <value>A BaseShape object that represents the current shape.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleSpindleCap.ShapeType">
+            <summary>
+                <para>Gets or sets the object's painting style.
+</para>
+            </summary>
+            <value>A SpindleCapShapeType value that represents the object's painting style.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleSpindleCap.Size">
+            <summary>
+                <para>Gets or sets the size of the layer.
+</para>
+            </summary>
+            <value>A SizeF structure that represents the size of the spindle cap, in relative coordinates.
+</value>
+
+
+        </member>
+        <member name="T:DevExpress.XtraGauges.Core.Model.ArcScaleRangeBar">
+
+            <summary>
+                <para>Represents the base class for range bars within circular gauges.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleRangeBar.#ctor(System.String)">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleRangeBar class.
+</para>
+            </summary>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleRangeBar.#ctor">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleRangeBar class.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleRangeBar.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1,System.String)">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleRangeBar class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+            <param name="name">
+		A string that specifies the name of the created component.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleRangeBar.#ctor(DevExpress.XtraGauges.Core.Base.BaseLeaf`1)">
+            <summary>
+                <para>Initializes a new instance of the ArcScaleRangeBar class. This constructor supports the internal infrastructure and is not intended to be used directly from your code.
+</para>
+            </summary>
+            <param name="element">
+		A BaseLeaf object.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleRangeBar.AnchorValue">
+            <summary>
+                <para>Gets or sets the start value of the range.
+</para>
+            </summary>
+            <value>The start value of the range.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleRangeBar.Appearance">
+            <summary>
+                <para>Contains appearance settings used to paint the range bar.
+</para>
+            </summary>
+            <value>A BaseShapeAppearance object that provides corresponding appearance settings.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleRangeBar.ArcScale">
+            <summary>
+                <para>Gets or sets the scale object to which the current ArcScaleRangeBar object is linked.
+</para>
+            </summary>
+            <value>An IArcScale object that represents the scale to which the current object is linked.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleRangeBar.Assign(DevExpress.XtraGauges.Core.Model.ArcScaleRangeBar)">
+            <summary>
+                <para>Copies settings of the specified object to the current object.
+</para>
+            </summary>
+            <param name="source">
+		A ArcScaleRangeBar object whose settings are copied to the current object.
+
+            </param>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleRangeBar.BeginUpdate">
+            <summary>
+                <para>Prevents the ArcScaleRangeBar object from being updated until the <b>EndUpdate</b> or <b>CancelUpdate</b> method is called.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleRangeBar.CancelUpdate">
+            <summary>
+                <para>Unlocks the ArcScaleRangeBar object after the <b>BeginUpdate</b> method call without an update. 
+</para>
+            </summary>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleRangeBar.EndOffset">
+            <summary>
+                <para>Gets or sets the offset of the range bar's most distant arc from the scale arc.
+
+</para>
+            </summary>
+            <value>The offset of the range bar's most distant arc from the scale arc, in relative coordinates.
+
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleRangeBar.EndUpdate">
+            <summary>
+                <para>Unlocks the ArcScaleRangeBar object after the <b>BeginUpdate</b> method call and causes an immediate update.
+</para>
+            </summary>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleRangeBar.IsDifferFrom(DevExpress.XtraGauges.Core.Model.ArcScaleRangeBar)">
+            <summary>
+                <para>Returns whether the current object has different settings than the specified one.
+</para>
+            </summary>
+            <param name="source">
+		An object to be compared with the current object.
+
+            </param>
+            <returns><b>true</b> if the current object has different settings than the specified one; otherwise, <b>false</b>.
+</returns>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleRangeBar.LockValue(System.Single)">
+            <summary>
+                <para>Sets a custom end value for the range bar.
+</para>
+            </summary>
+            <param name="value">
+		A custom end value for the range bar.
+
+            </param>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleRangeBar.Scale">
+            <summary>
+                <para>Gets the scale object to which the current ArcScaleRangeBar object is linked.
+</para>
+            </summary>
+            <value>An IScale object that represents the scale to which the current object is linked.
+</value>
+
+
+        </member>
+        <member name="P:DevExpress.XtraGauges.Core.Model.ArcScaleRangeBar.StartOffset">
+            <summary>
+                <para>Gets or sets the offset of the range bar's nearest arc from the scale center.
+</para>
+            </summary>
+            <value>The offset of the range bar's nearest arc from the scale center, in relative coordinates.
+</value>
+
+
+        </member>
+        <member name="M:DevExpress.XtraGauges.Core.Model.ArcScaleRangeBar.UnlockValue">
+            <summary>
+                <para>Clears a custom ending value that has been set via the <see cref="M:DevExpress.XtraGauges.Core.Model.ArcScaleRangeBar.LockValue"/> method.
+</para>
+            </summary>
+
+
+        </member>
+    </members>
+</doc>

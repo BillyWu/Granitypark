@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Granitypark/!svn/ver/1/CardOneCommi/bin/Release
+END
+ComLib.dll
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Granitypark/!svn/ver/1/CardOneCommi/bin/Release/ComLib.dll
+END
+Granity.CardOneCommi.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Granitypark/!svn/ver/1/CardOneCommi/bin/Release/Granity.CardOneCommi.pdb
+END
+Estar.DataAccess.OleDbDataAccess.dll
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Granitypark/!svn/ver/1/CardOneCommi/bin/Release/Estar.DataAccess.OleDbDataAccess.dll
+END
+Estar.Business.DataManager.dll
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Granitypark/!svn/ver/1/CardOneCommi/bin/Release/Estar.Business.DataManager.dll
+END
+Estar.DataAccess.OdpNetDataAccess.dll
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Granitypark/!svn/ver/1/CardOneCommi/bin/Release/Estar.DataAccess.OdpNetDataAccess.dll
+END
+Granity.CardOneCommi.dll
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Granitypark/!svn/ver/1/CardOneCommi/bin/Release/Granity.CardOneCommi.dll
+END
+Granity.communications.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Granitypark/!svn/ver/1/CardOneCommi/bin/Release/Granity.communications.pdb
+END
+ComLib.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Granitypark/!svn/ver/1/CardOneCommi/bin/Release/ComLib.pdb
+END
+Microsoft.ApplicationBlocks.ExceptionManagement.dll
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Granitypark/!svn/ver/1/CardOneCommi/bin/Release/Microsoft.ApplicationBlocks.ExceptionManagement.dll
+END
+Oracle.DataAccess.dll
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Granitypark/!svn/ver/1/CardOneCommi/bin/Release/Oracle.DataAccess.dll
+END
+Microsoft.ApplicationBlocks.ExceptionManagement.Interfaces.dll
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Granitypark/!svn/ver/1/CardOneCommi/bin/Release/Microsoft.ApplicationBlocks.ExceptionManagement.Interfaces.dll
+END
+Estar.DataAccess.DataAccessInterface.dll
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Granitypark/!svn/ver/1/CardOneCommi/bin/Release/Estar.DataAccess.DataAccessInterface.dll
+END
+Estar.Common.Tools.dll
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Granitypark/!svn/ver/1/CardOneCommi/bin/Release/Estar.Common.Tools.dll
+END
+Granity.communications.dll
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Granitypark/!svn/ver/1/CardOneCommi/bin/Release/Granity.communications.dll
+END

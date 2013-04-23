@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<configSections>
+		<section name="CustomSection" type="Estar.Common.Tools.DataConnSection,Estar.Common.Tools" />
+	</configSections>
+	<CustomSection>
+		<DataSource>
+			<add name="default" type="SqlClient" value="server=192.168.1.104,1433\sqlexpress;user id=sa;password=123;database=jdf12;Min Pool Size=10;Connection Lifetime=240;Connection Timeout=120;" />
+		</DataSource>
+	</CustomSection>
+	<appSettings>
+		<add key="SystemDB" value="SmartCardsys" />
+		<add key="WorkConfig" value="resources" />
+		<add key="SystemConfig" value="系统数据源" />
+		<add key="Granity文件服务" value="2010"/>
+	</appSettings>
+</configuration>
