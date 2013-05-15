@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/CardOneCommi/obj/Debug
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/CardOneCommi/obj/Debug
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -62,14 +62,14 @@ has-props
 
 Granity.CardOneCommi.pdb
 file
-3
+4
 
 
 
-2013-04-19T01:41:10.625000Z
-d7c81e6d8fac2f623d73acc510f11fda
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T07:49:42.000000Z
+680461cc6bb72240c6de529300f1521e
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -92,18 +92,18 @@ has-props
 
 
 
-87552
+79360
 
 ResolveAssemblyReference.cache
 file
-3
+4
 
 
 
-2013-04-19T01:41:10.531250Z
-c5b619a1062fef9307bcc192a9370de1
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T07:49:41.875000Z
+a2b81a332b6399cc4ccf8684dff92147
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -126,18 +126,18 @@ has-props
 
 
 
-58621
+52200
 
 CardOneCommi.csproj.GenerateResource.Cache
 file
-3
+4
 
 
 
-2013-04-19T01:41:10.531250Z
-1125b5e0cb807e65e460b0a608466767
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T06:31:07.781250Z
+83522f2f8aedfa08f12c069443b3e512
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -167,14 +167,14 @@ dir
 
 Granity.CardOneCommi.dll
 file
-3
+4
 
 
 
-2013-04-19T01:41:10.703125Z
-4dbcc98f36d0914496ac2d91bf7004c5
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T07:49:42.078125Z
+483a1bc837e99c3715f26359de156494
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 

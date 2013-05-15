@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/granityMgr2.2/ParkMgr
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/granityMgr2.2/ParkMgr
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -470,20 +470,15 @@ admin
 
 FrmStationWatchingII.Designer.cs
 file
+4
 
 
 
-
-2013-04-19T01:40:10.156250Z
-2e84550e8f6a072ba09f744e26556655
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
+2013-05-14T02:12:29.000000Z
+9c2e1b80960a99eb278ba3ea26b5c05f
+2013-05-15T09:21:25.511625Z
+4
+WBin
 
 
 
@@ -500,7 +495,12 @@ admin
 
 
 
-82008
+
+
+
+
+
+82072
 
 FrmTable.cs
 file
@@ -3057,20 +3057,15 @@ admin
 
 FrmStationWatchingII.resx
 file
+4
 
 
 
-
-2013-04-19T01:40:10.296875Z
-e02c80e98754e52d8f1dc0285c6033f2
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
+2013-05-14T02:12:29.046875Z
+704375720f6fd89d59d2348eccd4dd4d
+2013-05-15T09:21:25.511625Z
+4
+WBin
 
 
 
@@ -3087,7 +3082,12 @@ admin
 
 
 
-10489
+
+
+
+
+
+9568
 
 FrmOutQueryManage.designer.cs
 file
@@ -3502,20 +3502,15 @@ admin
 
 FrmQueryManage.cs
 file
+4
 
 
 
-
-2013-04-19T01:40:10.328125Z
-351434524857ab5590d3171d0f6ed833
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
+2013-04-27T03:19:51.000000Z
+dd446d347752aeb6feb4dc841913bc25
+2013-05-15T09:21:25.511625Z
+4
+WBin
 
 
 
@@ -3532,7 +3527,12 @@ admin
 
 
 
-8496
+
+
+
+
+
+9484
 
 FrmInParkPic.designer.cs
 file
@@ -4012,14 +4012,14 @@ admin
 
 FrmStationWatchingII.cs
 file
-3
+4
 
 
 
-2013-04-18T05:51:20.734375Z
-58537501d8de43e2522158ad05b75f1e
-2013-04-19T01:51:53.358500Z
-3
+2013-05-14T06:27:21.859375Z
+c28e0364cf4e4f0a8749ac72e20ccfbc
+2013-05-15T09:21:25.511625Z
+4
 WBin
 
 
@@ -4042,7 +4042,7 @@ WBin
 
 
 
-99685
+102426
 
 FrmCarOut.cs
 file

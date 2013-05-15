@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/granityMgr2.2/obj/Debug
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/granityMgr2.2/obj/Debug
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -745,14 +745,14 @@ has-props
 
 ResolveAssemblyReference.cache
 file
-3
+4
 
 
 
-2013-04-19T01:41:12.437500Z
-c491b874b990d1ef91c31f7a69332937
-2013-04-19T01:51:53.358500Z
-3
+2013-05-10T01:08:13.156250Z
+bf2580d62924a62949b36373fc05077f
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -775,7 +775,7 @@ has-props
 
 
 
-776749
+514124
 
 Granity.parkStation.cardManager.FrmReadRecord.resources
 file
@@ -1255,14 +1255,14 @@ has-props
 
 granityMgr.csproj.GenerateResource.Cache
 file
-3
+4
 
 
 
-2013-04-19T01:41:13.281250Z
-552f4ba3e8a1ebc7d2a04e183ad431e8
-2013-04-19T01:51:53.358500Z
-3
+2013-05-14T02:12:32.484375Z
+8625557ff78d05d91038d1380cf909a9
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -2037,14 +2037,14 @@ has-props
 
 Granity.granityMgr.exe
 file
-3
+4
 
 
 
-2013-04-19T01:41:16.312500Z
-b6d86610247867400cb2c0ce652e609d
-2013-04-19T01:51:53.358500Z
-3
+2013-05-14T06:27:30.906250Z
+5a1d52759a40e432030f0c292eac5068
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -3805,14 +3805,14 @@ has-props
 
 Granity.granityMgr.pdb
 file
-3
+4
 
 
 
-2013-04-19T01:41:16.218750Z
-7a7bce355b5eeff43aee277b2e1d987d
-2013-04-19T01:51:53.358500Z
-3
+2013-05-14T06:27:30.796875Z
+4b660a41be044be88ae3af2195dc9008
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -3835,7 +3835,7 @@ has-props
 
 
 
-2811392
+2481664
 
 Granity.granityMgr.Eatery.FrmAddMoney.resources
 file

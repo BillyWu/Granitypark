@@ -897,6 +897,7 @@ namespace Granity.commiServer
             valk += Convert.ToString(dr["Card√‚∑—ø®"]) + Convert.ToString(dr["Card¡Ÿ ±ø®"]) + Convert.ToString(dr["Card ±∂Œø®"]) + Convert.ToString(dr["Card∆⁄ø®"]);
             v = valk.Replace("True", "1").Replace("False", "0");
 
+
             valk = Convert.ToString(dr["FX“ªø®Õ®"]) + Convert.ToString(dr["FX¥¢÷µø®"]) + Convert.ToString(dr["FXπÛ±ˆø®"]) + Convert.ToString(dr["FX¡Ÿ√‚ø®"]);
             valk += Convert.ToString(dr["FX√‚∑—ø®"]) + Convert.ToString(dr["FX¡Ÿ ±ø®"]) + Convert.ToString(dr["FX ±∂Œø®"]) + Convert.ToString(dr["FX∆⁄ø®"]);
             fx = valk.Replace("True", "1").Replace("False", "0");

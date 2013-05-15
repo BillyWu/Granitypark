@@ -89,13 +89,8 @@ E:\Granity\Granitypark\CommiServer\bin\Debug\Estar.Business.UserRight.dll
 E:\Granity\Granitypark\CommiServer\bin\Debug\Oracle.DataAccess.dll
 E:\Granity\Granitypark\CommiServer\bin\Debug\Microsoft.ApplicationBlocks.ExceptionManagement.Interfaces.dll
 E:\Granity\Granitypark\CommiServer\bin\Debug\Estar.DataAccess.OdpNetDataAccess.dll
-E:\Granity\Granitypark\CommiServer\bin\Debug\DevExpress.XtraTreeList.v9.1.dll
 E:\Granity\Granitypark\CommiServer\bin\Debug\Estar.DataAccess.OleDbDataAccess.dll
-E:\Granity\Granitypark\CommiServer\bin\Debug\DevExpress.Utils.v9.1.dll
-E:\Granity\Granitypark\CommiServer\bin\Debug\DevExpress.XtraGrid.v9.1.dll
 E:\Granity\Granitypark\CommiServer\bin\Debug\Microsoft.ApplicationBlocks.ExceptionManagement.dll
-E:\Granity\Granitypark\CommiServer\bin\Debug\DevExpress.XtraEditors.v9.1.dll
-E:\Granity\Granitypark\CommiServer\bin\Debug\DevExpress.Data.v9.1.dll
 E:\Granity\Granitypark\CommiServer\bin\Debug\Estar.Business.UserRight.pdb
 E:\Granity\Granitypark\CommiServer\bin\Debug\Granity.communications.pdb
 E:\Granity\Granitypark\CommiServer\bin\Debug\Granity.CardOneCommi.pdb

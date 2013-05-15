@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/ComLib/bin/Debug
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/ComLib/bin/Debug
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -28,14 +28,14 @@ a9f61ecb-09f6-2e46-aa49-1e7a062214ff
 
 ComLib.dll
 file
-3
+4
 
 
 
-2013-04-19T01:41:09.796875Z
-0a19e09fdc1523be634bb73e3d835ed8
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T07:49:41.156250Z
+f96bfd9eee9a4962dbb5361533673de8
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -62,14 +62,14 @@ has-props
 
 ComLib.pdb
 file
-3
+4
 
 
 
-2013-04-19T01:41:09.703125Z
-b5fb69021551252a1c3fbf91bb1188df
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T07:49:41.062500Z
+e74a7e1d1f2e05a0b74e9c7c347675e6
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -92,5 +92,5 @@ has-props
 
 
 
-136704
+134656
 

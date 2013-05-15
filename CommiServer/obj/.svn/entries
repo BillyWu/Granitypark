@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/CommiServer/obj
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/CommiServer/obj
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -31,14 +31,14 @@ dir
 
 CommiServer.csproj.FileListAbsolute.txt
 file
-3
+4
 
 
 
-2013-04-19T01:41:11.890625Z
-638faabd65945c644efadd6451ce5099
-2013-04-19T01:51:53.358500Z
-3
+2013-05-14T06:27:28.796875Z
+8dfc18173a9a31990f7f9727d795cdae
+2013-05-15T09:21:25.511625Z
+4
 WBin
 
 
@@ -61,7 +61,7 @@ WBin
 
 
 
-8731
+7981
 
 Debug
 dir

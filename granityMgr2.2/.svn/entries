@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/granityMgr2.2
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/granityMgr2.2
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -99,20 +99,15 @@ admin
 
 granityMgr.csproj
 file
+4
 
 
 
-
-2013-04-19T01:40:29.062500Z
-3ddce8e9424d5bca7526bb4ff0cd04b4
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
+2013-05-10T01:07:49.906250Z
+b600f43e74ad507480cd12c469cbc3e2
+2013-05-15T09:21:25.511625Z
+4
+WBin
 
 
 
@@ -129,7 +124,12 @@ admin
 
 
 
-73086
+
+
+
+
+
+73325
 
 FrmDBDatabase.cs
 file
@@ -599,14 +599,14 @@ admin
 
 App.config
 file
-3
+4
 
 
 
-2013-04-19T01:17:52.781250Z
-f6726a711a0bc127f58c84e921de8924
-2013-04-19T01:51:53.358500Z
-3
+2013-05-10T01:13:05.937500Z
+5544d2a0fb0a13c77d92eedf1737e684
+2013-05-15T09:21:25.511625Z
+4
 WBin
 
 
@@ -629,7 +629,7 @@ WBin
 
 
 
-1664
+3670
 
 FrmSysUsers.resx
 file
@@ -1047,20 +1047,15 @@ dir
 
 Program.cs
 file
+4
 
 
 
-
-2013-04-19T01:40:29.109375Z
-690a9a85359644bda053fbd361358f4d
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
+2013-05-10T01:00:49.531250Z
+16538c06e5fb73a1e33c5c5ca3c86f55
+2013-05-15T09:21:25.511625Z
+4
+WBin
 
 
 
@@ -1077,7 +1072,12 @@ admin
 
 
 
-1050
+
+
+
+
+
+1164
 
 util
 dir

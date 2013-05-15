@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/Business/UserRight/obj/Debug
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/Business/UserRight/obj/Debug
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -28,14 +28,14 @@ a9f61ecb-09f6-2e46-aa49-1e7a062214ff
 
 ResolveAssemblyReference.cache
 file
-3
+4
 
 
 
-2013-04-19T01:41:10.171875Z
-46abdc6b1d3078ec3e57e2b1fbac4fb6
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T07:49:41.515625Z
+c719809064798f55d525c3d6fea582dc
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -58,21 +58,21 @@ has-props
 
 
 
-40182
+39977
 
 Refactor
 dir
 
 Estar.Business.UserRight.pdb
 file
-3
+4
 
 
 
-2013-04-19T01:41:10.250000Z
-8d5a075180692411ee43adf6e46f9410
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T06:31:07.125000Z
+48dbbeaa1005fce58890b05e33d3e497
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -95,21 +95,21 @@ has-props
 
 
 
-40448
+38400
 
 TempPE
 dir
 
 Estar.Business.UserRight.dll
 file
-3
+4
 
 
 
-2013-04-19T01:41:10.312500Z
-8f62ef7c0a7f95637176771fda981bac
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T06:31:07.187500Z
+bb36d75fb2c2869bc0f7c292c2053990
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 

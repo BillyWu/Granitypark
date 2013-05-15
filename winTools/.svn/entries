@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/winTools
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/winTools
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -60,40 +60,6 @@ admin
 
 17933
 
-MvAPI.cs
-file
-
-
-
-
-2013-04-19T01:40:40.453125Z
-85edef8e952f421d2cd3d03bd8bcb288
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7385
-
 CmdUDPznetCom.cs
 file
 
@@ -127,6 +93,40 @@ admin
 
 
 18978
+
+MvAPI.cs
+file
+
+
+
+
+2013-04-19T01:40:40.453125Z
+85edef8e952f421d2cd3d03bd8bcb288
+2013-04-18T05:45:51.371248Z
+1
+admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7385
 
 DataGridViewPrinter.cs
 file
@@ -162,40 +162,6 @@ admin
 
 20961
 
-HVDLLFun.cs
-file
-
-
-
-
-2013-04-19T01:40:40.468750Z
-f7fcc2e2dc5bed1ac43a65f3a680bd9b
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12928
-
 DataGridViewCalendarColumn.cs
 file
 
@@ -229,6 +195,40 @@ admin
 
 
 7597
+
+HVDLLFun.cs
+file
+
+
+
+
+2013-04-19T01:40:40.468750Z
+f7fcc2e2dc5bed1ac43a65f3a680bd9b
+2013-04-18T05:45:51.371248Z
+1
+admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12928
 
 CmdProtocol.cs
 file
@@ -406,6 +406,9 @@ admin
 bin
 dir
 
+obj
+dir
+
 Sa7134Capture.cs
 file
 
@@ -439,9 +442,6 @@ admin
 
 
 4623
-
-obj
-dir
 
 BindManager.cs
 file

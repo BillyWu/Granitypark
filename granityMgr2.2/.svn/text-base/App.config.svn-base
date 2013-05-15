@@ -2,27 +2,76 @@
 <configuration>
   <configSections>
     <section name="CustomSection" type="Estar.Common.Tools.DataConnSection,Estar.Common.Tools"/>
+    <section name="log4net" type="log4net.Config.Log4NetConfigurationSectionHandler, log4net"/>    
   </configSections>
   <CustomSection>
     <DataSource>
       <!--<add name="default" type="SqlClient" value="server=192.168.1.181\sqlserver;user id=sa;password=sasa;database=jdf12;Min Pool Size=10;Connection Lifetime=240;Connection Timeout=120;"/>-->
-      <add name="defaultXX" type="SqlClient" value="server=(local)\sql08;user id=sa;password=ser08;database=czsy;Min Pool Size=10;Connection Lifetime=240;Connection Timeout=120;"/>
-      <add name="default" type="SqlClient" value="server=192.168.4.5\sqlserver;user id=sa;password=sasa;database=czsy;Min Pool Size=10;Connection Lifetime=240;Connection Timeout=120;"/>
+      <add name="default" type="SqlClient" value="server=(local)\sql08;user id=sa;password=ser08;database=czsy;Min Pool Size=10;Connection Lifetime=240;Connection Timeout=120;"/>
+      <add name="defaultX" type="SqlClient" value="server=192.168.4.5\sqlserver;user id=sa;password=sasa;database=czsy;Min Pool Size=10;Connection Lifetime=240;Connection Timeout=120;"/>
     </DataSource>
   </CustomSection>
+
+  <log4net>
+    <!--
+  This writes the log information to the console window.  It only logs events
+  that are at least at the INFO level (which would mean that DEBUG events are not
+  captured.
+  -->
+    <appender name="ConsoleAppender" type="log4net.Appender.ConsoleAppender">
+      <layout type="log4net.Layout.PatternLayout">
+        <conversionPattern value="%date{ABSOLUTE} [%thread] %level %logger - %message%newlineExtra Info: %property{testProperty}%newline%exception"/>
+      </layout>
+      <!--<filter type="log4net.Filter.LevelRangeFilter">
+        <levelMin value="DEBUG"/>
+        <levelMax value="FATAL"/>
+      </filter>-->
+    </appender>
+    <!--
+  This stores information in the mylogfile.txt file.  It only captures log events
+  that contain the key word test or error.
+  -->
+    <appender name="RollingFileAppender" type="log4net.Appender.RollingFileAppender">
+      <file value="mylogfile.txt"/>
+      <appendToFile value="true"/>
+      <rollingStyle value="Size"/>
+      <maxSizeRollBackups value="5"/>
+      <maximumFileSize value="10MB"/>
+      <staticLogFileName value="true"/>
+      <!--<filter type="log4net.Filter.StringMatchFilter">
+        <stringToMatch value="test"/>
+      </filter>
+      <filter type="log4net.Filter.StringMatchFilter">
+        <stringToMatch value="error"/>
+      </filter>
+      <filter type="log4net.Filter.DenyAllFilter"/>-->
+      <layout type="log4net.Layout.PatternLayout">
+        <conversionPattern value="%date [%thread] %level %logger - %message%newline%exception"/>
+      </layout>
+    </appender>
+    <root>
+      <level value="DEBUG"/>
+      <appender-ref ref="RollingFileAppender"/>
+    </root>
+    <logger name="WindowsApplication1.OtherClass">
+      <level value="DEBUG"/>
+      <appender-ref ref="ConsoleAppender"/>
+    </logger>
+  </log4net>
+  
   <appSettings>
     <add key="SystemDB" value="SmartCardsys"/>
     <!--<add key="WorkConfig" value="resources"/>-->
     <add key="SystemConfig" value="系统数据源"/>
+    <add key ="TwoInTwoOut" value ="0"/>
     <add key ="ParkPicPath" value ="E:\ParkPicPath"/>
     <add key ="SavePicPath" value ="E:\SavePic"/>
     <add key ="videoFlag" value ="1"/>
     <add key ="InOutType" value ="1"/>
     <add key="Granity文件服务" value="2010"/>
     <add key="服务器" value="127.0.0.1"/>
-
-
   </appSettings>
+  
   <runtime>
     <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
       <dependentAssembly>

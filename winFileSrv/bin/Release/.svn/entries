@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/winFileSrv/bin/Release
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/winFileSrv/bin/Release
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -196,40 +196,6 @@ has-props
 
 24576
 
-Granity.CardOneCommi.dll
-file
-
-
-
-
-2013-04-19T01:40:32.281250Z
-d571565dda267f47e33a199dc0f7b6ec
-2013-04-18T05:45:51.371248Z
-1
-admin
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-49152
-
 Estar.DataAccess.OdpNetDataAccess.dll
 file
 
@@ -264,14 +230,14 @@ has-props
 
 45056
 
-Estar.DataAccess.SqlClientDataAccess.dll
+Granity.CardOneCommi.dll
 file
 
 
 
 
 2013-04-19T01:40:32.281250Z
-6643f865aa30b01229644a7b1bd1ad4e
+d571565dda267f47e33a199dc0f7b6ec
 2013-04-18T05:45:51.371248Z
 1
 admin
@@ -296,7 +262,7 @@ has-props
 
 
 
-57344
+49152
 
 Microsoft.ApplicationBlocks.ExceptionManagement.Interfaces.dll
 file
@@ -332,6 +298,40 @@ has-props
 
 4608
 
+Estar.DataAccess.SqlClientDataAccess.dll
+file
+
+
+
+
+2013-04-19T01:40:32.281250Z
+6643f865aa30b01229644a7b1bd1ad4e
+2013-04-18T05:45:51.371248Z
+1
+admin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+57344
+
 winFileSrv.pdb
 file
 
@@ -366,40 +366,6 @@ has-props
 
 26112
 
-Estar.DataAccess.DataAccessInterface.dll
-file
-
-
-
-
-2013-04-19T01:40:32.296875Z
-9b6958b16194d020f0d48e852269bfef
-2013-04-18T05:45:51.371248Z
-1
-admin
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16384
-
 Estar.Business.UserRight.dll
 file
 
@@ -433,6 +399,40 @@ has-props
 
 
 32768
+
+Estar.DataAccess.DataAccessInterface.dll
+file
+
+
+
+
+2013-04-19T01:40:32.296875Z
+9b6958b16194d020f0d48e852269bfef
+2013-04-18T05:45:51.371248Z
+1
+admin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16384
 
 Granity.winTools.pdb
 file

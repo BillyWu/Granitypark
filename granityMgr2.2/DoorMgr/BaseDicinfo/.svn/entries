@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/granityMgr2.2/DoorMgr/BaseDicinfo
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/granityMgr2.2/DoorMgr/BaseDicinfo
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -128,40 +128,6 @@ admin
 
 2913
 
-FrmEffectiveTimeList.Designer.cs
-file
-
-
-
-
-2013-04-19T01:40:22.562500Z
-6b963e7c0364829a3d082675aadddf80
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-37792
-
 FrmDoorControlBaseinfo.Designer.cs
 file
 
@@ -196,14 +162,14 @@ admin
 
 107292
 
-FrmDoorControlBaseinfo.cs
+FrmEffectiveTimeList.Designer.cs
 file
 
 
 
 
-2013-04-19T01:40:22.578125Z
-3607f48754610d4800c633910b12173c
+2013-04-19T01:40:22.562500Z
+6b963e7c0364829a3d082675aadddf80
 2013-04-18T05:45:51.371248Z
 1
 admin
@@ -228,7 +194,7 @@ admin
 
 
 
-41004
+37792
 
 FrmEffectiveTimeList.cs
 file
@@ -263,6 +229,40 @@ admin
 
 
 4629
+
+FrmDoorControlBaseinfo.cs
+file
+
+
+
+
+2013-04-19T01:40:22.578125Z
+3607f48754610d4800c633910b12173c
+2013-04-18T05:45:51.371248Z
+1
+admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+41004
 
 FrmRight.Designer.cs
 file
@@ -400,14 +400,14 @@ admin
 
 6175
 
-FrmEffectiveTimeAdd.Designer.cs
+FrmEffectiveTimeList.resx
 file
 
 
 
 
-2013-04-19T01:40:22.593750Z
-f1832a10a49c21360e389eae1581dc75
+2013-04-19T01:40:22.578125Z
+336b3441d725b6dd9e71f774af87f424
 2013-04-18T05:45:51.371248Z
 1
 admin
@@ -432,7 +432,7 @@ admin
 
 
 
-18784
+6356
 
 FrmDoorControlBaseinfo.resx
 file
@@ -468,14 +468,14 @@ admin
 
 10939
 
-FrmEffectiveTimeList.resx
+FrmEffectiveTimeAdd.Designer.cs
 file
 
 
 
 
-2013-04-19T01:40:22.578125Z
-336b3441d725b6dd9e71f774af87f424
+2013-04-19T01:40:22.593750Z
+f1832a10a49c21360e389eae1581dc75
 2013-04-18T05:45:51.371248Z
 1
 admin
@@ -500,7 +500,7 @@ admin
 
 
 
-6356
+18784
 
 FrmDoorCardList.Designer.cs
 file

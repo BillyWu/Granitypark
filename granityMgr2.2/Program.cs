@@ -6,6 +6,9 @@ using Granity.winTools;
 using Granity.granityMgr.ParkMgr;
 using Granity.granityMgr.util;
 
+//Here is the once-per-application setup information
+[assembly: log4net.Config.XmlConfigurator(Watch = true)]
+
 namespace Granity.granityMgr
 {
     static class Program

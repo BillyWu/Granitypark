@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/winFileSrv/bin/Debug
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/winFileSrv/bin/Debug
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -28,15 +28,15 @@ a9f61ecb-09f6-2e46-aa49-1e7a062214ff
 
 ComLib.dll
 file
+4
 
 
 
-
-2013-04-19T01:40:33.546875Z
-3b46d93a5e28cf3e58821d21e87e703c
-2013-04-18T05:45:51.371248Z
-1
-admin
+2013-05-03T07:49:41.156250Z
+f96bfd9eee9a4962dbb5361533673de8
+2013-05-15T09:21:25.511625Z
+4
+WBin
 has-props
 
 
@@ -62,15 +62,15 @@ has-props
 
 Granity.commiServer.dll
 file
+4
 
 
 
-
-2013-04-19T01:40:33.562500Z
-6087897a3e087816411f05830d4b0d9d
-2013-04-18T05:45:51.371248Z
-1
-admin
+2013-05-03T07:49:43.171875Z
+e736c523389dda03feab8b78e3b7caac
+2013-05-15T09:21:25.511625Z
+4
+WBin
 has-props
 
 
@@ -232,15 +232,15 @@ has-props
 
 Estar.Business.UserRight.pdb
 file
+4
 
 
 
-
-2013-04-19T01:40:33.593750Z
-43c35efe76afa68a24e133c769ba7210
-2013-04-18T05:45:51.371248Z
-1
-admin
+2013-05-03T06:31:07.125000Z
+48dbbeaa1005fce58890b05e33d3e497
+2013-05-15T09:21:25.511625Z
+4
+WBin
 has-props
 
 
@@ -300,15 +300,15 @@ admin
 
 winFileSrv.pdb
 file
+4
 
 
 
-
-2013-04-19T01:40:33.609375Z
-1e778b4934cdad48c6f0f822990002f0
-2013-04-18T05:45:51.371248Z
-1
-admin
+2013-05-03T07:49:52.703125Z
+1eb4ad21179425e3b30014c746e5f93a
+2013-05-15T09:21:25.511625Z
+4
+WBin
 has-props
 
 
@@ -330,7 +330,7 @@ has-props
 
 
 
-32256
+30208
 
 Estar.DataAccess.DataAccessInterface.dll
 file
@@ -402,15 +402,15 @@ has-props
 
 Estar.Business.UserRight.dll
 file
+4
 
 
 
-
-2013-04-19T01:40:33.640625Z
-8329632e42a94093e9c033be7caac6c6
-2013-04-18T05:45:51.371248Z
-1
-admin
+2013-05-03T06:31:07.187500Z
+bb36d75fb2c2869bc0f7c292c2053990
+2013-05-15T09:21:25.511625Z
+4
+WBin
 has-props
 
 
@@ -436,15 +436,15 @@ has-props
 
 Granity.winTools.pdb
 file
+4
 
 
 
-
-2013-04-19T01:40:33.640625Z
-de967945cb8f015824e01cb32400d885
-2013-04-18T05:45:51.371248Z
-1
-admin
+2013-05-03T07:49:42.687500Z
+ff94cef2d5ad99206b9c32791828b257
+2013-05-15T09:21:25.511625Z
+4
+WBin
 has-props
 
 
@@ -466,7 +466,7 @@ has-props
 
 
 
-128512
+126464
 
 winFileSrv.vshost.exe.config
 file
@@ -504,15 +504,15 @@ admin
 
 Granity.winTools.dll
 file
+4
 
 
 
-
-2013-04-19T01:40:33.656250Z
-1af20cda3a45af0d2df47866b989f91c
-2013-04-18T05:45:51.371248Z
-1
-admin
+2013-05-03T07:49:42.765625Z
+12e5a21cbe5bdf30e9b7f4da215e4eef
+2013-05-15T09:21:25.511625Z
+4
+WBin
 has-props
 
 
@@ -572,15 +572,15 @@ has-props
 
 winFileSrv.exe
 file
+4
 
 
 
-
-2013-04-19T01:40:33.671875Z
-a9e6960717858210bc7c3bcca456473b
-2013-04-18T05:45:51.371248Z
-1
-admin
+2013-05-03T07:49:52.781250Z
+97e747d6a24052f5b6472ea976916119
+2013-05-15T09:21:25.511625Z
+4
+WBin
 has-props
 
 
@@ -606,15 +606,15 @@ has-props
 
 Granity.communications.pdb
 file
+4
 
 
 
-
-2013-04-19T01:40:33.671875Z
-721449d8a3898e9a3b56b0e370d698a2
-2013-04-18T05:45:51.371248Z
-1
-admin
+2013-05-03T06:31:06.671875Z
+3f5ad38b208668497e1a9dd6dae3dfce
+2013-05-15T09:21:25.511625Z
+4
+WBin
 has-props
 
 
@@ -776,15 +776,15 @@ admin
 
 Granity.communications.dll
 file
+4
 
 
 
-
-2013-04-19T01:40:33.703125Z
-cfa88b9aab3f404f295fbacda765c946
-2013-04-18T05:45:51.371248Z
-1
-admin
+2013-05-03T06:31:06.750000Z
+5248a8adedac00d546c12edbd082c608
+2013-05-15T09:21:25.511625Z
+4
+WBin
 has-props
 
 
@@ -844,15 +844,15 @@ has-props
 
 Granity.CardOneCommi.pdb
 file
+4
 
 
 
-
-2013-04-19T01:40:33.718750Z
-662e4f46a17756d17fac81159ddc1a5e
-2013-04-18T05:45:51.371248Z
-1
-admin
+2013-05-03T07:49:42.000000Z
+680461cc6bb72240c6de529300f1521e
+2013-05-15T09:21:25.511625Z
+4
+WBin
 has-props
 
 
@@ -874,19 +874,19 @@ has-props
 
 
 
-81408
+79360
 
 Granity.CardOneCommi.dll
 file
+4
 
 
 
-
-2013-04-19T01:40:33.718750Z
-2384d6f6eaae8ebd96b4e6df106b3d13
-2013-04-18T05:45:51.371248Z
-1
-admin
+2013-05-03T07:49:42.078125Z
+483a1bc837e99c3715f26359de156494
+2013-05-15T09:21:25.511625Z
+4
+WBin
 has-props
 
 
@@ -1184,15 +1184,15 @@ admin
 
 ComLib.pdb
 file
+4
 
 
 
-
-2013-04-19T01:40:33.828125Z
-1470652db730dad22032f1cadc17f726
-2013-04-18T05:45:51.371248Z
-1
-admin
+2013-05-03T07:49:41.062500Z
+e74a7e1d1f2e05a0b74e9c7c347675e6
+2013-05-15T09:21:25.511625Z
+4
+WBin
 has-props
 
 
@@ -1214,19 +1214,19 @@ has-props
 
 
 
-132608
+134656
 
 Granity.commiServer.pdb
 file
+4
 
 
 
-
-2013-04-19T01:40:33.859375Z
-9de5468f28873288af84cba09ec523c9
-2013-04-18T05:45:51.371248Z
-1
-admin
+2013-05-03T07:49:43.093750Z
+7c40e94efc633166065c9178e3e23ff0
+2013-05-15T09:21:25.511625Z
+4
+WBin
 has-props
 
 
@@ -1248,5 +1248,5 @@ has-props
 
 
 
-118272
+116224
 

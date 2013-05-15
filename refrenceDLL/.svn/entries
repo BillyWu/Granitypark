@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/refrenceDLL
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/refrenceDLL
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -570,40 +570,6 @@ has-props
 
 1933312
 
-VideoDll.dll
-file
-
-
-
-
-2013-04-19T01:40:30.609375Z
-1e068b78fb5e31092e34661b3f2c7626
-2013-04-18T05:45:51.371248Z
-1
-admin
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-24576
-
 DcClient_vc8sp1_x86_32.dll
 file
 
@@ -637,6 +603,40 @@ has-props
 
 
 114688
+
+VideoDll.dll
+file
+
+
+
+
+2013-04-19T01:40:30.609375Z
+1e068b78fb5e31092e34661b3f2c7626
+2013-04-18T05:45:51.371248Z
+1
+admin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24576
 
 Estar.Common.WebControlTools.dll
 file
@@ -672,40 +672,6 @@ has-props
 
 45056
 
-Estar.Common.Tools.dll
-file
-
-
-
-
-2013-04-19T01:40:30.625000Z
-451a6063cdec95a5b3b42209c4df1510
-2013-04-18T05:45:51.371248Z
-1
-admin
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-81920
-
 Granity.communications.dll
 file
 
@@ -739,6 +705,40 @@ has-props
 
 
 57344
+
+Estar.Common.Tools.dll
+file
+
+
+
+
+2013-04-19T01:40:30.625000Z
+451a6063cdec95a5b3b42209c4df1510
+2013-04-18T05:45:51.371248Z
+1
+admin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+81920
 
 Estar.Common.WebControls.dll
 file
@@ -910,40 +910,6 @@ has-props
 
 73728
 
-WebCom.dll
-file
-
-
-
-
-2013-04-19T01:40:30.703125Z
-3bf699e1e56224fc77db778799a80264
-2013-04-18T05:45:51.371248Z
-1
-admin
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2597888
-
 Estar.DataAccess.OdpNetDataAccess.dll
 file
 
@@ -978,14 +944,14 @@ has-props
 
 45056
 
-Microsoft.ApplicationBlocks.ExceptionManagement.Interfaces.dll
+WebCom.dll
 file
 
 
 
 
-2013-04-19T01:40:30.734375Z
-7bff4132c9f4e0433573cf7174d646cb
+2013-04-19T01:40:30.703125Z
+3bf699e1e56224fc77db778799a80264
 2013-04-18T05:45:51.371248Z
 1
 admin
@@ -1010,7 +976,7 @@ has-props
 
 
 
-4608
+2597888
 
 Estar.DataAccess.SqlClientDataAccess.dll
 file
@@ -1045,6 +1011,40 @@ has-props
 
 
 57344
+
+Microsoft.ApplicationBlocks.ExceptionManagement.Interfaces.dll
+file
+
+
+
+
+2013-04-19T01:40:30.734375Z
+7bff4132c9f4e0433573cf7174d646cb
+2013-04-18T05:45:51.371248Z
+1
+admin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4608
 
 VECONClient.ocx
 file

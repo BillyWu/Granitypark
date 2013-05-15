@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/winTools/bin/Release
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/winTools/bin/Release
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -94,40 +94,6 @@ has-props
 
 1663488
 
-DevExpress.Utils.v9.1.xml
-file
-
-
-
-
-2013-04-19T01:40:38.218750Z
-836eb21b616b1b49ef53101d4970d86a
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-530518
-
 Estar.DataAccess.OleDbDataAccess.dll
 file
 
@@ -161,6 +127,40 @@ has-props
 
 
 40960
+
+DevExpress.Utils.v9.1.xml
+file
+
+
+
+
+2013-04-19T01:40:38.218750Z
+836eb21b616b1b49ef53101d4970d86a
+2013-04-18T05:45:51.371248Z
+1
+admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+530518
 
 DevExpress.XtraGauges.v9.1.Core.xml
 file
@@ -366,40 +366,6 @@ admin
 
 1015886
 
-DevExpress.Data.v9.1.xml
-file
-
-
-
-
-2013-04-19T01:40:38.250000Z
-45085561c7ea345102990f1852252869
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-310965
-
 Microsoft.ApplicationBlocks.ExceptionManagement.Interfaces.dll
 file
 
@@ -434,14 +400,48 @@ has-props
 
 4608
 
-DevExpress.Utils.v9.1.dll
+DevExpress.Data.v9.1.xml
 file
 
 
 
 
-2013-04-19T01:40:38.281250Z
-ee79f4b4d23c9934bd11d3c901416d07
+2013-04-19T01:40:38.250000Z
+45085561c7ea345102990f1852252869
+2013-04-18T05:45:51.371248Z
+1
+admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+310965
+
+Estar.DataAccess.DataAccessInterface.dll
+file
+
+
+
+
+2013-04-19T01:40:38.265625Z
+9b6958b16194d020f0d48e852269bfef
 2013-04-18T05:45:51.371248Z
 1
 admin
@@ -466,7 +466,7 @@ has-props
 
 
 
-4087808
+16384
 
 Estar.Business.UserRight.dll
 file
@@ -502,14 +502,14 @@ has-props
 
 32768
 
-Estar.DataAccess.DataAccessInterface.dll
+DevExpress.Utils.v9.1.dll
 file
 
 
 
 
-2013-04-19T01:40:38.265625Z
-9b6958b16194d020f0d48e852269bfef
+2013-04-19T01:40:38.281250Z
+ee79f4b4d23c9934bd11d3c901416d07
 2013-04-18T05:45:51.371248Z
 1
 admin
@@ -534,7 +534,7 @@ has-props
 
 
 
-16384
+4087808
 
 DevExpress.XtraGauges.v9.1.Core.dll
 file

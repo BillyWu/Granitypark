@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/Common/Tools
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/Common/Tools
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -128,40 +128,6 @@ admin
 
 68
 
-WorkUnit.cs
-file
-
-
-
-
-2013-04-19T01:40:31.328125Z
-4d266b62b8ff1270b8a6da477b59145a
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-68265
-
 ParseDBType.cs
 file
 
@@ -195,6 +161,40 @@ admin
 
 
 1061
+
+WorkUnit.cs
+file
+
+
+
+
+2013-04-19T01:40:31.328125Z
+4d266b62b8ff1270b8a6da477b59145a
+2013-04-18T05:45:51.371248Z
+1
+admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+68265
 
 DBCommand.cs
 file
@@ -264,40 +264,6 @@ admin
 
 13427
 
-Tools.csproj.pdsync
-file
-
-
-
-
-2013-04-19T01:40:31.343750Z
-b77bd61d5937289ee8322f5fbe819d37
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-64
-
 DataAccRes.cs
 file
 
@@ -332,14 +298,14 @@ admin
 
 16207
 
-Tools.csproj
+Tools.csproj.pdsync
 file
 
 
 
 
-2013-04-19T01:40:31.359375Z
-b88cfa514308750d1dd4df77f47f7ca7
+2013-04-19T01:40:31.343750Z
+b77bd61d5937289ee8322f5fbe819d37
 2013-04-18T05:45:51.371248Z
 1
 admin
@@ -364,7 +330,7 @@ admin
 
 
 
-4849
+64
 
 AssemblyInfo.cs
 file
@@ -399,6 +365,40 @@ admin
 
 
 1859
+
+Tools.csproj
+file
+
+
+
+
+2013-04-19T01:40:31.359375Z
+b88cfa514308750d1dd4df77f47f7ca7
+2013-04-18T05:45:51.371248Z
+1
+admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4849
 
 InteropBits.cs
 file

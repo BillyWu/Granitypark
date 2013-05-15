@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/granityMgr2.2/Eatery
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/granityMgr2.2/Eatery
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -298,40 +298,6 @@ admin
 
 5814
 
-FrmAddReduceMoney.Designer.cs
-file
-
-
-
-
-2013-04-19T01:40:09.140625Z
-a3625bf7c22d066c459ba9d61634b843
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-27644
-
 FrmRestaurant.designer.cs
 file
 
@@ -366,14 +332,14 @@ admin
 
 88084
 
-FrmAddReduceMoney.cs
+FrmAddReduceMoney.Designer.cs
 file
 
 
 
 
-2013-04-19T01:40:09.156250Z
-569bb810e6a82cd933a67a34366e13b5
+2013-04-19T01:40:09.140625Z
+a3625bf7c22d066c459ba9d61634b843
 2013-04-18T05:45:51.371248Z
 1
 admin
@@ -398,7 +364,7 @@ admin
 
 
 
-4658
+27644
 
 FrmRestaurant.cs
 file
@@ -434,14 +400,14 @@ admin
 
 24211
 
-FrmCashRegister.resx
+FrmAddReduceMoney.cs
 file
 
 
 
 
 2013-04-19T01:40:09.156250Z
-32a9f8db6987c2d0d6bb55fc487be5e8
+569bb810e6a82cd933a67a34366e13b5
 2013-04-18T05:45:51.371248Z
 1
 admin
@@ -466,7 +432,7 @@ admin
 
 
 
-5814
+4658
 
 FrmAddMoney.Designer.cs
 file
@@ -501,6 +467,40 @@ admin
 
 
 15398
+
+FrmCashRegister.resx
+file
+
+
+
+
+2013-04-19T01:40:09.156250Z
+32a9f8db6987c2d0d6bb55fc487be5e8
+2013-04-18T05:45:51.371248Z
+1
+admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5814
 
 FrmAddMoney.cs
 file

@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/granityMgr2.2/Eatery/Reprot
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/granityMgr2.2/Eatery/Reprot
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -25,40 +25,6 @@ admin
 
 
 a9f61ecb-09f6-2e46-aa49-1e7a062214ff
-
-ReportCashSum.resx
-file
-
-
-
-
-2013-04-19T01:40:08.515625Z
-e792fbeafaf3d8f27d142f2021d6115b
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10608
 
 ReportConsumeMacSum.cs
 file
@@ -93,6 +59,40 @@ admin
 
 
 551
+
+ReportCashSum.resx
+file
+
+
+
+
+2013-04-19T01:40:08.515625Z
+e792fbeafaf3d8f27d142f2021d6115b
+2013-04-18T05:45:51.371248Z
+1
+admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10608
 
 DataSetConsumeSum.xss
 file
@@ -196,40 +196,6 @@ admin
 
 10869
 
-DataSetCashSum.xss
-file
-
-
-
-
-2013-04-19T01:40:08.609375Z
-ab076fcbecb26e51e02f5c082b60b02d
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1399
-
 FrmCosumeMac.cs
 file
 
@@ -263,6 +229,40 @@ admin
 
 
 4595
+
+DataSetCashSum.xss
+file
+
+
+
+
+2013-04-19T01:40:08.609375Z
+ab076fcbecb26e51e02f5c082b60b02d
+2013-04-18T05:45:51.371248Z
+1
+admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1399
 
 FrmCashSum.resx
 file
@@ -366,40 +366,6 @@ admin
 
 381
 
-DataSetConsumeMac.xsd
-file
-
-
-
-
-2013-04-19T01:40:08.671875Z
-2d133beffb7872fc889331aa53cce0b2
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-51889
-
 ReportConsumeSum.Designer.cs
 file
 
@@ -433,6 +399,40 @@ admin
 
 
 39439
+
+DataSetConsumeMac.xsd
+file
+
+
+
+
+2013-04-19T01:40:08.671875Z
+2d133beffb7872fc889331aa53cce0b2
+2013-04-18T05:45:51.371248Z
+1
+admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+51889
 
 ReportConsumeSum.cs
 file

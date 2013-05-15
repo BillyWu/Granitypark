@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/CardOneCommi
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/CardOneCommi
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -165,14 +165,14 @@ admin
 
 64
 
-IObjectSafety.cs
+CardOneCommi.csproj
 file
 
 
 
 
-2013-04-19T01:40:07.515625Z
-88dae42d39e0c78411a5014ccf1d30fb
+2013-04-19T01:40:07.500000Z
+dbe70790b32c9c787dbf96cc9bce7277
 2013-04-18T05:45:51.371248Z
 1
 admin
@@ -197,7 +197,7 @@ admin
 
 
 
-713
+3934
 
 CardReader.Designer.cs
 file
@@ -233,14 +233,14 @@ admin
 
 4486
 
-CardOneCommi.csproj
+IObjectSafety.cs
 file
 
 
 
 
-2013-04-19T01:40:07.500000Z
-dbe70790b32c9c787dbf96cc9bce7277
+2013-04-19T01:40:07.515625Z
+88dae42d39e0c78411a5014ccf1d30fb
 2013-04-18T05:45:51.371248Z
 1
 admin
@@ -265,7 +265,7 @@ admin
 
 
 
-3934
+713
 
 CardReader.cs
 file
@@ -375,40 +375,6 @@ dir
 obj
 dir
 
-CardReader.resx
-file
-
-
-
-
-2013-04-19T01:40:07.531250Z
-32a9f8db6987c2d0d6bb55fc487be5e8
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5814
-
 CardOneCommi.csproj.user
 file
 
@@ -442,4 +408,38 @@ admin
 
 
 168
+
+CardReader.resx
+file
+
+
+
+
+2013-04-19T01:40:07.531250Z
+32a9f8db6987c2d0d6bb55fc487be5e8
+2013-04-18T05:45:51.371248Z
+1
+admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5814
 

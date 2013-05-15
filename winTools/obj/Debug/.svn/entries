@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/winTools/obj/Debug
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/winTools/obj/Debug
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -28,14 +28,14 @@ a9f61ecb-09f6-2e46-aa49-1e7a062214ff
 
 ResolveAssemblyReference.cache
 file
-3
+4
 
 
 
-2013-04-19T01:41:11.156250Z
-609540d81f78ff73898ed17de3973709
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T06:31:08.500000Z
+a10a6337c105966dcd2ba80305021c48
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -58,18 +58,18 @@ has-props
 
 
 
-192073
+114126
 
 Granity.winTools.dll
 file
-3
+4
 
 
 
-2013-04-19T01:41:11.421875Z
-29710ecb44769c25c1b14c990bf14997
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T07:49:42.765625Z
+12e5a21cbe5bdf30e9b7f4da215e4eef
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -102,14 +102,14 @@ dir
 
 Granity.winTools.pdb
 file
-3
+4
 
 
 
-2013-04-19T01:41:11.343750Z
-19b64c6d29f224cc760f81a98b2d40fe
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T07:49:42.687500Z
+ff94cef2d5ad99206b9c32791828b257
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -132,5 +132,5 @@ has-props
 
 
 
-136704
+126464
 

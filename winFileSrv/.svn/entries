@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/winFileSrv
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/winFileSrv
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -196,6 +196,9 @@ admin
 
 1042
 
+Properties
+dir
+
 InstallerSrv.cs
 file
 
@@ -229,9 +232,6 @@ admin
 
 
 1602
-
-Properties
-dir
 
 winFileSrv.ico
 file
@@ -301,40 +301,6 @@ admin
 
 1098
 
-winFileSrv.csproj.user
-file
-
-
-
-
-2013-04-19T01:40:34.125000Z
-3088861beb79b27e91c5216dd0b86011
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-593
-
 ServiceFile.cs
 file
 
@@ -369,20 +335,14 @@ admin
 
 11316
 
-bin
-dir
-
-obj
-dir
-
-winFileSrv.csproj.pdsyncu
+winFileSrv.csproj.user
 file
 
 
 
 
 2013-04-19T01:40:34.125000Z
-768b9a5372029ca5ac287755640a479d
+3088861beb79b27e91c5216dd0b86011
 2013-04-18T05:45:51.371248Z
 1
 admin
@@ -407,7 +367,13 @@ admin
 
 
 
-68
+593
+
+bin
+dir
+
+obj
+dir
 
 Program.cs
 file
@@ -442,4 +408,38 @@ admin
 
 
 837
+
+winFileSrv.csproj.pdsyncu
+file
+
+
+
+
+2013-04-19T01:40:34.125000Z
+768b9a5372029ca5ac287755640a479d
+2013-04-18T05:45:51.371248Z
+1
+admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+68
 

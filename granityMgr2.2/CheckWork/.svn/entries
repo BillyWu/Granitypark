@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/granityMgr2.2/CheckWork
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/granityMgr2.2/CheckWork
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -502,40 +502,6 @@ admin
 
 124444
 
-FrmMakeClass.cs
-file
-
-
-
-
-2013-04-19T01:40:08.203125Z
-14c572e399e376d7700f1c1f12ad8756
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-25614
-
 FrmCheckOnWorkListView.Designer.cs
 file
 
@@ -569,6 +535,40 @@ admin
 
 
 11981
+
+FrmMakeClass.cs
+file
+
+
+
+
+2013-04-19T01:40:08.203125Z
+14c572e399e376d7700f1c1f12ad8756
+2013-04-18T05:45:51.371248Z
+1
+admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25614
 
 FrmClass.Designer.cs
 file
@@ -604,40 +604,6 @@ admin
 
 53309
 
-FrmHolidaySet .cs
-file
-
-
-
-
-2013-04-19T01:40:08.218750Z
-234e7977da3956621d30c2f939aded5b
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5507
-
 FrmClass.cs
 file
 
@@ -671,6 +637,40 @@ admin
 
 
 8435
+
+FrmHolidaySet .cs
+file
+
+
+
+
+2013-04-19T01:40:08.218750Z
+234e7977da3956621d30c2f939aded5b
+2013-04-18T05:45:51.371248Z
+1
+admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5507
 
 FrmWorkStat.cs
 file
@@ -706,7 +706,7 @@ admin
 
 426
 
-FrmHitCardRpt.resx
+FrmCheckOnWorkListView.resx
 file
 
 
@@ -740,7 +740,7 @@ admin
 
 5814
 
-FrmCheckOnWorkListView.resx
+FrmHitCardRpt.resx
 file
 
 
@@ -947,14 +947,14 @@ admin
 
 18252
 
-FrmHolidaySet .designer.cs
+FrmCheckOnWorkListView.cs
 file
 
 
 
 
-2013-04-19T01:40:08.218750Z
-8682f35e8402f9a95a907fb128ed8b93
+2013-04-19T01:40:08.203125Z
+c8badcf3feb5e8a7415eb266fb256350
 2013-04-18T05:45:51.371248Z
 1
 admin
@@ -979,7 +979,7 @@ admin
 
 
 
-18457
+613
 
 FrmHitCardRpt.cs
 file
@@ -1015,14 +1015,14 @@ admin
 
 3132
 
-FrmCheckOnWorkListView.cs
+FrmHolidaySet .designer.cs
 file
 
 
 
 
-2013-04-19T01:40:08.203125Z
-c8badcf3feb5e8a7415eb266fb256350
+2013-04-19T01:40:08.218750Z
+8682f35e8402f9a95a907fb128ed8b93
 2013-04-18T05:45:51.371248Z
 1
 admin
@@ -1047,5 +1047,5 @@ admin
 
 
 
-613
+18457
 

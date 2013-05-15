@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/Communications
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/Communications
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -25,40 +25,6 @@ admin
 
 
 a9f61ecb-09f6-2e46-aa49-1e7a062214ff
-
-myThread.cs
-file
-
-
-
-
-2013-04-19T01:40:31.953125Z
-1ef8cebb72a47a674410451682f37872
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3907
 
 ResponseEventArgs.cs
 file
@@ -94,14 +60,14 @@ admin
 
 10368
 
-SvrFileTrans.cs
+myThread.cs
 file
 
 
 
 
-2013-04-19T01:40:31.968750Z
-a7f434fd4508bbb66ba431544b9aad76
+2013-04-19T01:40:31.953125Z
+1ef8cebb72a47a674410451682f37872
 2013-04-18T05:45:51.371248Z
 1
 admin
@@ -126,7 +92,7 @@ admin
 
 
 
-23316
+3907
 
 Communications.csproj.pdsync
 file
@@ -161,6 +127,40 @@ admin
 
 
 64
+
+SvrFileTrans.cs
+file
+
+
+
+
+2013-04-19T01:40:31.968750Z
+a7f434fd4508bbb66ba431544b9aad76
+2013-04-18T05:45:51.371248Z
+1
+admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+23316
 
 Communications.csproj
 file
@@ -335,40 +335,6 @@ admin
 
 168
 
-ServerBase.cs
-file
-
-
-
-
-2013-04-19T01:40:31.968750Z
-4b86d7e4bc4237a20fe869484378a55b
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4847
-
 Protocol.cs
 file
 
@@ -402,6 +368,40 @@ admin
 
 
 6895
+
+ServerBase.cs
+file
+
+
+
+
+2013-04-19T01:40:31.968750Z
+4b86d7e4bc4237a20fe869484378a55b
+2013-04-18T05:45:51.371248Z
+1
+admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4847
 
 ThreadManager.cs
 file

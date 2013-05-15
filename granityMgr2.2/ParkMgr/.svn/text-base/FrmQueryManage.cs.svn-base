@@ -144,6 +144,29 @@ namespace Granity.granityMgr.ParkMgr
             DataRow drv = this.dbGrid.GetDataRow(e.RowHandle);
             FrmInParkPic frmIn = new FrmInParkPic();
             string img = this.dbGrid.GetDataRow(e.RowHandle)["入场图片"].ToString();
+
+            //Billy
+            byte[] byData1 = new byte[100];
+            char[] charData1 = new char[1000];
+            FileStream sFile1 = null;
+
+            try
+            {
+                sFile1 = new FileStream(img, FileMode.Open, FileAccess.Read);
+                sFile1.Seek(55, SeekOrigin.Begin);
+                sFile1.Read(byData1, 0, 100); //第一个参数是被传进来的字节数组,用以接受FileStream对象中的数据,第2个参数是字节数组中开始写入数据的位置,它通常是0,表示从数组的开端文件中向数组写数据,最后一个参数规定从文件读多少字符.
+            }
+            catch
+            {
+                MessageBox.Show("读取图片失败");
+                return;
+            }
+            Decoder d1 = Encoding.UTF8.GetDecoder();
+            d1.GetChars(byData1, 0, byData1.Length, charData1, 0);
+            picpark.BackgroundImage = Image.FromStream(sFile1);
+
+            return;
+
             string server = DataAccRes.AppSettings("服务器");
 
             if (server != "127.0.0.1")

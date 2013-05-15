@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/granityMgr2.2/CardMgr
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/granityMgr2.2/CardMgr
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -26,48 +26,14 @@ admin
 
 a9f61ecb-09f6-2e46-aa49-1e7a062214ff
 
-FrmCardMakeS.resx
-file
-
-
-
-
-2013-04-19T01:40:21.843750Z
-7042d8be6c873d1f12f3e5843d51bab4
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6180
-
-FrmCardCheck.designer.cs
+FrmDevSet.resx
 file
 
 
 
 
 2013-04-19T01:40:21.828125Z
-c846a6abd488fe37fc39caacc9afa538
+32a9f8db6987c2d0d6bb55fc487be5e8
 2013-04-18T05:45:51.371248Z
 1
 admin
@@ -92,7 +58,7 @@ admin
 
 
 
-37301
+5814
 
 FrmCardPayRep.resx
 file
@@ -128,14 +94,14 @@ admin
 
 5814
 
-FrmDevSet.resx
+FrmCardCheck.designer.cs
 file
 
 
 
 
 2013-04-19T01:40:21.828125Z
-32a9f8db6987c2d0d6bb55fc487be5e8
+c846a6abd488fe37fc39caacc9afa538
 2013-04-18T05:45:51.371248Z
 1
 admin
@@ -160,7 +126,41 @@ admin
 
 
 
-5814
+37301
+
+FrmCardMakeS.resx
+file
+
+
+
+
+2013-04-19T01:40:21.843750Z
+7042d8be6c873d1f12f3e5843d51bab4
+2013-04-18T05:45:51.371248Z
+1
+admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6180
 
 FrmCardCheck.cs
 file
@@ -298,40 +298,6 @@ admin
 
 12604
 
-FrmCardLostRpt.resx
-file
-
-
-
-
-2013-04-19T01:40:21.843750Z
-32a9f8db6987c2d0d6bb55fc487be5e8
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5814
-
 FrmCardDelayRpt.Designer.cs
 file
 
@@ -366,14 +332,14 @@ admin
 
 14193
 
-FrmCardDelayRpt.cs
+FrmCardLostRpt.resx
 file
 
 
 
 
-2013-04-19T01:40:21.859375Z
-3f2a0e89ae89b55d73abd6099718c506
+2013-04-19T01:40:21.843750Z
+32a9f8db6987c2d0d6bb55fc487be5e8
 2013-04-18T05:45:51.371248Z
 1
 admin
@@ -398,7 +364,7 @@ admin
 
 
 
-2984
+5814
 
 FrmCardQuitRtp.resx
 file
@@ -433,6 +399,40 @@ admin
 
 
 5814
+
+FrmCardDelayRpt.cs
+file
+
+
+
+
+2013-04-19T01:40:21.859375Z
+3f2a0e89ae89b55d73abd6099718c506
+2013-04-18T05:45:51.371248Z
+1
+admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2984
 
 FrmCardManager.resx
 file

@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/granityMgr2.2/ParkMgr/Report
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/granityMgr2.2/ParkMgr/Report
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -502,40 +502,6 @@ admin
 
 86883
 
-ReportIntVehicleNumberTotal.cs
-file
-
-
-
-
-2013-04-19T01:40:09.734375Z
-d5a2d566b478711ec4e9810ed0dac011
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-589
-
 FrmOperatorTotal.Designer.cs
 file
 
@@ -569,6 +535,40 @@ admin
 
 
 10070
+
+ReportIntVehicleNumberTotal.cs
+file
+
+
+
+
+2013-04-19T01:40:09.734375Z
+d5a2d566b478711ec4e9810ed0dac011
+2013-04-18T05:45:51.371248Z
+1
+admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+589
 
 FrmOperatorTotal.cs
 file
@@ -604,14 +604,14 @@ admin
 
 6016
 
-FrmParkTotal.Designer.cs
+FrmCarOutTotal.Designer.cs
 file
 
 
 
 
-2013-04-19T01:40:09.750000Z
-91fb094453d7a5b4b81881b4f5340a6b
+2013-04-19T01:40:09.734375Z
+0cd8a0e5f9132624b975a20961825c81
 2013-04-18T05:45:51.371248Z
 1
 admin
@@ -636,7 +636,7 @@ admin
 
 
 
-10051
+8437
 
 DataSetIntVehicleNumberTotal.xsc
 file
@@ -672,48 +672,14 @@ admin
 
 381
 
-FrmCarOutTotal.Designer.cs
-file
-
-
-
-
-2013-04-19T01:40:09.734375Z
-0cd8a0e5f9132624b975a20961825c81
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8437
-
-FrmParkTotal.cs
+FrmParkTotal.Designer.cs
 file
 
 
 
 
 2013-04-19T01:40:09.750000Z
-e7776a629031145b1fcb267089fac1f3
+91fb094453d7a5b4b81881b4f5340a6b
 2013-04-18T05:45:51.371248Z
 1
 admin
@@ -738,41 +704,7 @@ admin
 
 
 
-6002
-
-DataSetIntVehicleNumberTotal.xsd
-file
-
-
-
-
-2013-04-19T01:40:09.750000Z
-f696eee9530978faf35217694e6a8d93
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18121
+10051
 
 FrmCarOutTotal.cs
 file
@@ -808,6 +740,74 @@ admin
 
 4854
 
+DataSetIntVehicleNumberTotal.xsd
+file
+
+
+
+
+2013-04-19T01:40:09.750000Z
+f696eee9530978faf35217694e6a8d93
+2013-04-18T05:45:51.371248Z
+1
+admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18121
+
+FrmParkTotal.cs
+file
+
+
+
+
+2013-04-19T01:40:09.750000Z
+e7776a629031145b1fcb267089fac1f3
+2013-04-18T05:45:51.371248Z
+1
+admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6002
+
 ReportOperatorTotal.resx
 file
 
@@ -842,40 +842,6 @@ admin
 
 10570
 
-ReportCarOutTotal.resx
-file
-
-
-
-
-2013-04-19T01:40:09.765625Z
-8956d31edb30bd4d78951ca5b206a4ec
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10947
-
 ReportParkTotal.resx
 file
 
@@ -909,6 +875,40 @@ admin
 
 
 10771
+
+ReportCarOutTotal.resx
+file
+
+
+
+
+2013-04-19T01:40:09.765625Z
+8956d31edb30bd4d78951ca5b206a4ec
+2013-04-18T05:45:51.371248Z
+1
+admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10947
 
 FrmOut.Designer.cs
 file

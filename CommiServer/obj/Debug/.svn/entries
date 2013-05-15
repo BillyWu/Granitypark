@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/CommiServer/obj/Debug
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/CommiServer/obj/Debug
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -28,14 +28,14 @@ a9f61ecb-09f6-2e46-aa49-1e7a062214ff
 
 ResolveAssemblyReference.cache
 file
-3
+4
 
 
 
-2013-04-19T01:41:11.609375Z
-c1d192b4f83c73bee90020f9945c36e3
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T07:49:42.984375Z
+51e452f4a23a9c21e5e9cbf41e28cf20
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -58,18 +58,18 @@ has-props
 
 
 
-221732
+111197
 
 Granity.commiServer.dll
 file
-3
+4
 
 
 
-2013-04-19T01:41:11.765625Z
-cb3b0f2d2cfdf57ee945d7a0742cdca7
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T07:49:43.171875Z
+e736c523389dda03feab8b78e3b7caac
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -102,14 +102,14 @@ dir
 
 Granity.commiServer.pdb
 file
-3
+4
 
 
 
-2013-04-19T01:41:11.687500Z
-5c0d5c953cd7028bb7b61e4b46210851
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T07:49:43.093750Z
+7c40e94efc633166065c9178e3e23ff0
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -132,5 +132,5 @@ has-props
 
 
 
-124416
+116224
 

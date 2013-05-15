@@ -1,53 +1,7 @@
-K 25
-svn:wc:ra_dav:version-url
-V 34
-/svn/Granitypark/!svn/ver/1/ComLib
-END
-ComLib.csproj.user
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/Granitypark/!svn/ver/1/ComLib/ComLib.csproj.user
-END
-CrcClass.cs
-K 25
-svn:wc:ra_dav:version-url
-V 46
-/svn/Granitypark/!svn/ver/1/ComLib/CrcClass.cs
-END
-ComLib.csproj.pdsync
-K 25
-svn:wc:ra_dav:version-url
-V 55
-/svn/Granitypark/!svn/ver/1/ComLib/ComLib.csproj.pdsync
-END
-ComLib.csproj
-K 25
-svn:wc:ra_dav:version-url
-V 48
-/svn/Granitypark/!svn/ver/1/ComLib/ComLib.csproj
-END
-basefun.cs
-K 25
-svn:wc:ra_dav:version-url
-V 45
-/svn/Granitypark/!svn/ver/1/ComLib/basefun.cs
 END
 ComClass.cs
 K 25
 svn:wc:ra_dav:version-url
 V 46
-/svn/Granitypark/!svn/ver/1/ComLib/ComClass.cs
-END
-ComLib.csproj.pdsyncu
-K 25
-svn:wc:ra_dav:version-url
-V 56
-/svn/Granitypark/!svn/ver/1/ComLib/ComLib.csproj.pdsyncu
-END
-SerialCommi.cs
-K 25
-svn:wc:ra_dav:version-url
-V 49
-/svn/Granitypark/!svn/ver/1/ComLib/SerialCommi.cs
+/svn/Granitypark/!svn/ver/4/ComLib/ComClass.cs
 END

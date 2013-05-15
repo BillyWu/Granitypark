@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -63,13 +63,13 @@ has-props
 refrenceDLL
 dir
 
-Common
+winFileSrv
 dir
 
 Communications
 dir
 
-winFileSrv
+Common
 dir
 
 GranityApp.sws
@@ -106,10 +106,10 @@ admin
 
 485
 
-Business
+CommiServer
 dir
 
-CommiServer
+Business
 dir
 
 GranityApp.sln.pdsyncu
@@ -149,10 +149,10 @@ admin
 CardOneCommi
 dir
 
-ComLib
+granityMgr2.2
 dir
 
-granityMgr2.2
+ComLib
 dir
 
 GranityApp.sln.pdsync

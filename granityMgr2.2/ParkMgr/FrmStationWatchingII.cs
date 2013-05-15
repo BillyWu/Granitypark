@@ -31,6 +31,9 @@ namespace Granity.granityMgr.ParkMgr
 {
     public partial class FrmStationWatchingII : DevExpress.XtraEditors.XtraForm
     {
+        //Here is the once-per-class call to initialize the log object
+        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
         #region 停车场参数定义
         /// <summary>
         /// 临时地址信息
@@ -178,6 +181,35 @@ namespace Granity.granityMgr.ParkMgr
         /// <param name="e"></param>
         private void FrmStationWatchingII_Load(object sender, EventArgs e)
         {
+            /*
+            log.Debug("Debug logging");
+            log.Info("Info logging");
+            log.Warn("Warn logging");
+            log.Error("Error logging");
+            log.Fatal("Fatal logging");
+            */
+            /*
+            try
+            {
+                throw new System.IO.FileNotFoundException();
+            }
+            catch (Exception ex)
+            {
+                log.Debug("Debug error logging", ex);
+                log.Info("Info error logging", ex);
+                log.Warn("Warn error logging", ex);
+                log.Error("Error error logging", ex);
+                log.Fatal("Fatal error logging", ex);
+            }
+            */
+            /*
+            log4net.GlobalContext.Properties["testProperty"] = "This is my test property information";
+            log.Debug("Other Class - Debug logging");
+            log.Info("Other Class - Info logging");
+            log.Warn("Other Class - Warn logging");
+            log.Error("Other Class - Error logging");
+            log.Fatal("Other Class - Fatal logging");
+            */
 
             //初始化场内停车信息
             this.UnitItem = new UnitItem(DataAccRes.AppSettings("WorkConfig"), "收费站");
@@ -702,6 +734,9 @@ namespace Granity.granityMgr.ParkMgr
                 //视频卡抓拍图像并保存到指定位置
                 //Billy
                 string parkPicPath = System.Configuration.ConfigurationManager.AppSettings["ParkPicPath"].ToString();
+                //对于FAT32文件系统， 可以保存的文件体积最大值是 4 GB - 1 byte (2^32 bytes - 1 byte)；
+                //一个特定文件夹中最多可以保存的子文件夹和文件的数量是65,534（如果使用了长文件名，那么该数字会减小）
+                parkPicPath += "\\" + DateTime.Now.ToString("yyyy-MM-dd");
                 filepath = getLocalPath(parkPicPath);                
                 preView.SaveCaptureFile(videoID, filepath);
             }
@@ -1050,8 +1085,14 @@ namespace Granity.granityMgr.ParkMgr
             if (string.IsNullOrEmpty(tag))
                 return "";
             string Info = string.Empty;
+            //Billy
+            /*
             string[] ParmAll ={ "系统参数错", "白名单错", "收费方式错", "时间格式错", "白名单溢出", "时段错",
                 "车位错", "服务器", "出卡机卡欠量", "出卡机错", "地感错", "CAN通信失败","中文屏错","满位屏错",
+                "外设保留","收费屏错","LCD错","缺纸","纸少","记录区溢出","入口堵塞" };
+            */
+            string[] ParmAll ={ "白名单错", "收费方式错", "时间格式错", "白名单溢出", "时段错",
+                "车位错", "服务器", "出卡机卡欠量", "出卡机错", "地感错", "CAN通信失败","中文屏错",
                 "外设保留","收费屏错","LCD错","缺纸","纸少","记录区溢出","入口堵塞" };
             foreach (string str in ParmAll)
             {
@@ -1265,7 +1306,8 @@ namespace Granity.granityMgr.ParkMgr
                     flag = true;
                 }
 
-                if (dtDev.Rows.Count > 2)
+                string strTwoInTwoOut = System.Configuration.ConfigurationManager.AppSettings["TwoInTwoOut"].ToString();
+                if (dtDev.Rows.Count > 2 && strTwoInTwoOut == "1")
                 {
                     filepath = Video(2, flag, Convert.ToInt16(station));
                 }
@@ -1955,6 +1997,7 @@ namespace Granity.granityMgr.ParkMgr
             data = basefun.setvaltag(data, "{道闸命令}", "02");
             CmdExecute("停车场", "屏显语音道闸", data, OutDev);
             string tag = "";
+            /*
             #region 抓拍图片并上传服务器
             string filepath = "", filedest = "";
             if (videoFlag > 0)
@@ -1962,7 +2005,8 @@ namespace Granity.granityMgr.ParkMgr
 
                 int videonum = 1;
                 string imgkey = "出场图片";
-                if (dtDev.Rows.Count > 2)
+                string strTwoInTwoOut = System.Configuration.ConfigurationManager.AppSettings["TwoInTwoOut"].ToString();
+                if (dtDev.Rows.Count > 2 && strTwoInTwoOut == "1")
                 {
 
                     filepath = Video(2, false, Convert.ToInt16(OutDev));
@@ -1979,6 +2023,7 @@ namespace Granity.granityMgr.ParkMgr
             }
             SendImage(filepath, filedest, "");
             #endregion
+            */
             tag = basefun.setvaltag(tag, "{操作时间}", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
             tag = basefun.setvaltag(tag, "{操作员}", BindManager.getUser().UserAccounts);
             tag = basefun.setvaltag(tag, "{设备地址}", this.devNumIn);
@@ -2043,6 +2088,7 @@ namespace Granity.granityMgr.ParkMgr
             data = basefun.setvaltag(data, "{道闸命令}", "02");
             CmdExecute("停车场", "屏显语音道闸", data, INDev);
             string tag = "";
+            /*
             #region 抓拍图片并上传服务器
             string filepath = "", filedest = "";
             if (videoFlag > 0)
@@ -2050,7 +2096,8 @@ namespace Granity.granityMgr.ParkMgr
 
                 int videonum = 0;
                 string imgkey = "出场图片";
-                if (dtDev.Rows.Count > 2)
+                string strTwoInTwoOut = System.Configuration.ConfigurationManager.AppSettings["TwoInTwoOut"].ToString();
+                if (dtDev.Rows.Count > 2 && strTwoInTwoOut == "1")
                 {
 
                     filepath = Video(2, true, Convert.ToInt16(INDev));
@@ -2066,6 +2113,7 @@ namespace Granity.granityMgr.ParkMgr
             }
             SendImage(filepath, filedest, "");
             #endregion
+            */
             tag = basefun.setvaltag(tag, "{操作时间}", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
             tag = basefun.setvaltag(tag, "{操作员}", BindManager.getUser().UserAccounts);
             tag = basefun.setvaltag(tag, "{设备地址}", this.devNumIn);
@@ -2250,6 +2298,7 @@ namespace Granity.granityMgr.ParkMgr
             data = basefun.setvaltag(data, "{道闸命令}", "02");
             CmdExecute("停车场", "屏显语音道闸", data, INDev);
             string tag = "";
+            /*
             #region 抓拍图片并上传服务器
             string filepath = "", filedest = "";
             if (videoFlag > 0)
@@ -2264,6 +2313,7 @@ namespace Granity.granityMgr.ParkMgr
             }
             SendImage(filepath, filedest, "");
             #endregion
+            */
             tag = basefun.setvaltag(tag, "{操作时间}", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
             tag = basefun.setvaltag(tag, "{操作员}", BindManager.getUser().UserAccounts);
             tag = basefun.setvaltag(tag, "{设备地址}", this.devNumIn);
@@ -2292,6 +2342,7 @@ namespace Granity.granityMgr.ParkMgr
             data = basefun.setvaltag(data, "{道闸命令}", "02");
             CmdExecute("停车场", "屏显语音道闸", data, OutDev);
             string tag = "";
+            /*
             #region 抓拍图片并上传服务器
             string filepath = "", filedest = "";
             if (videoFlag > 0)
@@ -2306,6 +2357,7 @@ namespace Granity.granityMgr.ParkMgr
             }
             SendImage(filepath, filedest, "");
             #endregion
+            */
             tag = basefun.setvaltag(tag, "{操作时间}", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
             tag = basefun.setvaltag(tag, "{操作员}", BindManager.getUser().UserAccounts);
             tag = basefun.setvaltag(tag, "{设备地址}", this.devNumIn);

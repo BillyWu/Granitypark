@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/CommiServer
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/CommiServer
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -309,14 +309,14 @@ admin
 
 SynDeviceParam.cs
 file
-3
+4
 
 
 
-2013-04-19T01:10:34.046875Z
-c74fe392ea064ababeac6a0220e078d1
-2013-04-19T01:51:53.358500Z
-3
+2013-04-19T04:02:07.890625Z
+daddcdd931b017696b4efd7679098767
+2013-05-15T09:21:25.511625Z
+4
 WBin
 
 
@@ -339,5 +339,5 @@ WBin
 
 
 
-93896
+93898
 

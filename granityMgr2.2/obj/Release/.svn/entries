@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/granityMgr2.2/obj/Release
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/granityMgr2.2/obj/Release
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -94,7 +94,7 @@ has-props
 
 180
 
-Granity.granityMgr.CheckWork.Report.FrmCheckWorkList.resources
+XtraReportsDemos.MainFeaturesControl.resources
 file
 
 
@@ -128,7 +128,7 @@ has-props
 
 180
 
-XtraReportsDemos.MainFeaturesControl.resources
+Granity.granityMgr.CheckWork.Report.FrmCheckWorkList.resources
 file
 
 
@@ -230,7 +230,7 @@ has-props
 
 27935
 
-Granity.granityMgr.FrmDBDatabase.resources
+Granity.granityMgr.UserManager.FrmEmployees.resources
 file
 
 
@@ -298,7 +298,7 @@ has-props
 
 180
 
-Granity.granityMgr.UserManager.FrmEmployees.resources
+Granity.granityMgr.FrmDBDatabase.resources
 file
 
 
@@ -332,7 +332,7 @@ has-props
 
 180
 
-Granity.granityMgr.CardMgr.FrmCardMakeRpt.resources
+Granity.parkStation.FrmCommPara.resources
 file
 
 
@@ -400,41 +400,7 @@ has-props
 
 180
 
-Granity.parkStation.FrmCommPara.resources
-file
-
-
-
-
-2013-04-19T01:40:25.140625Z
-d85fe5b9a2e22066b1d7dc89c16ee527
-2013-04-18T05:45:51.371248Z
-1
-admin
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-180
-
-Granity.granityMgr.CheckWork.FrmDeptScheduleRpt.resources
+Granity.granityMgr.CardMgr.FrmCardMakeRpt.resources
 file
 
 
@@ -470,6 +436,40 @@ has-props
 
 TempPE
 dir
+
+Granity.granityMgr.CheckWork.FrmDeptScheduleRpt.resources
+file
+
+
+
+
+2013-04-19T01:40:25.140625Z
+d85fe5b9a2e22066b1d7dc89c16ee527
+2013-04-18T05:45:51.371248Z
+1
+admin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+180
 
 Granity.granityMgr.FrmTest.resources
 file
@@ -1049,7 +1049,7 @@ has-props
 
 180
 
-Granity.granityMgr.ParkMgr.FrmCarNo.resources
+Granity.granityMgr.ParkMgr.Report.ReportParkTotal.resources
 file
 
 
@@ -1083,7 +1083,7 @@ has-props
 
 180
 
-Granity.granityMgr.ParkMgr.Report.ReportParkTotal.resources
+Granity.granityMgr.ParkMgr.FrmCarNo.resources
 file
 
 
@@ -1219,40 +1219,6 @@ has-props
 
 180
 
-granityMgr.csproj.GenerateResource.Cache
-file
-
-
-
-
-2013-04-19T01:40:25.234375Z
-4eabffce7df48c740b5854bf1f4fec7e
-2013-04-18T05:45:51.371248Z
-1
-admin
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9320
-
 停车场管理系统.FormIntoStopCart.resources
 file
 
@@ -1286,6 +1252,40 @@ has-props
 
 
 180
+
+granityMgr.csproj.GenerateResource.Cache
+file
+
+
+
+
+2013-04-19T01:40:25.234375Z
+4eabffce7df48c740b5854bf1f4fec7e
+2013-04-18T05:45:51.371248Z
+1
+admin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9320
 
 Granity.granityMgr.Eatery.FrmCashRegister.resources
 file
@@ -1321,13 +1321,13 @@ has-props
 
 180
 
-Granity.granityMgr.ParkMgr.FrmQueryManage.resources
+Granity.granityMgr.Eatery.FrmAddReduceMoney.resources
 file
 
 
 
 
-2013-04-19T01:40:25.250000Z
+2013-04-19T01:40:25.234375Z
 d85fe5b9a2e22066b1d7dc89c16ee527
 2013-04-18T05:45:51.371248Z
 1
@@ -1389,13 +1389,13 @@ has-props
 
 3306
 
-Granity.granityMgr.Eatery.FrmAddReduceMoney.resources
+Granity.granityMgr.ParkMgr.FrmQueryManage.resources
 file
 
 
 
 
-2013-04-19T01:40:25.234375Z
+2013-04-19T01:40:25.250000Z
 d85fe5b9a2e22066b1d7dc89c16ee527
 2013-04-18T05:45:51.371248Z
 1
@@ -1424,6 +1424,40 @@ has-props
 180
 
 Granity.parkStation.FrmDisplay.resources
+file
+
+
+
+
+2013-04-19T01:40:25.250000Z
+d85fe5b9a2e22066b1d7dc89c16ee527
+2013-04-18T05:45:51.371248Z
+1
+admin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+180
+
+Granity.granityMgr.CardMgr.FrmCardManager.resources
 file
 
 
@@ -1491,41 +1525,7 @@ has-props
 
 180
 
-Granity.granityMgr.CardMgr.FrmCardManager.resources
-file
-
-
-
-
-2013-04-19T01:40:25.250000Z
-d85fe5b9a2e22066b1d7dc89c16ee527
-2013-04-18T05:45:51.371248Z
-1
-admin
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-180
-
-Granity.granityMgr.CheckWork.FrmHitCardRpt.resources
+Granity.parkStation.FrmOut_InParkPic.resources
 file
 
 
@@ -1593,7 +1593,7 @@ has-props
 
 180
 
-Granity.parkStation.FrmOut_InParkPic.resources
+Granity.granityMgr.CheckWork.FrmHitCardRpt.resources
 file
 
 
@@ -1695,40 +1695,6 @@ has-props
 
 180
 
-Granity.granityMgr.ParkMgr.FrmTable.resources
-file
-
-
-
-
-2013-04-19T01:40:25.281250Z
-d85fe5b9a2e22066b1d7dc89c16ee527
-2013-04-18T05:45:51.371248Z
-1
-admin
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-180
-
 Granity.granityMgr.Report.viwReports.resources
 file
 
@@ -1762,6 +1728,40 @@ has-props
 
 
 16716
+
+Granity.granityMgr.ParkMgr.FrmTable.resources
+file
+
+
+
+
+2013-04-19T01:40:25.281250Z
+d85fe5b9a2e22066b1d7dc89c16ee527
+2013-04-18T05:45:51.371248Z
+1
+admin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+180
 
 Granity.granityMgr.CardMgr.FrmCardUpdate.resources
 file
@@ -1899,40 +1899,6 @@ has-props
 
 180
 
-Granity.granityMgr.FrmSysUsers.resources
-file
-
-
-
-
-2013-04-19T01:40:25.312500Z
-c78802b0e66b73f8cf90329ebdcbaba5
-2013-04-18T05:45:51.371248Z
-1
-admin
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6332
-
 Granity.granityMgr.Properties.Resources.resources
 file
 
@@ -1966,6 +1932,40 @@ has-props
 
 
 1525622
+
+Granity.granityMgr.FrmSysUsers.resources
+file
+
+
+
+
+2013-04-19T01:40:25.312500Z
+c78802b0e66b73f8cf90329ebdcbaba5
+2013-04-18T05:45:51.371248Z
+1
+admin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6332
 
 Granity.granityMgr.CheckWork.FrmDeptClass.resources
 file
@@ -2001,13 +2001,13 @@ has-props
 
 180
 
-Granity.granityMgr.CheckWork.FrmEmployeeRegister.resources
+Granity.parkStation.FrmRemotGate.resources
 file
 
 
 
 
-2013-04-19T01:40:25.343750Z
+2013-04-19T01:40:25.312500Z
 d85fe5b9a2e22066b1d7dc89c16ee527
 2013-04-18T05:45:51.371248Z
 1
@@ -2069,13 +2069,13 @@ has-props
 
 3235840
 
-Granity.parkStation.FrmRemotGate.resources
+Granity.granityMgr.CheckWork.FrmEmployeeRegister.resources
 file
 
 
 
 
-2013-04-19T01:40:25.312500Z
+2013-04-19T01:40:25.343750Z
 d85fe5b9a2e22066b1d7dc89c16ee527
 2013-04-18T05:45:51.371248Z
 1

@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/Common/Tools/bin/Debug
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/Common/Tools/bin/Debug
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -28,15 +28,15 @@ a9f61ecb-09f6-2e46-aa49-1e7a062214ff
 
 Estar.Common.Tools.pdb
 file
+4
 
 
 
-
-2013-04-19T01:40:31.125000Z
-802fc4db96a576cd1b55c740e0ee3ffd
-2013-04-18T05:45:51.371248Z
-1
-admin
+2013-05-03T06:31:16.312500Z
+ed22da5edc75f55b4f5fe10ac381d86a
+2013-05-15T09:21:25.511625Z
+4
+WBin
 has-props
 
 
@@ -164,15 +164,15 @@ has-props
 
 Estar.Common.Tools.dll
 file
+4
 
 
 
-
-2013-04-19T01:40:31.140625Z
-9dc1255b67c38c2e0927a1f96f3b5948
-2013-04-18T05:45:51.371248Z
-1
-admin
+2013-05-03T06:31:16.390625Z
+cb78c78b511cbee13b9af91c0a37a0eb
+2013-05-15T09:21:25.511625Z
+4
+WBin
 has-props
 
 

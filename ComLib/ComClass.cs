@@ -2022,6 +2022,13 @@ namespace ComLib
                         s = this.exchangeLH(s, pmobj.LH);
                         s = sVal16To10(s);
                         s = ComplementingBits(Convert.ToString(Convert.ToInt64(s), 2), pmobj.Len, true, true);
+                        //Billy
+                        /*
+                        if (s == "10000001" || s == "10000000")
+                        {
+                            s = "00000000";
+                        }
+                        */
                         //脱机处理=1#String#+脱机时间=15#Double#{0:.0}
                         if (pmobj.SubItems != "")
                         {

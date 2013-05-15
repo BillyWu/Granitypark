@@ -2,8 +2,8 @@
 
 dir
 2
-https://192.168.4.5/svn/Granitypark/granityMgr2.2/bin/Debug
-https://192.168.4.5/svn/Granitypark
+https://192.168.1.133/svn/Granitypark/granityMgr2.2/bin/Debug
+https://192.168.1.133/svn/Granitypark
 
 
 
@@ -96,14 +96,14 @@ has-props
 
 Granity.commiServer.dll
 file
-3
+4
 
 
 
-2013-04-19T01:41:11.765625Z
-cb3b0f2d2cfdf57ee945d7a0742cdca7
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T07:49:43.171875Z
+e736c523389dda03feab8b78e3b7caac
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -164,14 +164,14 @@ has-props
 
 Estar.Business.UserRight.pdb
 file
-3
+4
 
 
 
-2013-04-19T01:41:10.250000Z
-8d5a075180692411ee43adf6e46f9410
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T06:31:07.125000Z
+48dbbeaa1005fce58890b05e33d3e497
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -194,7 +194,7 @@ has-props
 
 
 
-40448
+38400
 
 DevExpress.XtraPivotGrid.v9.1.xml
 file
@@ -266,14 +266,14 @@ has-props
 
 Estar.Business.UserRight.dll
 file
-3
+4
 
 
 
-2013-04-19T01:41:10.312500Z
-8f62ef7c0a7f95637176771fda981bac
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T06:31:07.187500Z
+bb36d75fb2c2869bc0f7c292c2053990
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -470,14 +470,14 @@ has-props
 
 Granity.communications.pdb
 file
-3
+4
 
 
 
-2013-04-19T01:41:10.015625Z
-a1a3788f016470b54fbbeb085cb2cdf6
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T06:31:06.671875Z
+3f5ad38b208668497e1a9dd6dae3dfce
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -500,7 +500,7 @@ has-props
 
 
 
-161280
+151040
 
 DevExpress.XtraTreeList.v9.1.xml
 file
@@ -538,14 +538,14 @@ admin
 
 Granity.communications.dll
 file
-3
+4
 
 
 
-2013-04-19T01:41:10.093750Z
-2c46b2b24c710a6a81c44986a0660ce4
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T06:31:06.750000Z
+5248a8adedac00d546c12edbd082c608
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -674,20 +674,15 @@ has-props
 
 Granity.granityMgr.exe.config
 file
+4
 
 
 
-
-2013-04-19T01:40:29.093750Z
-6b8a36f849bdaa501563c78ceda2c4bd
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
+2013-05-10T01:13:05.937500Z
+5544d2a0fb0a13c77d92eedf1737e684
+2013-05-15T09:21:25.511625Z
+4
+WBin
 
 
 
@@ -704,7 +699,12 @@ admin
 
 
 
-1433
+
+
+
+
+
+3670
 
 DevExpress.Tutorials.v9.1.dll
 file
@@ -1082,20 +1082,15 @@ has-props
 
 Granity.granityMgr.vshost.exe.config
 file
+4
 
 
 
-
-2013-04-19T01:40:29.093750Z
-6b8a36f849bdaa501563c78ceda2c4bd
-2013-04-18T05:45:51.371248Z
-1
-admin
-
-
-
-
-
+2013-05-10T01:13:05.937500Z
+5544d2a0fb0a13c77d92eedf1737e684
+2013-05-15T09:21:25.511625Z
+4
+WBin
 
 
 
@@ -1112,18 +1107,23 @@ admin
 
 
 
-1433
+
+
+
+
+
+3670
 
 ComLib.pdb
 file
-3
+4
 
 
 
-2013-04-19T01:41:09.703125Z
-b5fb69021551252a1c3fbf91bb1188df
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T07:49:41.062500Z
+e74a7e1d1f2e05a0b74e9c7c347675e6
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -1146,18 +1146,18 @@ has-props
 
 
 
-136704
+134656
 
 ComLib.dll
 file
-3
+4
 
 
 
-2013-04-19T01:41:09.796875Z
-0a19e09fdc1523be634bb73e3d835ed8
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T07:49:41.156250Z
+f96bfd9eee9a4962dbb5361533673de8
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -1184,14 +1184,14 @@ has-props
 
 Granity.granityMgr.exe
 file
-3
+4
 
 
 
-2013-04-19T01:41:16.312500Z
-b6d86610247867400cb2c0ce652e609d
-2013-04-19T01:51:53.358500Z
-3
+2013-05-14T06:27:30.906250Z
+5a1d52759a40e432030f0c292eac5068
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -1592,14 +1592,14 @@ has-props
 
 Granity.winTools.pdb
 file
-3
+4
 
 
 
-2013-04-19T01:41:11.343750Z
-19b64c6d29f224cc760f81a98b2d40fe
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T07:49:42.687500Z
+ff94cef2d5ad99206b9c32791828b257
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -1622,7 +1622,7 @@ has-props
 
 
 
-136704
+126464
 
 UDPclient.dll
 file
@@ -1694,14 +1694,14 @@ has-props
 
 Granity.winTools.dll
 file
-3
+4
 
 
 
-2013-04-19T01:41:11.421875Z
-29710ecb44769c25c1b14c990bf14997
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T07:49:42.765625Z
+12e5a21cbe5bdf30e9b7f4da215e4eef
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -1935,14 +1935,14 @@ has-props
 
 Granity.CardOneCommi.pdb
 file
-3
+4
 
 
 
-2013-04-19T01:41:10.625000Z
-d7c81e6d8fac2f623d73acc510f11fda
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T07:49:42.000000Z
+680461cc6bb72240c6de529300f1521e
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -1965,18 +1965,18 @@ has-props
 
 
 
-87552
+79360
 
 Granity.CardOneCommi.dll
 file
-3
+4
 
 
 
-2013-04-19T01:41:10.703125Z
-4dbcc98f36d0914496ac2d91bf7004c5
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T07:49:42.078125Z
+483a1bc837e99c3715f26359de156494
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -2377,14 +2377,14 @@ has-props
 
 Granity.granityMgr.pdb
 file
-3
+4
 
 
 
-2013-04-19T01:41:16.218750Z
-7a7bce355b5eeff43aee277b2e1d987d
-2013-04-19T01:51:53.358500Z
-3
+2013-05-14T06:27:30.796875Z
+4b660a41be044be88ae3af2195dc9008
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -2407,7 +2407,7 @@ has-props
 
 
 
-2811392
+2481664
 
 Granity.granityMgr.vshost.exe
 file
@@ -2547,14 +2547,14 @@ has-props
 
 Granity.commiServer.pdb
 file
-3
+4
 
 
 
-2013-04-19T01:41:11.687500Z
-5c0d5c953cd7028bb7b61e4b46210851
-2013-04-19T01:51:53.358500Z
-3
+2013-05-03T07:49:43.093750Z
+7c40e94efc633166065c9178e3e23ff0
+2013-05-15T09:21:25.511625Z
+4
 WBin
 has-props
 
@@ -2577,7 +2577,7 @@ has-props
 
 
 
-124416
+116224
 
 DevExpress.XtraPrinting.v9.1.xml
 file

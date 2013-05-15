@@ -1,59 +1,7 @@
-K 25
-svn:wc:ra_dav:version-url
-V 39
-/svn/Granitypark/!svn/ver/1/CommiServer
-END
-DeviceMonitorMgr.cs
-K 25
-svn:wc:ra_dav:version-url
-V 59
-/svn/Granitypark/!svn/ver/1/CommiServer/DeviceMonitorMgr.cs
-END
-ServiceTool.cs
-K 25
-svn:wc:ra_dav:version-url
-V 54
-/svn/Granitypark/!svn/ver/1/CommiServer/ServiceTool.cs
-END
-DeviceDoor.cs
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/Granitypark/!svn/ver/1/CommiServer/DeviceDoor.cs
-END
-CommiServer.csproj.pdsync
-K 25
-svn:wc:ra_dav:version-url
-V 65
-/svn/Granitypark/!svn/ver/1/CommiServer/CommiServer.csproj.pdsync
-END
-CommiServer.csproj
-K 25
-svn:wc:ra_dav:version-url
-V 58
-/svn/Granitypark/!svn/ver/1/CommiServer/CommiServer.csproj
-END
-DeviceEatery.cs
-K 25
-svn:wc:ra_dav:version-url
-V 55
-/svn/Granitypark/!svn/ver/1/CommiServer/DeviceEatery.cs
-END
-CommiServer.csproj.pdsyncu
-K 25
-svn:wc:ra_dav:version-url
-V 66
-/svn/Granitypark/!svn/ver/1/CommiServer/CommiServer.csproj.pdsyncu
-END
-DeviceBase.cs
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/Granitypark/!svn/ver/1/CommiServer/DeviceBase.cs
 END
 SynDeviceParam.cs
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/svn/Granitypark/!svn/ver/3/CommiServer/SynDeviceParam.cs
+/svn/Granitypark/!svn/ver/4/CommiServer/SynDeviceParam.cs
 END

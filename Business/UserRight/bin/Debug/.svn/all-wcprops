@@ -1,65 +1,13 @@
-K 25
-svn:wc:ra_dav:version-url
-V 56
-/svn/Granitypark/!svn/ver/1/Business/UserRight/bin/Debug
-END
-Estar.DataAccess.OleDbDataAccess.dll
-K 25
-svn:wc:ra_dav:version-url
-V 93
-/svn/Granitypark/!svn/ver/1/Business/UserRight/bin/Debug/Estar.DataAccess.OleDbDataAccess.dll
-END
-Estar.Business.DataManager.dll
-K 25
-svn:wc:ra_dav:version-url
-V 87
-/svn/Granitypark/!svn/ver/1/Business/UserRight/bin/Debug/Estar.Business.DataManager.dll
-END
-Estar.DataAccess.OdpNetDataAccess.dll
-K 25
-svn:wc:ra_dav:version-url
-V 94
-/svn/Granitypark/!svn/ver/1/Business/UserRight/bin/Debug/Estar.DataAccess.OdpNetDataAccess.dll
 END
 Estar.Business.UserRight.pdb
 K 25
 svn:wc:ra_dav:version-url
 V 85
-/svn/Granitypark/!svn/ver/3/Business/UserRight/bin/Debug/Estar.Business.UserRight.pdb
-END
-Microsoft.ApplicationBlocks.ExceptionManagement.dll
-K 25
-svn:wc:ra_dav:version-url
-V 108
-/svn/Granitypark/!svn/ver/1/Business/UserRight/bin/Debug/Microsoft.ApplicationBlocks.ExceptionManagement.dll
-END
-Oracle.DataAccess.dll
-K 25
-svn:wc:ra_dav:version-url
-V 78
-/svn/Granitypark/!svn/ver/1/Business/UserRight/bin/Debug/Oracle.DataAccess.dll
-END
-Microsoft.ApplicationBlocks.ExceptionManagement.Interfaces.dll
-K 25
-svn:wc:ra_dav:version-url
-V 119
-/svn/Granitypark/!svn/ver/1/Business/UserRight/bin/Debug/Microsoft.ApplicationBlocks.ExceptionManagement.Interfaces.dll
+/svn/Granitypark/!svn/ver/4/Business/UserRight/bin/Debug/Estar.Business.UserRight.pdb
 END
 Estar.Business.UserRight.dll
 K 25
 svn:wc:ra_dav:version-url
 V 85
-/svn/Granitypark/!svn/ver/3/Business/UserRight/bin/Debug/Estar.Business.UserRight.dll
-END
-Estar.DataAccess.DataAccessInterface.dll
-K 25
-svn:wc:ra_dav:version-url
-V 97
-/svn/Granitypark/!svn/ver/1/Business/UserRight/bin/Debug/Estar.DataAccess.DataAccessInterface.dll
-END
-Estar.Common.Tools.dll
-K 25
-svn:wc:ra_dav:version-url
-V 79
-/svn/Granitypark/!svn/ver/1/Business/UserRight/bin/Debug/Estar.Common.Tools.dll
+/svn/Granitypark/!svn/ver/4/Business/UserRight/bin/Debug/Estar.Business.UserRight.dll
 END

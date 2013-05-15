@@ -1,17 +1,13 @@
-K 25
-svn:wc:ra_dav:version-url
-V 44
-/svn/Granitypark/!svn/ver/1/ComLib/obj/Debug
 END
 ComLib.dll
 K 25
 svn:wc:ra_dav:version-url
 V 55
-/svn/Granitypark/!svn/ver/3/ComLib/obj/Debug/ComLib.dll
+/svn/Granitypark/!svn/ver/4/ComLib/obj/Debug/ComLib.dll
 END
 ComLib.pdb
 K 25
 svn:wc:ra_dav:version-url
 V 55
-/svn/Granitypark/!svn/ver/3/ComLib/obj/Debug/ComLib.pdb
+/svn/Granitypark/!svn/ver/4/ComLib/obj/Debug/ComLib.pdb
 END
